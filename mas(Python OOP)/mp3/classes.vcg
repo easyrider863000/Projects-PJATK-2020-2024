@@ -1,0 +1,87 @@
+graph:{
+  title:"classes"
+  layoutalgorithm:dfs
+  late_edge_labels:yes
+  port_sharing:no
+  manhattan_edges:yes
+  node: {title:"0"  label:"\fbCamera\fn\n\f_________\n\f08memmory\n\f_________"
+  shape:box
+}
+  node: {title:"1"  label:"\fbClothing\fn\n\f_________________\n\f08size\n\f_________________\n\f10get_description()"
+  shape:box
+}
+  node: {title:"2"  label:"\fbElectronics\fn\n\f_________________\n\f08warranty\n\f_________________\n\f10get_description()"
+  shape:box
+}
+  node: {title:"3"  label:"\fbFood\fn\n\f_________________\n\f08expiration_date\n\f_________________\n\f10get_description()"
+  shape:box
+}
+  node: {title:"4"  label:"\fbOrder\fn\n\f_________________\n\f08items\n\f_________________\n\f10get_total_price()"
+  shape:box
+}
+  node: {title:"5"  label:"\fbOrderItem\fn\n\f_________________\n\f08product\n\f08quantity\n\f_________________\n\f10get_total_price()"
+  shape:box
+}
+  node: {title:"6"  label:"\fbOrderable\fn\n\f_________________\n\f10get_total_price()"
+  shape:box
+}
+  node: {title:"7"  label:"\fbPhotoCamera\fn\n\f_____________\n\f08camera\n\f08linse\n\f_____________"
+  shape:box
+}
+  node: {title:"8"  label:"\fbProduct\fn\n\f_________________\n\f08name\n\f08price\n\f_________________\n\f10get_description()"
+  shape:box
+}
+  node: {title:"9"  label:"\fbShirt\fn\n\f_________________\n\f08listOfTypes\n\f_________________\n\f10get_description()"
+  shape:box
+}
+  node: {title:"10"  label:"\fbSpecialFoodOffer\fn\n\f__________________\n\f10CalcPrice()\n\f10getDescription()"
+  shape:box
+}
+  node: {title:"11"  label:"\fbSpecialOffer\fn\n\f_________________\n\f08discount\n\f08product\n\f_________________\n\f10CalcPrice()\n\f10get_description()"
+  shape:box
+}
+  edge: {sourcename:"0" targetname:"2"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:10
+}
+  edge: {sourcename:"1" targetname:"8"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:10
+}
+  edge: {sourcename:"2" targetname:"8"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:10
+}
+  edge: {sourcename:"3" targetname:"8"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:10
+}
+  edge: {sourcename:"4" targetname:"6"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:10
+}
+  edge: {sourcename:"5" targetname:"6"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:10
+}
+  edge: {sourcename:"7" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:10
+}
+  edge: {sourcename:"9" targetname:"1"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:10
+}
+  edge: {sourcename:"10" targetname:"3"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:10
+}
+  edge: {sourcename:"10" targetname:"11"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:10
+}
+  edge: {sourcename:"11" targetname:"8"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:10
+}
+}

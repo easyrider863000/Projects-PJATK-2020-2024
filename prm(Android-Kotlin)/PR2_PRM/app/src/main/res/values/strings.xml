@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PR2_PRM</string>
+    <string name="delete_text_header">Delete confirmation</string>
+    <string name="delete_text_ask">Do you confirm deleting the item? %s</string>
+    <string name="delete_text_yes">Yes</string>
+    <string name="delete_text_no">No</string>
+</resources>

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "cg5bjkBoXT9MCR6QoQWIEzip1A4QrxNZIhTHR+KOPSGKQHKIFq6WUbIgnaTpd0LgSMFhYHjc3WHgq78MZEebkA==",
+  "success": true,
+  "projectFilePath": "D:\\PJATK\\apbd\\second\\APBD2_2022\\APBD2\\APBD2\\APBD2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

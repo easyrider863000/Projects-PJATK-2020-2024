@@ -1,0 +1,156 @@
+from sys import argv
+import matplotlib.pyplot as plt
+from random import sample
+from math import sqrt
+
+
+class FileReader:
+    def __init__(self,filePath):
+        f = open(filePath, "r", encoding="utf-8")
+        lines = [[j.replace("\n", "") for j in i.split(";")] for i in f.readlines() if i != "\n" and i != ""]
+        self.__listVectors = [Vector(i,0) for i in lines]
+    def getListVectors(self):
+        return self.__listVectors
+
+class Vector:
+    def __init__(self,coords, group):
+        self.__coords = [float(i) for i in coords]
+        self.__group = group
+    def getCoords(self):
+        return self.__coords
+    def setCoords(self, coords):
+        self.__coords = [float(i) for i in coords]
+    def getGroup(self):
+        return self.__group
+    def setGroup(self,group):
+        self.__group = group
+    def getDistanceToVector(self,vector2):
+        return sqrt(self.getDistanceToVectorWithoutSQRT(vector2))
+    def getDistanceToVectorWithoutSQRT(self,vector2):
+        if len(vector2.getCoords()) != len(self.getCoords()):
+            return ValueError("Error object vector2")
+        i = 0
+        sumV = 0
+        while i < len(self.getCoords()):
+            sumV += pow(self.getCoords()[i] - vector2.getCoords()[i], 2)
+            i += 1
+        return sumV
+    def dotVector(self,vector2):
+        if len(vector2.getCoords())!=len(self.getCoords()):
+            return ValueError("Error object vector2")
+        i = 0
+        result = 0.0
+        while i< len(vector2.getCoords()):
+            result+=(vector2.getCoords()[i]*self.getCoords()[i])
+            i+=1
+        return result
+    def __getitem__(self, key):
+        return self.getCoords()[key]
+    def __setitem__(self, key, value):
+        self.__coords[key] = value
+    def __str__(self):
+        return str(self.getCoords())
+
+class CentroidController:
+    def __init__(self, k, listVectors):
+        self.__E = -1
+        self.__listVectors = listVectors
+        self.__groupId = 0
+        self.__centroides = [Vector(i.getCoords(),self.__getNextGroup()) for i in sample(listVectors,k=k)]#sample: get k unique random elements from list
+
+    def getCentroides(self):
+        return self.__centroides
+
+    def startCentroides(self):
+        while True:
+            self.printStats()
+            self.__updateVectorGroups()
+            self.__updateCentroides()
+
+            ##drawer
+            #x = [i.getCoords()[0] for i in self.__listVectors]
+            #y = [i.getCoords()[1] for i in self.__listVectors]
+            #x.extend([i.getCoords()[0] for i in self.__centroides])
+            #y.extend([i.getCoords()[1] for i in self.__centroides])
+            #colors = [i.getGroup() for i in self.__listVectors]
+            #colors.extend([len(self.__getGroups())+1 for i in self.__centroides])
+            #area = 100
+            #plt.scatter(x, y, s=area, c=colors, alpha=0.5)
+            #plt.show()
+
+            if not self.__isChangedE():
+                break
+
+    def __updateVectorGroups(self):
+        for vector in self.__listVectors:
+            minDistance = None
+            for centroid in self.__centroides:
+                newDistance = (vector.getDistanceToVectorWithoutSQRT(centroid),centroid.getGroup())
+                if minDistance is None or minDistance[0]>newDistance[0]:
+                    minDistance = newDistance
+            vector.setGroup(minDistance[1])
+
+    def __updateCentroides(self):
+        for centroid in self.__centroides:
+            group = centroid.getGroup()
+            vectorsWithGroup = [i for i in self.__listVectors if i.getGroup()==group]
+            newCoords = []
+            for coordI in range(len(self.__listVectors[0].getCoords())):
+                sum = 0.0
+                for coord in vectorsWithGroup:
+                    sum += coord[coordI]
+                newCoords.append(sum/len(vectorsWithGroup))
+            centroid.setCoords(newCoords)
+
+    def __isChangedE(self):
+        newE = sum([i.getDistanceToVectorWithoutSQRT([j for j in self.__centroides if j.getGroup()==i.getGroup()][0]) for i in self.__listVectors])
+        if newE!=self.__E:
+            self.__E = newE
+            return True
+        return False
+
+    def printStats(self):
+        mapGroups = list(map(lambda x:x.getGroup(),self.__listVectors))
+        for item in self.__getGroups():
+            print("Group",item,"=",len([i for i in mapGroups if i==item]))
+        print(self.__E)
+
+    def __getNextGroup(self):
+        self.__groupId += 1
+        return self.__groupId
+
+    def __getGroups(self):
+       return set(map(lambda x: x.getGroup(), self.__listVectors))
+
+class Drawer:
+    def __init__(self, mapVectors):
+        j=0
+        self.__listTypes = []
+        while j<len(mapVectors):
+            self.__listTypes.append({"title": mapVectors[j][0], "number": j})
+            j+=1
+        self.__mapVectors = mapVectors
+    def getMapVectors(self):
+        return self.__mapVectors
+    def __getNumberByName(self, name):
+        return [i['number'] for i in self.__listTypes if i['title'] == name][0]
+    def __getListVectors(self):
+        return sum([[(i[0],j,self.__getNumberByName(i[0])) for j in i[1]] for i in self.getMapVectors()],[])
+    def drawline(self,vector2,x1=0.0,y1=0.0):
+        plt.plot(x1, y1, vector2.getCoords()[0],vector2.getCoords()[1], marker='o')
+    def draw(self):
+        x = [i[1].getCoords()[0] for i in self.__getListVectors()]
+        y = [i[1].getCoords()[1] for i in self.__getListVectors()]
+        colors = [i[2] for i in self.__getListVectors()]
+        area = 100
+        plt.scatter(x, y, s=area, c=colors, alpha=0.5)
+    def show(self):
+        plt.show()
+
+
+
+k = int(argv[1])
+f = FileReader(argv[2])
+cc = CentroidController(k,f.getListVectors())
+cc.startCentroides()
+cc.printStats()

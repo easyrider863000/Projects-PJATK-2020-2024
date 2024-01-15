@@ -1,0 +1,48 @@
+<%- include('../../fragments/header.ejs') %>
+        <main>
+            <h2><%= pageTitle %></h2>
+            <form method="post" action="<%= formAction %>" class="form" novalidate onsubmit="return validateForm();">
+                <input type="hidden" name="_id" id="_id" value="<%= dep._id %>">
+                
+                <label for="name">Nazwa: <span class="symbol-required">*</span></label>
+                <input type="text" name="name" id="name" required value="<%= dep.name %>" 
+                <%= (formMode == 'showDetails') ? 'disabled' : '' %>>
+                <span id="errorName" class="errors-text"></span>
+
+                <label for="description">Opis: <span class="symbol-required">*</span></label>                
+                <input type="text" name="description" id="description" required value="<%= dep.description %>" 
+                <%= (formMode == 'showDetails') ? 'disabled' : '' %>>
+                <span id="errorDescription" class="errors-text"></span>
+                
+                <label for="emp_id">Pracownik: <span class="symbol-required">*</span></label>
+                <select name="emp_id" id="emp_id" required 
+                    <%= (formMode == 'showDetails') ? 'disabled' : '' %>>
+                    <option value="">Nie wybrano</option>
+                    <% for (let i=0; i<allEmps.length; i++) { let emp = allEmps[i]; %>
+                    <option value="<%= emp._id %>" <%= (dep._id && emp._id.toString() == dep.employee._id.toString()) ? 'selected' : ''%>><%= emp.firstName + ' ' + emp.secondName %></option>
+                    <% } %>
+                </select>
+                <span id="errorEmployeId" class="errors-text"></span>
+                
+                <label for="prj_id">Projekt: <span class="symbol-required">*</span></label>
+                <select name="prj_id" id="prj_id" required 
+                    <%= (formMode == 'showDetails') ? 'disabled' : '' %>>
+                    <option value="">Nie wybrano</option>
+                    <% for (let i=0; i<allPrjs.length; i++) { let prj = allPrjs[i]; %>
+                        <option value="<%= prj._id %>" <%= (dep._id && prj._id.toString() == dep.projects._id.toString()) ? 'selected' : ''%>><%= prj.name %></option>
+                    <% } %>
+                </select>
+                <span id="errorProjectId" class="errors-text"></span>
+
+                <div class="form-buttons">
+                    <p id="errorsSummary" class="errors-text"></p>
+                <% if (formMode != 'showDetails') { %>
+                    <input type="submit" value="<%= btnLabel %>" class="form-button-submit">
+                    <a href="/departments" class="form-button-cancel">Anuluj</a>
+                <% } else { %>
+                    <a href="/departments" class="form-button-cancel">Powrot</a>
+                <% } %>
+                </div>
+            </form>
+        </main>
+<%- include('../../fragments/footer.ejs') %>

@@ -1,0 +1,51 @@
+<%- include('../../fragments/header.ejs') %>
+        <main>
+            <h2><%= pageTitle %></h2>
+            <form method="post" action="<%= formAction %>" class="form" novalidate onsubmit="return validateForm();">
+                <input type="hidden" name="_id" id="_id" value="<%= prj._id %>">
+
+                <label for="name">Nazwa: <span class="symbol-required">*</span></label>
+                <input type="text" name="name" id="name" required value="<%= prj.name %>" 
+                <%= (formMode == 'showDetails') ? 'disabled' : '' %> class="<%= validationErrors.find(e => e.path.includes('name')) ? 'error-input' : '' %>">
+                <span id="errorName" class="errors-text">
+                    <% if (validationErrors.find(e => e.path.includes('name'))) { %>
+                        <%= validationErrors.find(e => e.path.includes('name')).message %>
+                    <% } %>
+                </span>
+
+                <label for="description">Opis: <span class="symbol-required">*</span></label>                
+                <input type="text" name="description" id="description" required value="<%= prj.description %>" 
+                <%= (formMode == 'showDetails') ? 'disabled' : '' %> class="<%= validationErrors.find(e => e.path.includes('description')) ? 'error-input' : '' %>">
+                <span id="errorDescription" class="errors-text">
+                    <% if (validationErrors.find(e => e.path.includes('description'))) { %>
+                        <%= validationErrors.find(e => e.path.includes('description')).message %>
+                    <% } %>
+                </span>
+
+                <label for="taskCount">Liczba zadan: <span class="symbol-required">*</span></label>                
+                <input type="number" name="taskCount" id="taskCount" min="1" required value="<%= prj.taskCount %>" 
+                <%= (formMode == 'showDetails') ? 'disabled' : '' %> class="<%= validationErrors.find(e => e.path.includes('taskCount')) ? 'error-input' : '' %>">
+                <span id="errorTaskCount" class="errors-text">
+                    <% if (validationErrors.find(e => e.path.includes('taskCount'))) { %>
+                        <%= validationErrors.find(e => e.path.includes('taskCount')).message %>
+                    <% } %>
+                </span>
+
+                <% if (formMode == 'showDetails') { %>
+                    <div>
+                        <a href="/projects/edit/<%= prj._id %>" class="button-edit">Edytuj</a>
+                    </div>
+                <% } %>
+
+                <div class="form-buttons">
+                    <p id="errorsSummary" class="errors-text"></p>
+                <% if (formMode != 'showDetails') { %>
+                    <input type="submit" value="<%= btnLabel %>" class="form-button-submit">
+                    <a href="/projects" class="form-button-cancel">Anuluj</a>
+                <% } else { %>
+                    <a href="/projects" class="form-button-cancel">Powrot</a>
+                <% } %>
+                </div>
+            </form>
+        </main>
+<%- include('../../fragments/footer.ejs') %>

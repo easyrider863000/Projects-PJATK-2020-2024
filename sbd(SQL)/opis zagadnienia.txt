@@ -1,0 +1,3 @@
+Ta baza danych może być używana w firmie do przechowywania zadań i przypisywania obowiązków pracownikom działu i dla każdego projektu.
+
+Tabela „projekt” jest powiązana z tabelą „Dział” wiele do wielu, ponieważ w jednym dziale może być kilka projektów, a jeden projekt może obsługiwać kilka działów. Tabela „zadanie” i „projekt” są również powiązane ze sobą wiele do wielu, ponieważ jedno zadanie może rozwiązać kilka projektów jednocześnie, a jeden projekt może mieć wiele zadań. Tabela „Dział” i „Pracownik” mają relację jeden do wielu, ponieważ w moim projekcie jeden pracownik może być tylko w jednym dziale, a jeden dział może mieć wielu pracowników.

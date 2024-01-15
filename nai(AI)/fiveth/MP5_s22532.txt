@@ -1,0 +1,133 @@
+from sys import argv
+
+
+class Case:
+    def __init__(self,listArguments,decisionArgument):
+        self.__listArguments = listArguments# = [zachmurzenie,tak,srednia,niska]
+        self.__decisionArgument = decisionArgument# = tak
+
+    def getDecisionArgument(self):
+        return self.__decisionArgument
+
+    def getListArguments(self):
+        return self.__listArguments
+
+    @staticmethod
+    def generateCase(params,decisionArg):
+        return Case(params,decisionArg)
+
+class CaseController:
+    def __init__(self, listCases, listSetArguments, setDecisions):
+        self.__listCases = listCases# = [Case(),Case(),Case(),..]
+        self.__listSetArguments = listSetArguments# = [{arg1,arg2,arg3},{arg1,arg2},{arg1,arg2},{arg1,arg2,arg3}]
+        self.__setDecisions = setDecisions# = {decision1,decision2,decision3}
+
+    def getListSetArguments(self):
+        return self.__listSetArguments
+
+    def getListCases(self):
+        return self.__listCases
+
+    def getSetDecisions(self):
+        return self.__setDecisions
+
+    def __getProbabilityByArgument(self,argumentIndex,argumentValue,listWithDecision):
+        countDecisions = len(listWithDecision)
+
+        countFinded = 0
+
+        for item in listWithDecision:
+            if item.getListArguments()[argumentIndex] == argumentValue:
+                countFinded+=1
+
+        if countFinded==0:
+            #Laplac'e
+            countFinded = 1
+            countDecisions += len(self.__listSetArguments[argumentIndex])
+        return countFinded/countDecisions
+
+
+
+    def __getProbability(self,case,decisionValue):
+        listWithDecision = ([i for i in self.__listCases if i.getDecisionArgument()==decisionValue])
+        countWithDecision = len(listWithDecision)
+
+        result = countWithDecision/len(self.__listCases)
+
+        for i in range(len(case.getListArguments())):
+            result*=self.__getProbabilityByArgument(i,case.getListArguments()[i],listWithDecision)
+
+        return result
+
+    def getDecision(self,case):
+        maxProbability = None# = naprzyklad (0.012501878287002258, 'nie')
+        for item in self.__setDecisions:
+            newProbability = self.__getProbability(case,item)
+            if maxProbability is None or maxProbability[0]<newProbability:
+                maxProbability = (newProbability,item)
+        return maxProbability[1]
+
+    def testCases(self,cases):
+        for item in cases:
+            self.testCase(item)
+
+    def testCase(self,case):
+        for i in range(len(self.__listSetArguments)):
+            if case.getListArguments()[i] not in self.__listSetArguments[i]:
+                raise ValueError("Arguments are not correct")
+        print(*case.getListArguments(), self.getDecision(case),sep=',')
+
+class FileReader:
+    def __init__(self, filePath, isTrainSet=True):
+        f = open(filePath, "r", encoding="utf-8")
+        lines = [[j.replace("\n", "") for j in i.split(",")] for i in f.readlines() if i != "\n" and i != ""]
+
+        if not isTrainSet:
+            [i.append("") for i in lines]
+        cases = []
+        listArgs = []
+        for i in range(len(lines[0])):
+            args = set()
+            for item in lines:
+                args.add(item[i])
+            listArgs.append(args)
+
+        for item in lines:
+            cases.append(Case(item[:-1],item[-1]))
+
+        self.__cases = cases
+        self.__listSetArguments = listArgs[:-1]
+        self.__setDecisions = listArgs[-1]
+
+    def getListCases(self):
+        return self.__cases
+
+    def getListSetArguments(self):
+        return self.__listSetArguments
+
+    def getSetDecisions(self):
+        return self.__setDecisions
+
+
+trainset = argv[1]
+testset = argv[2]
+
+#trainset = "trainingset.csv"
+#testset = "testset.csv"
+
+f = FileReader(trainset)
+cc = CaseController(f.getListCases(),f.getListSetArguments(),f.getSetDecisions())
+f2 = FileReader(testset,False)
+cc.testCases(f2.getListCases())
+
+print("\nFor exit press x!")
+while True:
+    val = input("Enter data --> ")
+    if val=="x":
+        break
+    try:
+        cc.testCase(Case.generateCase(val.replace("\n","").split(","), ""))
+    except ValueError:
+        print("****Error****\nArguments have not similar params!\n")
+    except IndexError:
+        print("****Error****\nSuch count of items not required!\n")

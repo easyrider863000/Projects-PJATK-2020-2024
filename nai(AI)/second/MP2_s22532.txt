@@ -1,0 +1,141 @@
+#-*- coding: UTF-8 -*-
+from sys import argv
+from math import sqrt
+from random import uniform
+
+class FileReader:
+    def __init__(self,filePath):
+        self.__filePath = filePath
+        f = open(self.__filePath, "r", encoding="utf-8")
+        lines = [[j.replace("\n", "") for j in i.split(";")] for i in f.readlines() if i != "\n" and i != ""]
+        output = []
+        groups = []
+        for i in lines:
+            if i[-1] not in groups:
+                groups.append(i[-1])
+                output.append((i[-1],[]))
+            [j[1].append(Vector([float(g) for g in i[:-1]])) for j in output if j[0]==i[-1]]
+        self.__mapVectors = output
+    def getMapVectors(self):
+        return self.__mapVectors
+    def getListVectors(self):
+        return sum([[(i[0], j) for j in i[1]] for i in self.getMapVectors()], [])
+
+class Perceptron:
+    def __init__(self,mapVectors):
+        if len(mapVectors)!=2:
+            raise ValueError("mapVector's length must be 2, not "+str(len(mapVectors)))
+        self.__mapVectors = mapVectors
+        self.__weigths = Vector([uniform(-5,5) for i in mapVectors[0][1][0].getCoords()])
+        self.__prog = uniform(-5,5)
+
+        self.__groups = [{"groupname":i[0],"index":0} for i in mapVectors]
+        self.__groups[1]["index"] = 1
+        self.__groups = self.__groups[:2]
+    def getIndexGroup(self,groupName):
+        return [i["index"] for i in self.__groups if i["groupname"]==groupName][0]
+    def getGroups(self):
+        return self.__groups
+    def getMapVectors(self):
+        return self.__mapVectors
+    def __getListVectors(self):
+        return sum([[(i[0],j) for j in i[1]] for i in self.getMapVectors()],[])
+
+    def trainPerceptron(self, a, numberIterations=1):
+        n = 0
+        while n < numberIterations:
+            for i in range(len(self.__getListVectors())):
+                trainVector = self.__getListVectors()[i][1]
+                groupIndex = self.getIndexGroup(self.__getListVectors()[i][0])
+                f = self.__weigths.dotVector(trainVector)
+                y = 0.0
+                if f >= self.__prog:
+                    y = 1.0
+                if groupIndex != int(y):
+                    for j in range(len(trainVector.getCoords())):
+                        self.__weigths[j] = float(self.__weigths[j])+float(a)*float(self.getIndexGroup(self.__getListVectors()[i][0])-y)*float(self.__getListVectors()[i][1][j])
+                    self.__prog = self.__prog-(self.getIndexGroup(self.__getListVectors()[i][0])-y)*float(a)
+            n+=1
+        return self.__weigths
+
+    def testPerceptron(self,testVector):
+        if self.__weigths.dotVector(testVector) >= self.__prog:
+            return self.__groups[1]["groupname"]
+        return self.__groups[0]["groupname"]
+
+    def testPerceptronWithGroupName(self, testVector, groupname):
+        return self.testPerceptron(testVector)==groupname
+
+class Vector:
+    def __init__(self,coords):
+        self.__coords = [float(i) for i in coords]
+    def getCoords(self):
+        return self.__coords
+    def getDistanceToVector(self,vector2):
+        if len(vector2.getCoords())!=len(self.getCoords()):
+            return ValueError("Error object vector2")
+        i=0
+        sumV=0
+        while i<len(self.getCoords()):
+           sumV+=pow(self.getCoords()[i] - vector2.getCoords()[i], 2)
+           i+=1
+        return sqrt(sumV)
+    def dotVector(self,vector2):
+        if len(vector2.getCoords())!=len(self.getCoords()):
+            return ValueError("Error object vector2")
+        i = 0
+        result = 0.0
+        while i< len(vector2.getCoords()):
+            result+=(vector2.getCoords()[i]*self.getCoords()[i])
+            i+=1
+        return result
+    def __getitem__(self, key):
+        return self.getCoords()[key]
+    def __setitem__(self, key, value):
+        self.__coords[key] = value
+    def __str__(self):
+        return str(self.getCoords())
+
+
+
+
+
+
+
+a = argv[1]
+fileReaderTrainSet = FileReader(argv[2])
+fileReaderTestSet = FileReader(argv[3])
+
+perceptron = Perceptron(fileReaderTrainSet.getMapVectors())
+output_arr = []
+output = perceptron.trainPerceptron(a,1)
+
+result = []
+for i in fileReaderTestSet.getListVectors():
+    result.append((i[0],perceptron.testPerceptronWithGroupName(i[1],i[0])))
+print("accuracy =",len([i for i in result if i[1]])/len(fileReaderTestSet.getListVectors()))
+print("accuracy for "+perceptron.getGroups()[0]["groupname"]+" =",len([i for i in result if perceptron.getGroups()[0]["groupname"]==i[0] and i[1]])/len([i for i in result if perceptron.getGroups()[0]["groupname"]==i[0]]))
+print("accuracy for "+perceptron.getGroups()[1]["groupname"]+" =",len([i for i in result if perceptron.getGroups()[1]["groupname"]==i[0] and i[1]])/len([i for i in result if perceptron.getGroups()[1]["groupname"]==i[0]]))
+
+while True:
+    val = input("Train again? Press 'y' or 'n' (yes/no) --> ")
+    if val == "n":
+        break
+    elif val == "y":
+        perceptron.trainPerceptron(a, 1)
+        result = []
+        for i in fileReaderTestSet.getListVectors():
+            result.append((i[0], perceptron.testPerceptronWithGroupName(i[1], i[0])))
+        print("accuracy =", len([i for i in result if i]) / len(fileReaderTestSet.getListVectors()))
+        print("accuracy for " + perceptron.getGroups()[0]["groupname"] + " =",len([i for i in result if perceptron.getGroups()[0]["groupname"] == i[0] and i[1]]) / len([i for i in result if perceptron.getGroups()[0]["groupname"] == i[0]]))
+        print("accuracy for " + perceptron.getGroups()[1]["groupname"] + " =",len([i for i in result if perceptron.getGroups()[1]["groupname"] == i[0] and i[1]]) / len([i for i in result if perceptron.getGroups()[1]["groupname"] == i[0]]))
+
+print("\nFor exit press x!")
+while True:
+    val = input("Enter vektor --> ")
+    if val=="x":
+        break
+    try:
+        print(perceptron.testPerceptron(Vector(val.replace("\n","").split(";"))))
+    except:
+        print("Value is not vektor or have other length")

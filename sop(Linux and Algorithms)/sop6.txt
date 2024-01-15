@@ -1,0 +1,110 @@
+1---------------------------------------
+args=("$@") 
+for (( i=$#-1; i >= 0; i-- ))
+do
+echo ${args[${i}]}
+done
+----------------------------------------
+2---------------------------------------
+args=("$@")
+echo "Podaj numer argumentu"
+read arg
+echo ${args[${arg}-1]}
+----------------------------------------
+3---------------------------------------
+for PLIK in $(ls $1) ; do   
+EXTENSION=`echo "$PLIK" | cut -d'.' -f2`
+if [ $EXTENSION == "java" ]
+then
+echo $(echo $(wc $1$PLIK)| cut -d' ' -f1)
+fi
+done
+----------------------------------------
+4---------------------------------------
+for plik in $(ls) ; do
+wst=$(cat $plik | wc -l)
+let srodek=$wst/2
+head -n$srodek $plik | tail -n1 >> newplik.txt
+done
+----------------------------------------
+5---------------------------------------
+SILNIA=1
+for (( i=2; i <= $1 ; i++)) ; do
+((SILNIA*=$i))
+done
+echo $SILNIA
+----------------------------------------
+6---------------------------------------
+for ((j=$1; j<=$2; j++)); do
+SILNIA=1
+for (( i=2; i <= $j ; i++)) ; do
+((SILNIA*=$i))
+done
+echo $SILNIA
+done
+----------------------------------------
+7---------------------------------------
+echo $(ls)
+echo $(du -h -b)
+----------------------------------------
+8---------------------------------------
+re='^[0-9]+$'
+while IFS= read -r line
+do
+one=$(echo $line | cut -d' ' -f1)
+two=$(echo $line | cut -d' ' -f2)
+if [ $one == $two ]
+then
+echo "error: second operand not exist"
+elif (echo "$one" | grep -E -q "\d*\D\d*");
+then
+echo "error: first operand is not correct"
+elif (echo "$two" | grep -E -q "\d*\D\d*");
+then
+echo "error: second operand is not correct"
+else
+echo $("$one+$two")
+echo $("$one+$two")>>$2
+echo $("$one-$two")
+echo $("$one-$two")>>$2
+echo $("$one*$two")
+echo $("$one*$two")>>$2
+echo $("$one/$two")
+echo $("$one/$two")>>$2
+fi
+done < $1
+----------------------------------------
+9---------------------------------------
+PLIK=$1
+SUMA=0
+IFS=$'\n'
+if [[ $2 == "-s" ]]
+then
+SUMA=0
+for LINIA in $(cat $PLIK) ; do
+	IFS=$' \t\n'
+	for LICZBA in $(echo $LINIA) ; do
+        	let SUMA+=LICZBA
+	done
+done
+echo Suma liczb = $SUMA
+elif [[ $2 == "-d" ]]
+then
+IL=1
+for LINIA in $(cat $PLIK) ; do
+	IFS=$' \t\n'
+	for LICZBA in $(echo $LINIA) ; do
+        	let IL*=LICZBA
+	done
+done
+echo Iloczyn liczb = $IL
+fi
+----------------------------------------
+10---------------------------------------
+for((i=1; i<=12; i++)); do
+for ((j=1; j<=12; j++)); do
+printf "$(($j*$i)) "
+done
+printf "\n"
+done
+----------------------------------------

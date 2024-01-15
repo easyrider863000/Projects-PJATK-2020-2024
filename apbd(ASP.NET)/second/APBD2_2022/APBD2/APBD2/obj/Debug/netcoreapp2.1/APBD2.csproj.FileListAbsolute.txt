@@ -1,0 +1,5 @@
+D:\PJATK\apbd\second\APBD2_2022\APBD2\APBD2\obj\Debug\netcoreapp2.1\APBD2.csproj.AssemblyReference.cache
+D:\PJATK\apbd\second\APBD2_2022\APBD2\APBD2\obj\Debug\netcoreapp2.1\APBD2.GeneratedMSBuildEditorConfig.editorconfig
+D:\PJATK\apbd\second\APBD2_2022\APBD2\APBD2\obj\Debug\netcoreapp2.1\APBD2.AssemblyInfoInputs.cache
+D:\PJATK\apbd\second\APBD2_2022\APBD2\APBD2\obj\Debug\netcoreapp2.1\APBD2.AssemblyInfo.cs
+D:\PJATK\apbd\second\APBD2_2022\APBD2\APBD2\obj\Debug\netcoreapp2.1\APBD2.csproj.CoreCompileInputs.cache

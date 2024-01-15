@@ -1,0 +1,36 @@
+ctrl+clickoncolumns and press filter1)Wyszukać hasła z danej kategorii
+shift+clickOnColumn 2)Posortować hasła według co najmniej 2 różnych parametrów
++++3)Dodawać i usuwać hasła pojedynczo
++++4)Edytować hasła znajdujące się na liście
++++5)Dodawać nowe kategorie jaki i usuwać kategorie wraz ze wszystkimi przypisanymi hasłami
+
+
+
+
+
++++1.Graficzna część projektu musi opierać się o bibliotekę JavaFX
++++2.Projekt nie zawiera komentarzy
++++3.Metody realizują możliwie jedną funkcjonalność
++++4.Nie posiada martwego kodu (Chyba, że pozwala na rozszerzenie funkcjonalnościw przyszłości)
+5.Program daje możliwość utworzenie nowego pliku z hasłami
+
+
+
+
+
++++1)Program jest napisany zgodnie z dobrymi praktykami
++++2)Program wykorzystuje style css do spersonalizowania i uatrakcyjnienia wyglądu aplikacji
++++3)Wykorzystanie plików fxml
++++4)Obsługa kontrolek w plikach typu Controller z uwzględnieniem wyjątków i walidacjiwprowadzanych danych.
++++5)Uwzględnienie zmiany rozmiaru okna aplikacji
++++6)Wybór plików odbywa się poprzez File Chooser
++++7)Dane prezentowane są w TableView lub jego ekwiwalencie
++++8)Obsługa kliknięcia na element listy który przenosi nas do edycji danego elementu
+9)Program spełnia swoje zadanie jako funkcjonalny menager haseł
+10)Dodanie przydatnej/ciekawej funkcjonalności spoza specyfikacji
+
+
+
+
+
+

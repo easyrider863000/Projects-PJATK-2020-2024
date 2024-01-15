@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>MyCompany</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header>
+            <h1>MyCompany</h1>
+            <img src="../../images/logo.png" alt="Logo">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Strona glowna</a></li>
+                <li><a href="../../pages/employee/list.html">Pracownicy</a></li>
+                <li><a href="../../pages/departments/list.html">Departamenty</a></li>
+                <li><a href="../../pages/projects/list.html">Projekty</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Nowy pracownik</h2>
+            <form action="form-invalid.html">
+                <label for="firstName">Imie: *</label>
+                <input type="text" name="firstName" id="firstName" required>
+                <span id="errorFirstName"></span>
+
+                <label for="secondName">Nazwisko: *</label>                
+                <input type="text" name="secondName" id="secondName" required>
+                <span id="errorSecondName"></span>
+
+                <label for="email">Email: *</label>                
+                <input type="email" name="email" id="email" required>
+                <span id="errorEmail"></span>
+
+                <label for="phoneNumber">Telefon: *</label>                
+                <input type="tel" name="phoneNumber" id="phoneNumber" required>
+                <span id="errorPhoneNumber"></span>
+
+                <label for="birthdate">Data urodzenia: </label>                
+                <input type="date" name="birthdate" id="birthdate">
+                <span id="errorBirthdate"></span>
+                <div>
+                    <p id="errorsSummary"></p>
+                    <input type="submit" value="Dodaj">
+                    <a href="list.html">Anuluj</a>
+                </div>
+            </form>
+        </main>
+        <footer>
+            Oleksii Haida s22532
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<%- include('../../fragments/header.ejs') %>
+        <main>
+            <h2>Lista departamentow</h2>
+            <table class="table-list">
+                <thead>
+                    <tr>
+                        <th>Nazwa</th>
+                        <th>Opis</th>
+                        <th>Akcje</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <% for (let dep of deps) { %>
+                    <tr>
+                        <td><%= dep.name %></td>
+                        <td><%= dep.description %></td>
+                        <td>
+                            <ul class="list-actions">
+                                <li>
+                                    <a href="/departments/details/<%= dep._id %>" class="list-actions-button-details">Szegoly</a>
+                                </li>
+                                <li>
+                                    <a href="/departments/edit/<%= dep._id %>" class="list-actions-button-edit">Edytuj</a>
+                                </li>
+                                <li>
+                                    <a href="/departments/delete/<%= dep._id %>" class="list-actions-button-delete">Usun</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <% } %>
+                </tbody>
+            </table>
+            <p><a href="/departments/add" class="button-add">Dodaj nowy departament</a></p>
+        </main>
+<%- include('../../fragments/footer.ejs') %>

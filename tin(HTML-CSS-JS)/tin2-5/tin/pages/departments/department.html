@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link rel="stylesheet" href="../../css/style.css">
+        <title>MyCompany</title>
+        <meta charset="UTF-8">
+        <script type="application/javascript" src="../../js/validationCommon.js"></script>
+        <script type="application/javascript" src="../../js/validationEmpForm.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>MyCompany</h1>
+            <img src="../../images/logo.png" alt="Logo">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Strona glowna</a></li>
+                <li><a href="../../pages/employee/list.html">Pracownicy</a></li>
+                <li><a href="../../pages/departments/list.html">Departamenty</a></li>
+                <li><a href="../../pages/projects/list.html">Projekty</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Szczegoly departamentu</h2>
+            <span class="form">
+            <label for="name">Nazwa: </label>
+            <input type="text" name="name" id="name" value="Spzedaz" disabled>
+            <span id="errorName"></span>
+            <label for="description">Opis: </label>                
+            <input type="text" name="description" id="description" value="Sprzedaz" disabled>
+            <span id="errorDescription"></span>
+            
+            <label for="employe">Pracownik: </label>
+            <select name="employe" id="employe" disabled>
+                <option value="">Nie wybrano</option>
+                <option value="1">Jan Kowalski</option>
+                <option value="2">Agnieszka Mqwt</option>
+                <option value="3" selected>Patryk Kizo</option>
+            </select>
+            <span id="errorEmployeId"></span>
+            
+            <label for="project">Projekt: </label>
+            <select name="project" id="project" disabled>
+                <option value="">Nie wybrano</option>
+                <option value="1" selected>Allegro</option>
+                <option value="2">Project27</option>
+                <option value="3">Project24</option>
+            </select>
+            <div class="form-buttons"><a href="form-edit.html" class="list-actions-button-edit">Edytuj</a></div>
+
+            <div class="form-buttons"><a href="list.html" class="list-actions-button-details">Powrot</a></div>
+            </span>
+        </main>
+        <footer>
+            Oleksii Haida s22532
+        </footer>
+    </body>
+</html>

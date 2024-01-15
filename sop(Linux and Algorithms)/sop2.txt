@@ -1,0 +1,1581 @@
+Zadanie 1---------------------------------------------------------------------
+
+easyrider863000@LAPTOP-BR05KG5L:~$ pwd
+/home/easyrider863000
+
+------------------------------------------------------------------------------
+Zadanie 2---------------------------------------------------------------------
+
+easyrider863000@LAPTOP-BR05KG5L:/$ cd bin/ 
+easyrider863000@LAPTOP-BR05KG5L:/bin$ ls -i
+ 2814749767756671  NF                                   9007199255395818  pa-info
+ 2814749767756672  VGAuthService                        2814749767761398  pacat
+ 3096224744467330  X11                                 10696049115659769  pacmd
+ 2814749767756676 '['                                   3940649674604032  pactl
+ 2814749767756677  aa-enabled                           4222124651314690  padsp
+ 3377699721177990  aa-exec                              9007199255395845  pager
+ 2814749767756681  add-apt-repository                   9007199255395852  pamon
+ 3096224744467338  addpart                              2814749767761468  paplay
+ 3096224744467340  apport-bug                           4503599628025711  parec
+ 2814749767756688  apport-cli                           4222124651315057  parecord
+ 2814749767756690  apport-collect                       2251799814340493  partx
+ 3096224744467347  apport-unpack                        2251799814340496  passwd
+ 2814749767756708  appres                               3377699721183150  paste
+ 2814749767756709  apropos                              3940649674604473  pastebinit
+ 2814749767756712  apt                                  2533274791051197  pasuspender
+ 3377699721178026  apt-add-repository                   4785074604736452  patch
+ 2814749767756716  apt-cache                            3377699721183214  pathchk
+ 3096224744467373  apt-cdrom                            5348024558157873  pax11publish
+ 2814749767756719  apt-config                           5348024558157953  pbget
+ 3096224744467377  apt-extracttemplates                 6473924465000651  pbput
+ 3096224744467379  apt-ftparchive                       2251799814340824  pbputs
+ 2814749767756725  apt-get                              2533274791051484  pdb3
+ 2814749767756726  apt-key                              2251799814340835  pdb3.8
+ 3096224744467383  apt-mark                             2251799814340840  peekfd
+ 2533274791046075  apt-sortpkgs                         2533274791051499  perl
+ 2533274791046077  arch                                 3096224744472818  perl5.30-x86_64-linux-gnu
+ 3096224744467390  at                                   2533274791051499  perl5.30.0
+ 2533274791046080  atq                                  3096224744472819  perlbug
+ 2814749767756737  atrm                                 2533274791051511  perldoc
+ 2814749767756740  automat-visualize3                   2251799814340901  perlivp
+ 2533274791046086  awk                                  3096224744472819  perlthanks
+ 2533274791046087  b2sum                                2533274791051560  pftp
+ 2814749767756744  base32                               2251799814340911  pgrep
+ 2533274791046090  base64                               3377699721183538  pic
+ 3377699721178059  basename                             3659174697894198  pico
+ 2814749767756748  bash                                 2251799814340920  piconv
+ 2533274791046094  bashbug                              2814749767762233  pidof
+ 2533274791046098  batch                                3659174697894225  pinentry
+ 3377699721178067  bc                                   2814749767762262  pinentry-curses
+ 2533274791046103  boltctl                              3096224744472920  ping
+ 2814749767756760  bootctl                              2533274791052256  ping4
+ 2533274791046105  bsd-from                             3377699721184229  ping6
+ 2533274791046106  bsd-write                            5066549581448171  pinky
+ 2814749767756763  btrfs                                5910974511580151  pkaction
+ 2533274791046109  btrfs-convert                        2814749767762936  pkcheck
+ 3659174697888734  btrfs-find-root                      5348024558158851  pkcon
+ 2814749767756767  btrfs-image                          2533274791052311  pkexec
+ 2533274791046113  btrfs-map-logical                    2533274791052319  pkill
+ 2814749767756770  btrfs-select-super                   2814749767762981  pkmon
+ 2814749767756771  btrfsck                              3940649674605628  pkttyagent
+ 2533274791046117  btrfstune                            3659174697894985  pl2pm
+ 4503599628020710  bunzip2                             10414574138950837  pldd
+ 3096224744467431  busctl                               9570149208818871  plymouth
+ 2533274791046121  busybox                              8444249301976257  pmap
+ 3659174697888746  byobu                                2533274791052534  pod2html
+ 2814749767756779  byobu-config                         2814749767763246  pod2man
+ 2533274791046124  byobu-ctrl-a                         2533274791052703  pod2text
+ 3096224744467437  byobu-disable                        2814749767763372  pod2usage
+ 2814749767756782  byobu-disable-prompt                 9851624185529789  podchecker
+ 2533274791046128  byobu-enable                         2814749767763404  podselect
+ 3096224744467441  byobu-enable-prompt                  3659174697895508  pollinate
+ 2814749767756786  byobu-export                         2533274791053001  pr
+ 2533274791046132  byobu-janitor                        2533274791053073  preconv
+ 3377699721178101  byobu-keybindings                    2533274791053097  print
+ 3096224744467446  byobu-launch                         6755399441712951  printenv
+ 2533274791046137  byobu-launcher                       2533274791053125  printerbanner
+ 5910974511574010  byobu-launcher-install               2814749767763799  printf
+ 2814749767756795  byobu-launcher-uninstall             2533274791053150  prlimit
+ 2533274791046141  byobu-layout                         2533274791053154  prove
+ 2533274791046142  byobu-prompt                         2814749767763817  prtstat
+ 3096224744467455  byobu-quiet                          2533274791053162  ps
+ 2533274791046145  byobu-reconnect-sockets              2814749767763950  psfaddtable
+ 2533274791046146  byobu-screen                         4222124651317253  psfgettable
+ 3096224744467459  byobu-select-backend                 3940649674606620  psfstriptable
+ 2814749767756805  byobu-select-profile                 4222124651317338  psfxtable
+ 3659174697888774  byobu-select-session                 3940649674606781  pslog
+ 2533274791046152  byobu-shell                          2814749767764251  pstree
+ 2533274791046153  byobu-silent                         3377699721185814  pstree.x11
+ 2814749767756810  byobu-status                         3659174697896485  ptar
+ 2533274791046156  byobu-status-detail                  3096224744475192  ptardiff
+ 2533274791046157  byobu-tmux                           3377699721185898  ptargrep
+ 2814749767756814  byobu-ugraph                         5629499534871152  ptx
+ 2533274791046160  byobu-ulevel                         2251799814343408  purge-old-kernels
+ 4503599628020710  bzcat                                2251799814343413  pwd
+ 2533274791046161  bzcmp                                3377699721186061  pwdx
+ 2814749767756818  bzdiff                               3377699721186115  py3clean
+ 2533274791046164  bzegrep                              2533274791054170  py3compile
+ 2814749767756821  bzexe                                5629499534871407  py3versions
+ 2533274791046168  bzfgrep                              3659174697896816  pydoc3
+ 2533274791046169  bzgrep                               3096224744475506  pydoc3.8
+ 4503599628020710  bzip2                                4503599628028854  pygettext3
+ 2533274791046171  bzip2recover                         3377699721186242  pygettext3.8
+ 2814749767756828  bzless                               2533274791054277  pyhtmlizer3
+ 2533274791046174  bzmore                               2251799814343622  pyjwt3
+ 2814749767756831  c_rehash                             7036874418424822  python3
+ 3096224744467488  cal                                  6473924465003547  python3.8
+ 2533274791046180  calendar                             9288674232110126  rbash
+ 3377699721178149  captoinfo                            5066549581450361  rcp
+ 2814749767756838  cat                                  2533274791054502  rdma
+ 2533274791046184  catchsegv                            2251799814343850  readlink
+ 3377699721178153  catman                               2251799814343854  realpath
+ 3096224744467498  cautious-launcher                    8725724278688944  red
+ 2533274791046188  cftp3                                2251799814343858  rename.ul
+ 2814749767756845  chage                                2251799814343863  renice
+ 2814749767756846  chardet3                             2251799814343882  rescan-scsi-bus.sh
+ 2533274791046192  chardetect3                          5910974511582425  reset
+ 5629499534863410  chattr                               7318349395135723  resizecons
+ 4785074604731443  chcon                                2814749767765236  resizepart
+ 3659174697888823  check-language-support               2251799814343927  resolvectl
+ 2533274791046200  chfn                                 3940649674607867  rev
+ 2814749767756858  chgrp                                7599824371846402  rgrep
+ 2533274791046204  chmod                                2251799814343941  rlogin
+ 4222124651310142  choom                               11821949022506246  rm
+ 2814749767756863  chown                                2251799814343946  rmdir
+ 2814749767756865  chrt                                 2533274791054611  rnano
+ 3096224744467522  chsh                                 2251799814343962  routef
+ 2814749767756867  chvt                                14918173766323488  routel
+ 2533274791046213  ckbcomp                              7318349395135778  rrsync
+ 3096224744467527  ckeygen3                             2251799814343981  rsh
+ 2533274791046217  cksum                               11258999069084982  rsync
+ 3096224744467530  clear                               10414574138953020  rtstat
+ 2533274791046221  clear_console                        2533274791054656  run-mailcap
+ 2814749767756878  cloud-id                             2251799814344004  run-one
+ 2533274791046225  cloud-init                           4222124651318607  run-one-constantly
+ 3096224744467539  cloud-init-per                       2251799814344018  run-one-until-failure
+ 5910974511574102  cmp                                  3940649674607988  run-one-until-success
+ 2533274791046231  codepage                             3659174697897335  run-parts
+ 2814749767756888  col                                 10414574138953082  run-this-one
+ 2533274791046234  col1                                 3659174697897350  runcon
+ 2814749767756891  col2                                 5910974511582610  rview
+ 2814749767756892  col3                                 5910974511582645  rvim
+ 7599824371838049  col4                                 4222124651318712  savelog
+ 6192449488284779  col5                                 4785074604740029  sbattach
+ 6755399441706115  col6                                 3377699721186769  sbkeysync
+ 2533274791046282  col7                                 3940649674608093  sbsiglist
+ 2814749767756939  col8                                 6755399441714657  sbsign
+ 2814749767756940  col9                                 3659174697897442  sbvarsign
+ 2533274791046286  colcrt                               5348024558161390  sbverify
+ 2533274791046287  colrm                                6192449488293360  scp
+ 2814749767756944  column                               6192449488293367  screen
+ 2533274791046290  comm                                 3659174697897464  screendump
+ 2814749767756947  compose                              7036874418425337  script
+ 2533274791046294  conch3                              12103423999217146  scriptreplay
+ 2533274791046295  corelist                             7881299348557308  scsi_logging_level
+ 2533274791046297  cp                                   5348024558161410  scsi_mandat
+ 2814749767756954  cpan                                 5066549581450756  scsi_readcap
+ 2533274791046300  cpan5.30-x86_64-linux-gnu            4785074604740102  scsi_ready
+ 2814749767756957  cpio                                 3377699721186823  scsi_satl
+ 2814749767756958  crontab                              3096224744476171  scsi_start
+ 2533274791046304  csplit                              11258999069085203  scsi_stop
+ 2533274791046305  ctail                                8444249301978649  scsi_temperature
+ 2814749767756964  ctstat                               7599824371846682  sdiff
+ 2533274791046309  curl                                 3940649674608158  sed
+ 2533274791046311  cut                                  2251799814344228  see
+ 2814749767756968  cvtsudoers                           3659174697897509  select-editor
+ 2533274791046314  dash                                 4785074604740135  sensible-browser
+ 2533274791046315  date                                 9288674232110632  sensible-editor
+ 2533274791046318  dbus-cleanup-sockets                 4503599628029486  sensible-pager
+ 2533274791046319  dbus-daemon                          2251799814344258  seq
+ 2533274791046321  dbus-launch                          2533274791054927  setarch
+ 3096224744467634  dbus-monitor                        13792273859481168  setfont
+ 2533274791046325  dbus-run-session                     4222124651318880  setkeycodes
+ 2533274791046327  dbus-send                            5910974511582820  setleds
+14073748836183224  dbus-update-activation-environment   4503599628029544  setlogcons
+ 2533274791046330  dbus-uuidgen                         7318349395136109  setmetamode
+ 2533274791046331  dd                                   3377699721186940  setpci
+ 2814749767756988  deallocvt                            2533274791054974  setpriv
+ 6755399441706180  deb-systemd-helper                   4785074604740224  setsid
+14636698789604561  deb-systemd-invoke                   3096224744476307  setterm
+ 6192449488284890  debconf                              2251799814344342  setupcon
+ 2533274791046392  debconf-apt-progress                 2251799814344349  sftp
+ 2533274791046393  debconf-communicate                  2533274791055019  sg
+ 2814749767757050  debconf-copydb                      23925373021064877  sg_bg_ctl
+ 2533274791046396  debconf-escape                       2251799814344373  sg_compare_and_write
+ 2533274791046402  debconf-set-selections               5629499534872253  sg_copy_results
+ 3377699721178372  debconf-show                         3096224744476351  sg_dd
+ 5348024558152967  delpart                              5910974511582914  sg_decode_sense
+ 2533274791046408  delv                                 3096224744476369  sg_emc_trespass
+ 2814749767757065  df                                   2533274791055066  sg_format
+ 2533274791046411  dfu-tool                             3659174697897698  sg_get_config
+ 2533274791046412  dh_bash-completion                   2814749767765737  sg_get_lba_status
+ 2814749767757069  diff                                 2533274791055096  sg_ident
+ 2533274791046415  diff3                                2533274791055118  sg_inq
+ 2533274791046416  dig                                  2251799814344481  sg_logs
+ 2814749767757075  dir                                  5066549581451046  sg_luns
+ 3659174697889044  dircolors                            2251799814344490  sg_map
+ 4222124651310358  dirmngr                              2533274791055158  sg_map26
+ 3096224744467735  dirmngr-client                       2251799814344532  sg_modes
+ 4503599628021022  dirname                              5066549581451098  sg_opcodes
+ 3659174697889055  dmesg                                2533274791055205  sg_persist
+ 3377699721178400  dnsdomainname                        2251799814344558  sg_prevent
+ 4785074604731685  do-release-upgrade                   2251799814344566  sg_raw
+ 5629499534863654  domainname                           2251799814344596  sg_rbuf
+ 5348024558152999  dpkg                                 2533274791055257  sg_rdac
+ 4222124651310377  dpkg-deb                             2251799814344608  sg_read
+ 4785074604731690  dpkg-divert                          3659174697897911  sg_read_attr
+ 4785074604731691  dpkg-maintscript-helper              3377699721187264  sg_read_block_limits
+ 7881299348548925  dpkg-query                           3096224744476628  sg_read_buffer
+ 9570149208812867  dpkg-split                           2533274791055324  sg_read_long
+ 3377699721178451  dpkg-statoverride                    2251799814344680  sg_readcap
+ 2533274791046487  dpkg-trigger                         4222124651319273  sg_reassign
+ 9570149208812902  du                                   2533274791055352  sg_referrals
+ 5348024558153072  dumpkeys                             2251799814344711  sg_rep_zones
+ 7599824371838321  eatmydata                            4222124651319308  sg_requests
+ 8444249301970295  ec2metadata                          4785074604740625  sg_reset
+ 5629499534863736  echo                                 2251799814344734  sg_reset_wp
+ 7036874418417034  ed                                   2814749767766058  sg_rmsn
+ 9288674232102285  edit                                 4503599628029997  sg_rtpg
+ 6192449488285081  editor                               2814749767766064  sg_safte
+ 4785074604731865  editres                              3096224744476722  sg_sanitize
+ 6192449488285149  egrep                                2533274791055418  sg_sat_identify
+ 5348024558153187  eject                                2251799814344770  sg_sat_phy_event
+ 5629499534863844  enc2xs                               3377699721187401  sg_sat_read_gplog
+ 3377699721178601  encguess                             2533274791055438  sg_sat_set_features
+ 5348024558153214  env                                  2251799814344803  sg_scan
+ 3659174697889279  envsubst                             2533274791055476  sg_seek
+ 3940649674599938  eqn                                  2533274791055489  sg_senddiag
+ 3096224744467975  ex                                   2251799814344844  sg_ses
+ 2814749767757321  expand                               2533274791055506  sg_ses_microcode
+ 2814749767757322  expiry                               2533274791055522  sg_start
+ 2814749767757325  expr                                 4785074604740772  sg_stpg
+ 2814749767757326  factor                               7036874418426030  sg_stream_ctl
+ 2814749767757328  faillog                              2251799814344883  sg_sync
+ 3096224744467985  fallocate                            6473924465004730  sg_test_rwbuf
+ 2814749767757331  false                                2251799814344893  sg_timestamp
+ 2814749767757332  fgconsole                            4785074604740798  sg_turs
+ 2814749767757335  fgrep                                3940649674608835  sg_unmap
+ 2814749767757336  file                                 6473924465004747  sg_verify
+ 4503599628021273  finalrd                              6473924465004751  sg_vpd
+ 2814749767757338  fincore                              2251799814344915  sg_wr_mode
+ 3096224744467995  find                                 2251799814344920  sg_write_buffer
+ 2814749767757341  findmnt                              2251799814344932  sg_write_long
+ 2814749767757342  flock                                2251799814344937  sg_write_same
+ 3096224744467999  fmt                                  4222124651319532  sg_write_verify
+ 2814749767757345  fold                                 2251799814344951  sg_write_x
+ 2814749767757346  free                                 2251799814344961  sg_xcopy
+ 2814749767757349  from                                 3377699721187604  sg_zone
+ 2814749767757350  ftp                                  3377699721187605  sginfo
+ 2814749767757352  fuser                                2251799814344983  sgm_dd
+ 2814749767757355  fusermount                           2533274791055640  sgp_dd
+ 2814749767757356  fwupdagent                           3377699721187611  sh
+ 2814749767757358  fwupdate                             2251799814344989  sha1sum
+ 3096224744468015  fwupdmgr                             4503599628030239  sha224sum
+ 2814749767757361  fwupdtool                            2533274791055703  sha256sum
+ 2814749767757362  fwupdtpmevlog                        2533274791055726  sha384sum
+ 3096224744468019  gapplication                         2533274791055747  sha512sum
+ 4785074604731958  gawk                                 2533274791055761  shasum
+12103423999209028  gdbus                                2533274791055774  showconsolefont
+ 5066549581442639  geqn                                 2251799814345267  showkey
+ 6473924464995922  getconf                              2251799814345275  shred
+13229323906051678  getent                               2251799814345309  shuf
+ 5066549581442673  getkeycodes                          6473924465005223  skill
+ 7599824371838584  getopt                               2533274791056075  slabtop
+ 9007199255391870  gettext                              6755399441715995  sleep
+ 3377699721178753  gettext.sh                           4503599628030748  slogin
+ 6192449488285314  ginstall-info                        6192449488294685  snap
+18858823440264846  gio                                  2251799814345504  snapctl
+10414574138945172  gio-querymodules                     2251799814345518  snapfuse
+16044073673158324  git                                  2533274791056184  snice
+10977524092366518  git-receive-pack                     2251799814345711  soelim
+12947848929341111  git-shell                            4222124651320370  sort
+ 6755399441706682  git-upload-archive                   2814749767767503  sos
+ 6192449488285378  git-upload-pack                      2251799814346196  sos-collector
+ 7599824371838661  glib-compile-schemas                 2251799814346219  sosreport
+10977524092366534  gpasswd                              2251799814346242  splain
+11821949022498521  gpg                                  2251799814346255  split
+ 6473924464996059  gpg-agent                            2814749767767576  splitfont
+ 4785074604732127  gpg-connect-agent                    2251799814346273  ss
+ 5629499534864099  gpg-wks-server                       3377699721188911  ssh
+ 3096224744468199  gpg-zip                              3096224744478257  ssh-add
+ 6192449488285451  gpgcompose                           4222124651320990  ssh-agent
+ 7036874418417420  gpgconf                              2533274791057113  ssh-argv0
+ 3096224744468247  gpgparsemail                         2533274791057123  ssh-copy-id
+ 2814749767757596  gpgsm                                2251799814346483  ssh-import-id
+ 2814749767757598  gpgsplit                             2251799814346489  ssh-import-id-gh
+10133099162234663  gpgtar                               2251799814346503  ssh-import-id-lp
+ 6473924464996140  gpgv                                 2251799814346556  ssh-keygen
+ 7036874418417455  gpic                                 2251799814346594  ssh-keyscan
+11258999069077296  grep                                 2251799814346615  stat
+ 7318349395128121  gresource                            2251799814346630  static-sh
+ 7036874418417471  groff                                2533274791057302  stdbuf
+ 5066549581442896  grog                                 2251799814346662  strace
+12103423999209298  grops                                2251799814346690  strace-log-merge
+ 7036874418417495  grotty                               5066549581453252  stty
+ 8444249301970787  groups                               3377699721189317  su
+12666373952630634  growpart                             2251799814346697  sudo
+11540474045788014  gsettings                           11258999069087719  sudoedit
+ 8444249301970803  gtbl                                 3940649674610804  sudoreplay
+ 6755399441706871  gunzip                               3377699721189505  sum
+ 7881299348549496  gzexe                                2251799814346897  symcryptrun
+ 6755399441706873  gzip                                 2251799814346981  sync
+12384898975919995  h2ph                                 2251799814346988  systemctl
+10414574138945404  h2xs                                 2251799814347027  systemd
+ 9570149208813437  hd                                   2251799814347047  systemd-analyze
+ 8162774325260158  head                                 2251799814347057  systemd-ask-password
+18295873486843775  helpztags                            2251799814347068  systemd-cat
+16044073673158535  hexdump                              2251799814347081  systemd-cgls
+ 3659174697889672  host                                 2251799814347091  systemd-cgtop
+ 3659174697889675  hostid                               2251799814347113  systemd-delta
+ 3940649674600333  hostname                             2251799814347146  systemd-detect-virt
+ 3377699721179023  hostnamectl                          2251799814347148  systemd-escape
+ 6755399441706897  htop                                 2251799814347169  systemd-hwdb
+ 6473924464996243  hwe-support-status                   2251799814347182  systemd-id128
+ 3940649674600340  i386                                 2251799814347190  systemd-inhibit
+ 5066549581442965  iconv                                2251799814347199  systemd-machine-id-setup
+ 3659174697889686  id                                   2533274791057870  systemd-mount
+ 3659174697889687  info                                 2251799814347220  systemd-notify
+ 3659174697889688  infobrowser                          2251799814347232  systemd-path
+ 3940649674600345  infocmp                             11821949022509545  systemd-resolve
+ 3377699721179034  infotocap                            2251799814347243  systemd-run
+ 3940649674600352  install                              2251799814347250  systemd-socket-activate
+ 3659174697889697  install-info                         2251799814347267  systemd-stdio-bridge
+ 5066549581442979  instmodsh                            2251799814347274  systemd-sysusers
+ 3659174697889700  ionice                               2251799814347297  systemd-tmpfiles
+ 3940649674600357  ip                                   3659174697900583  systemd-tty-ask-password-agent
+ 3659174697889702  ipcmk                                2251799814347306  systemd-umount
+ 3940649674600359  ipcrm                                2533274791057975  tabs
+ 3659174697889708  ipcs                                 2533274791057983  tac
+ 3659174697889709  iptables-xml                         2251799814347345  tail
+ 3940649674600366  ischroot                             2251799814347352  tar
+ 3659174697889711  iscsiadm                             2533274791058012  taskset
+ 4503599628021681  join                                 2251799814347359  tbl
+ 3659174697889714  journalctl                           2251799814347360  tee
+ 3659174697889716  json_pp                              9007199255403117  telnet
+ 3659174697889717  jsondiff                             3377699721190002  telnet.netkit
+ 3659174697889718  jsonpatch                            2251799814347380  tempfile
+ 6755399441706946  jsonpatch-jsondiff                   2533274791058038  test
+ 3377699721179076  jsonpointer                          2251799814347408  tic
+ 7036874418417605  jsonschema                           2251799814347418  time
+ 3659174697889734  kbd_mode                             2251799814347423  timedatectl
+ 5348024558153673  kbdinfo                              2251799814347477  timeout
+10696049115656141  kbxutil                              2533274791058145  tkconch3
+10133099162234830  keep-one-running                     2251799814347507  tload
+ 8725724278681558  kernel-install                       2251799814347518  tmux
+ 8444249301970911  keyring                              2533274791058181  toe
+ 5348024558153701  kill                                 2251799814347546  top
+ 7036874418417643  killall                              2251799814347565  touch
+ 8725724278681581  kmod                                 2251799814347588  tput
+12947848929341429  kmodsign                             2251799814347600  tr
+ 5348024558153729  landscape-sysinfo                    2251799814347614  tracepath
+ 8162774325260300  last                                 2533274791058278  traceroute6
+ 5066549581443118  lastb                                2251799814347641  traceroute6.iputils
+ 6755399441707058  lastlog                              2251799814347648  trial3
+ 3940649674600526  lcf                                  2251799814347686  troff
+ 3659174697889873  ldd                                  2251799814347697  true
+ 3659174697889880  less                                 2251799814347710  truncate
+ 6755399441707100  lessecho                             2533274791058378  tset
+10414574138945641  lessfile                             2251799814347732  tsort
+10133099162234986  lesskey                              2251799814347742  tty
+ 4785074604732533  lesspipe                             2533274791058410  twist3
+ 3659174697889914  lexgrog                              2251799814347768  twistd3
+ 3096224744468603  libnetcfg                            2251799814347775  tzselect
+ 3377699721179264  link                                 5910974511586484  ua
+ 2814749767757956  linux-check-removal                  5066549581454523  ubuntu-advantage
+ 3659174697889925  linux-update-symlinks                3659174697901516  ubuntu-bug
+13792273859473542  linux-version                        4222124651322838  ubuntu-core-launcher
+ 2814749767757959  linux32                              6192449488297463  ubuntu-security-status
+ 3096224744468616  linux64                              3940649674612243  ucf
+ 2814749767757961  listres                              5066549581455037  ucfq
+ 3096224744468618  ln                                   3940649674612414  ucfr
+ 3096224744468619  lnstat                               2533274791059269  udevadm
+ 2814749767757964  loadkeys                             2533274791059296  ul
+ 3096224744468621  loadunimap                           2533274791059306  ulockmgr_server
+ 3377699721179282  locale                               2533274791059325  umount
+ 2814749767757973  locale-check                         2533274791059341  uname
+ 8444249301971114  localectl                            2533274791059354  unattended-upgrade
+ 3377699721179313  localedef                            2533274791059402  unattended-upgrades
+10133099162235066  logger                               6755399441706871  uncompress
+ 7318349395128521  login                                2533274791059422  unexpand
+ 3096224744468708  loginctl                             2533274791059435  unicode_start
+ 3377699721179365  logname                              2533274791059444  unicode_stop
+ 3096224744468710  look                                 2814749767770123  uniq
+ 2814749767758055  lorder                               2814749767770130  unlink
+ 3096224744468712  lowntfs-3g                           2814749767770143  unlz4
+ 3096224744468713  ls                                   3096224744480818  unlzma
+ 2814749767758058  lsattr                               2814749767770182  unmkinitramfs
+ 3096224744468715  lsb_release                          2814749767770194  unshare
+ 3096224744468716  lsblk                                2814749767770211  unsquashfs
+ 2814749767758061  lscpu                                2814749767770219  unxz
+ 3096224744468718  lshw                                 2814749767770227  update-alternatives
+ 3096224744468719  lsinitramfs                          2814749767770234  update-mime-database
+ 2814749767758064  lsipc                                2533274791059593  uptime
+ 3096224744468721  lslocks                              2533274791059612  usb-devices
+ 3096224744468722  lslogins                             2533274791059649  usbhid-dump
+ 2814749767758067  lsmem                                2533274791059661  usbreset
+ 3096224744468724  lsmod                                2533274791059667  users
+ 3096224744468725  lsns                                 2814749767770332  utmpdump
+ 2814749767758070  lsof                                 2533274791059681  uuidgen
+ 3096224744468727  lspci                                2814749767770347  uuidparse
+ 3096224744468728  lspgpot                              3659174697902335  vcs-run
+ 2814749767758073  lsusb                                3377699721191685  vdir
+ 3096224744468730  ltrace                               2533274791059724  vi
+ 3096224744468731  luit                                 3377699721191698  view
+ 2814749767758076  lz4                                  4222124651323681  viewres
+ 3096224744468733  lz4c                                 4222124651323685  vigpg
+ 2814749767758086  lz4cat                               4503599628034345  vim
+ 3096224744468743  lzcat                                3096224744481069  vim.basic
+ 2814749767758089  lzcmp                                3096224744481073  vim.tiny
+ 3940649674600720  lzdiff                               3096224744481085  vimdiff
+ 3659174697890097  lzegrep                              3096224744481089  vimtutor
+ 3659174697890103  lzfgrep                              3096224744481095  vmhgfs-fuse
+ 3659174697890104  lzgrep                               3377699721191757  vmstat
+ 4222124651311422  lzless                               3096224744481108  vmtoolsd
+ 5629499534864705  lzma                                 3096224744481113  vmware-checkvm
+ 4222124651311428  lzmainfo                             3096224744481117  vmware-hgfsclient
+ 3940649674600788  lzmore                               2814749767770465  vmware-namespace-cmd
+ 4222124651311445  mailmail3                            2814749767770469  vmware-rpctool
+ 5348024558154099  man                                  3096224744481129  vmware-toolbox-cmd
+ 5066549581443454  man-recode                           2814749767770477  vmware-vgauth-cmd
+ 4785074604732801  mandb                                2814749767770481  vmware-vgauth-smoketest
+ 4503599628022151  manifest                             2814749767770489  vmware-vmblock-fuse
+ 4503599628022172  manpath                              2814749767770493  vmware-xferlogs
+ 4503599628022174  mapscrn                              2814749767770497  volname
+ 3096224744468910  mawk                                 5629499534877061  w
+ 3377699721179582  mcookie                              2814749767770503  w.procps
+ 8162774325260760  md5sum                               2814749767770507  wall
+ 3377699721179661  md5sum.textutils                     3096224744481170  watch
+ 6473924464996879  mdig                                 2814749767770515  watchgnupg
+ 4785074604732976  mesa-overlay-control.py              2814749767770519  wc
+ 3377699721179769  mesg                                 2814749767770527  wdctl
+ 3377699721179773  migrate-pubring-from-classic-gpg     2814749767770531  wget
+ 3659174697890456  miniterm                             2251799814349231  whatis
+ 3659174697890461  mk_modmap                            5066549581455802  whereis
+ 3659174697890480  mkdir                                4222124651323839  which
+ 3659174697890486  mkfifo                               4222124651323841  whiptail
+ 3096224744469195  mknod                                2814749767770639  who
+ 3377699721179869  mksquashfs                           2814749767770649  whoami
+ 3940649674601190  mktemp                               2533274791059997  wifi-status
+ 3377699721179938  more                                 2814749767770657  write
+ 3377699721179948  mount                                2533274791060005  wslfetch
+ 3377699721180072  mountpoint                           1407374884678166  wslpath
+ 3377699721180120  mt                                   2533274791060009  wslsys
+ 4503599628022772  mt-gnu                               2533274791060027  wslupath
+ 3377699721180198  mtr                                  2533274791060031  wslusc
+ 2814749767758887  mtr-packet                           2533274791060035  wslvar
+ 3377699721180200  mv                                   2533274791060047  wslview
+ 3096224744469554  namei                                2533274791060051  www-browser
+ 3377699721180217  nano                                 2533274791060055  x-www-browser
+ 3377699721180241  nawk                                 2814749767770715  x86_64
+ 4503599628022868  nc                                   2533274791060067  xargs
+ 3096224744469598  nc.openbsd                           2533274791060071  xauth
+ 5066549581444191  ncal                                 2814749767770731  xdg-user-dir
+ 3377699721180259  neqn                                 6473924465009267  xdg-user-dirs-update
+ 3096224744469605  netcat                               2533274791060085  xdpyinfo
+ 3940649674601581  netkit-ftp                           2533274791060089  xdriinfo
+ 3377699721180276  networkctl                           2814749767770749  xev
+ 3096224744469642  networkd-dispatcher                  2533274791060101  xfd
+ 7881299348550861  newgrp                               2533274791060105  xfontsel
+ 9851624185525545  ngettext                             2814749767770765  xkill
+12103423999210804  nice                                 6192449488298647  xlsatoms
+ 5348024558155101  nisdomainname                        2533274791060121  xlsclients
+ 5629499534865792  nl                                   4503599628034724  xlsfonts
+ 4785074604733825  nohup                                2533274791060133  xmessage
+ 3940649674601859  nproc                                2533274791060137  xprop
+ 2533274791048922  nroff                                2814749767770797  xsubpp
+ 8162774325262551  nsenter                              2533274791060149  xvinfo
+ 3940649674602874  nslookup                             2533274791060153  xwininfo
+ 8162774325262771  nstat                                2814749767770813  xxd
+ 2533274791049766  nsupdate                             2533274791060165  xz
+ 9570149208816192  ntfs-3g                              2533274791060169  xzcat
+ 2814749767760461  ntfs-3g.probe                        2533274791060181  xzcmp
+ 9007199255394904  ntfscat                              2533274791060185  xzdiff
+ 6192449488288350  ntfscluster                          6192449488298716  xzegrep
+ 7599824371841634  ntfscmp                              2533274791060253  xzfgrep
+ 6473924464999033  ntfsdecrypt                          2533274791060257  xzgrep
+ 7036874418420478  ntfsfallocate                        2533274791060285  xzless
+ 6755399441709954  ntfsfix                              6192449488299050  xzmore
+ 2814749767760802  ntfsinfo                             7318349395141678  yes
+ 2533274791050164  ntfsls                               3940649674613829  ypdomainname
+ 2814749767760830  ntfsmove                             3377699721192522  zcat
+ 8444249301973963  ntfsrecover                          3659174697903188  zcmp
+10414574138948556  ntfssecaudit                         3096224744481886  zdiff
+ 2814749767760851  ntfstruncate                         3096224744481900  zdump
+ 2814749767760856  ntfsusermap                          2251799814349942  zegrep
+ 2533274791050210  ntfswipe                             2251799814349947  zfgrep
+ 2814749767760867  numfmt                               2533274791060607  zforce
+ 3377699721182269  od                                   7036874418431116  zgrep
+ 7318349395131498  oem-getlogs                          3096224744481937  zipdetails
+ 3659174697893029  on_ac_power                          3377699721192597  zless
+ 2533274791050631  openssl                              2814749767771299  zmore
+ 2814749767761310  openvt                               3096224744481973  znew
+
+i-węzeł to struktura danych w tradycyjnych systemach plików UNIX (FS), takich jak UFS, ext4. Ta struktura oprócz samych danych i nazwy przechowuje metainformacje o standardowych plikach, katalogach lub innych obiektach w systemie plików.
+
+------------------------------------------------------------------------------
+Zadanie 3---------------------------------------------------------------------
+
+easyrider863000@LAPTOP-BR05KG5L:/bin$ ls -airlh --sort=size
+total 61M
+ 3096224744467330 lrwxrwxrwx 1 root   root       1 Feb  8  2020  X11 -> .
+ 2533274791060169 lrwxrwxrwx 1 root   root       2 Apr 20  2020  xzcat -> xz
+ 2814749767770219 lrwxrwxrwx 1 root   root       2 Apr 20  2020  unxz -> xz
+ 2814749767756737 lrwxrwxrwx 1 root   root       2 Nov 12  2018  atrm -> at
+ 2533274791046080 lrwxrwxrwx 1 root   root       2 Nov 12  2018  atq -> at
+ 2814749767770143 lrwxrwxrwx 1 root   root       3 Nov 11  2019  unlz4 -> lz4
+ 4503599628030748 lrwxrwxrwx 1 root   root       3 May 29  2020  slogin -> ssh
+ 2814749767758086 lrwxrwxrwx 1 root   root       3 Nov 11  2019  lz4cat -> lz4
+ 3096224744468733 lrwxrwxrwx 1 root   root       3 Nov 11  2019  lz4c -> lz4
+ 3377699721179034 lrwxrwxrwx 1 root   root       3 Feb 26  2020  infotocap -> tic
+ 8444249301970803 lrwxrwxrwx 1 root   root       3 Mar 21  2020  gtbl -> tbl
+ 7036874418417455 lrwxrwxrwx 1 root   root       3 Mar 21  2020  gpic -> pic
+ 6192449488285378 lrwxrwxrwx 1 root   root       3 Apr 20  2020  git-upload-pack -> git
+ 6755399441706682 lrwxrwxrwx 1 root   root       3 Apr 20  2020  git-upload-archive -> git
+10977524092366518 lrwxrwxrwx 1 root   root       3 Apr 20  2020  git-receive-pack -> git
+ 5066549581442639 lrwxrwxrwx 1 root   root       3 Mar 21  2020  geqn -> eqn
+ 3377699721178149 lrwxrwxrwx 1 root   root       3 Feb 26  2020  captoinfo -> tic
+11258999069087719 lrwxrwxrwx 1 root   root       4 Jan 19 15:21  sudoedit -> sudo
+ 3377699721187611 lrwxrwxrwx 1 root   root       4 Feb 20 00:48  sh -> dash
+ 2533274791054611 lrwxrwxrwx 1 root   root       4 Apr 10  2020  rnano -> nano
+ 5910974511582425 lrwxrwxrwx 1 root   root       4 Feb 26  2020  reset -> tset
+ 9288674232110126 lrwxrwxrwx 1 root   root       4 Jun 18  2020  rbash -> bash
+ 3377699721184229 lrwxrwxrwx 1 root   root       4 Jan 31  2020  ping6 -> ping
+ 2533274791052256 lrwxrwxrwx 1 root   root       4 Jan 31  2020  ping4 -> ping
+ 3096224744468724 lrwxrwxrwx 1 root   root       4 Mar 12  2020  lsmod -> kmod
+ 5066549581443118 lrwxrwxrwx 1 root   root       4 Jul 21  2020  lastb -> last
+ 2814749767756940 lrwxrwxrwx 1 root   root       4 Feb 17  2020  col9 -> col1
+ 2814749767756939 lrwxrwxrwx 1 root   root       4 Feb 17  2020  col8 -> col1
+ 2533274791046282 lrwxrwxrwx 1 root   root       4 Feb 17  2020  col7 -> col1
+ 6755399441706115 lrwxrwxrwx 1 root   root       4 Feb 17  2020  col6 -> col1
+ 6192449488284779 lrwxrwxrwx 1 root   root       4 Feb 17  2020  col5 -> col1
+ 7599824371838049 lrwxrwxrwx 1 root   root       4 Feb 17  2020  col4 -> col1
+ 2814749767756892 lrwxrwxrwx 1 root   root       4 Feb 17  2020  col3 -> col1
+ 2814749767756891 lrwxrwxrwx 1 root   root       4 Feb 17  2020  col2 -> col1
+ 3096224744467488 lrwxrwxrwx 1 root   root       4 Mar 30  2020  cal -> ncal
+ 2814749767756671 lrwxrwxrwx 1 root   root       4 Feb 17  2020  NF -> col1
+ 1407374884678166 lrwxrwxrwx 1 root   root       5 Mar 23 23:10  wslpath -> /init
+ 2533274791056184 lrwxrwxrwx 1 root   root       5 Feb 27  2020  snice -> skill
+ 2533274791052319 lrwxrwxrwx 1 root   root       5 Feb 27  2020  pkill -> pgrep
+ 2251799814340824 lrwxrwxrwx 1 root   root       5 Aug  3  2019  pbputs -> pbput
+ 5348024558157953 lrwxrwxrwx 1 root   root       5 Aug  3  2019  pbget -> pbput
+ 4222124651315057 lrwxrwxrwx 1 root   root       5 Jan  5 04:10  parecord -> pacat
+ 4503599628025711 lrwxrwxrwx 1 root   root       5 Jan  5 04:10  parec -> pacat
+ 2814749767761468 lrwxrwxrwx 1 root   root       5 Jan  5 04:10  paplay -> pacat
+ 9007199255395852 lrwxrwxrwx 1 root   root       5 Jan  5 04:10  pamon -> pacat
+ 2533274791046157 lrwxrwxrwx 1 root   root       5 Feb 17  2020  byobu-tmux -> byobu
+ 2533274791046146 lrwxrwxrwx 1 root   root       5 Feb 17  2020  byobu-screen -> byobu
+ 2814749767756771 lrwxrwxrwx 1 root   root       5 Feb 15  2020  btrfsck -> btrfs
+ 2533274791060253 lrwxrwxrwx 1 root   root       6 Apr 20  2020  xzfgrep -> xzgrep
+ 6192449488298716 lrwxrwxrwx 1 root   root       6 Apr 20  2020  xzegrep -> xzgrep
+ 2533274791060181 lrwxrwxrwx 1 root   root       6 Apr 20  2020  xzcmp -> xzdiff
+ 2533274791055019 lrwxrwxrwx 1 root   root       6 May 28  2020  sg -> newgrp
+10414574138953020 lrwxrwxrwx 1 root   root       6 Feb 13  2020  rtstat -> lnstat
+ 3377699721185814 lrwxrwxrwx 1 root   root       6 Nov 12  2019  pstree.x11 -> pstree
+ 2533274791051484 lrwxrwxrwx 1 root   root       6 Mar 13  2020  pdb3 -> pdb3.8
+ 3377699721179661 lrwxrwxrwx 1 root   root       6 Sep  5  2019  md5sum.textutils -> md5sum
+ 2814749767756964 lrwxrwxrwx 1 root   root       6 Feb 13  2020  ctstat -> lnstat
+ 2814749767756828 lrwxrwxrwx 1 root   root       6 Sep  5  2019  bzless -> bzmore
+ 2533274791046168 lrwxrwxrwx 1 root   root       6 Sep  5  2019  bzfgrep -> bzgrep
+ 2533274791046164 lrwxrwxrwx 1 root   root       6 Sep  5  2019  bzegrep -> bzgrep
+ 2533274791046161 lrwxrwxrwx 1 root   root       6 Sep  5  2019  bzcmp -> bzdiff
+ 2814749767756709 lrwxrwxrwx 1 root   root       6 Feb 25  2020  apropos -> whatis
+ 2814749767770715 lrwxrwxrwx 1 root   root       7 Jul 21  2020  x86_64 -> setarch
+ 2251799814346630 lrwxrwxrwx 1 root   root       7 Nov 11 13:15  static-sh -> busybox
+10414574138953082 lrwxrwxrwx 1 root   root       7 Jan 15  2014  run-this-one -> run-one
+ 3940649674607988 lrwxrwxrwx 1 root   root       7 Jan 15  2014  run-one-until-success -> run-one
+ 2251799814344018 lrwxrwxrwx 1 root   root       7 Jan 15  2014  run-one-until-failure -> run-one
+ 4222124651318607 lrwxrwxrwx 1 root   root       7 Jan 15  2014  run-one-constantly -> run-one
+ 3096224744468616 lrwxrwxrwx 1 root   root       7 Jul 21  2020  linux64 -> setarch
+ 2814749767757959 lrwxrwxrwx 1 root   root       7 Jul 21  2020  linux32 -> setarch
+10133099162234830 lrwxrwxrwx 1 root   root       7 Jan 15  2014  keep-one-running -> run-one
+ 3940649674600340 lrwxrwxrwx 1 root   root       7 Jul 21  2020  i386 -> setarch
+ 9570149208813437 lrwxrwxrwx 1 root   root       7 Mar 30  2020  hd -> hexdump
+ 3940649674613829 lrwxrwxrwx 1 root   root       8 Nov  7  2019  ypdomainname -> hostname
+ 3659174697896816 lrwxrwxrwx 1 root   root       8 Mar 13  2020  pydoc3 -> pydoc3.8
+ 5348024558155101 lrwxrwxrwx 1 root   root       8 Nov  7  2019  nisdomainname -> hostname
+10414574138945641 lrwxrwxrwx 1 root   root       8 Jul  2  2020  lessfile -> lesspipe
+ 5629499534863654 lrwxrwxrwx 1 root   root       8 Nov  7  2019  domainname -> hostname
+ 3377699721178400 lrwxrwxrwx 1 root   root       8 Nov  7  2019  dnsdomainname -> hostname
+ 7036874418424822 lrwxrwxrwx 1 root   root       9 Mar 13  2020  python3 -> python3.8
+ 3940649674606620 lrwxrwxrwx 1 root   root       9 May  9  2019  psfstriptable -> psfxtable
+ 4222124651317253 lrwxrwxrwx 1 root   root       9 May  9  2019  psfgettable -> psfxtable
+ 2814749767763950 lrwxrwxrwx 1 root   root       9 May  9  2019  psfaddtable -> psfxtable
+ 3659174697901516 lrwxrwxrwx 1 root   root      10 Jan 26 13:21  ubuntu-bug -> apport-bug
+11821949022509545 lrwxrwxrwx 1 root   root      10 Jan  6 21:47  systemd-resolve -> resolvectl
+ 2814749767756690 lrwxrwxrwx 1 root   root      10 Jan 26 13:21  apport-collect -> apport-bug
+ 2251799814344228 lrwxrwxrwx 1 root   root      11 Oct 19  2019  see -> run-mailcap
+ 2533274791053097 lrwxrwxrwx 1 root   root      11 Oct 19  2019  print -> run-mailcap
+ 9288674232102285 lrwxrwxrwx 1 root   root      11 Oct 19  2019  edit -> run-mailcap
+ 2814749767756947 lrwxrwxrwx 1 root   root      11 Oct 19  2019  compose -> run-mailcap
+ 2814749767756846 lrwxrwxrwx 1 root   root      11 Dec 17  2019  chardet3 -> chardetect3
+ 4503599628028854 lrwxrwxrwx 1 root   root      12 Mar 13  2020  pygettext3 -> pygettext3.8
+ 6192449488285314 lrwxrwxrwx 1 root   root      12 Oct 11  2019  ginstall-info -> install-info
+ 2251799814347306 lrwxrwxrwx 1 root   root      13 Jan  6 21:47  systemd-umount -> systemd-mount
+ 2814749767762233 lrwxrwxrwx 1 root   root      14 Feb 13  2020  pidof -> /sbin/killall5
+ 3659174697889711 lrwxrwxrwx 1 root   root      14 May 11  2020  iscsiadm -> /sbin/iscsiadm
+ 5910974511586484 lrwxrwxrwx 1 root   root      16 Mar 30  2020  ua -> ubuntu-advantage
+ 3659174697893029 lrwxrwxrwx 1 root   root      17 Jul 20  2019  on_ac_power -> /sbin/on_ac_power
+ 2533274791059402 lrwxrwxrwx 1 root   root      18 Jul 21  2020  unattended-upgrades -> unattended-upgrade
+ 3377699721178026 lrwxrwxrwx 1 root   root      18 Jan 26 23:30  apt-add-repository -> add-apt-repository
+ 5629499534877061 lrwxrwxrwx 1 root   root      19 Feb 20 00:48  w -> /etc/alternatives/w
+ 2533274791059724 lrwxrwxrwx 1 root   root      20 Feb 20 00:49  vi -> /etc/alternatives/vi
+ 2251799814347027 lrwxrwxrwx 1 root   root      20 Jan  6 21:47  systemd -> /lib/systemd/systemd
+ 2251799814345504 lrwxrwxrwx 1 root   root      20 Feb  2 09:21  snapctl -> ../lib/snapd/snapctl
+ 4503599628022868 lrwxrwxrwx 1 root   root      20 Feb 20 00:49  nc -> /etc/alternatives/nc
+ 3377699721180120 lrwxrwxrwx 1 root   root      20 Feb 20 00:50  mt -> /etc/alternatives/mt
+ 3096224744467975 lrwxrwxrwx 1 root   root      20 Feb 20 00:49  ex -> /etc/alternatives/ex
+ 4503599628034345 lrwxrwxrwx 1 root   root      21 Feb 20 00:51  vim -> /etc/alternatives/vim
+ 2251799814343981 lrwxrwxrwx 1 root   root      21 Feb 20 00:51  rsh -> /etc/alternatives/rsh
+ 5066549581450361 lrwxrwxrwx 1 root   root      21 Feb 20 00:51  rcp -> /etc/alternatives/rcp
+ 2814749767757350 lrwxrwxrwx 1 root   root      21 Feb 20 00:51  ftp -> /etc/alternatives/ftp
+ 2533274791046086 lrwxrwxrwx 1 root   root      21 Feb 20 00:48  awk -> /etc/alternatives/awk
+ 3377699721191698 lrwxrwxrwx 1 root   root      22 Feb 20 00:49  view -> /etc/alternatives/view
+ 5910974511582645 lrwxrwxrwx 1 root   root      22 Feb 20 00:51  rvim -> /etc/alternatives/rvim
+ 3659174697894198 lrwxrwxrwx 1 root   root      22 Feb 20 00:51  pico -> /etc/alternatives/pico
+ 2533274791051560 lrwxrwxrwx 1 root   root      22 Feb 20 00:51  pftp -> /etc/alternatives/pftp
+ 3377699721180241 lrwxrwxrwx 1 root   root      22 Feb 20 00:48  nawk -> /etc/alternatives/nawk
+ 5629499534864705 lrwxrwxrwx 1 root   root      22 Feb 20 00:49  lzma -> /etc/alternatives/lzma
+ 2814749767757349 lrwxrwxrwx 1 root   root      22 Feb 20 00:51  from -> /etc/alternatives/from
+ 2814749767770657 lrwxrwxrwx 1 root   root      23 Feb 20 00:51  write -> /etc/alternatives/write
+ 5910974511582610 lrwxrwxrwx 1 root   root      23 Feb 20 00:49  rview -> /etc/alternatives/rview
+ 2251799814340835 lrwxrwxrwx 1 root   root      23 Jul 28  2020  pdb3.8 -> ../lib/python3.8/pdb.py
+ 9007199255395845 lrwxrwxrwx 1 root   root      23 Feb 20 00:48  pager -> /etc/alternatives/pager
+ 2814749767758089 lrwxrwxrwx 1 root   root      23 Feb 20 00:49  lzcmp -> /etc/alternatives/lzcmp
+ 3096224744468743 lrwxrwxrwx 1 root   root      23 Feb 20 00:49  lzcat -> /etc/alternatives/lzcat
+ 3096224744480818 lrwxrwxrwx 1 root   root      24 Feb 20 00:49  unlzma -> /etc/alternatives/unlzma
+ 9007199255403117 lrwxrwxrwx 1 root   root      24 Feb 20 00:50  telnet -> /etc/alternatives/telnet
+ 2251799814343941 lrwxrwxrwx 1 root   root      24 Feb 20 00:51  rlogin -> /etc/alternatives/rlogin
+ 3096224744469605 lrwxrwxrwx 1 root   root      24 Feb 20 00:49  netcat -> /etc/alternatives/netcat
+ 3940649674600788 lrwxrwxrwx 1 root   root      24 Feb 20 00:49  lzmore -> /etc/alternatives/lzmore
+ 4222124651311422 lrwxrwxrwx 1 root   root      24 Feb 20 00:49  lzless -> /etc/alternatives/lzless
+ 3659174697890104 lrwxrwxrwx 1 root   root      24 Feb 20 00:49  lzgrep -> /etc/alternatives/lzgrep
+ 3940649674600720 lrwxrwxrwx 1 root   root      24 Feb 20 00:49  lzdiff -> /etc/alternatives/lzdiff
+ 6192449488285081 lrwxrwxrwx 1 root   root      24 Feb 20 00:49  editor -> /etc/alternatives/editor
+ 3096224744481085 lrwxrwxrwx 1 root   root      25 Feb 20 00:51  vimdiff -> /etc/alternatives/vimdiff
+ 4222124651322838 lrwxrwxrwx 1 root   root      25 Feb  2 09:21  ubuntu-core-launcher -> ../lib/snapd/snap-confine
+ 3659174697890103 lrwxrwxrwx 1 root   root      25 Feb 20 00:49  lzfgrep -> /etc/alternatives/lzfgrep
+ 3659174697890097 lrwxrwxrwx 1 root   root      25 Feb 20 00:49  lzegrep -> /etc/alternatives/lzegrep
+ 3659174697894225 lrwxrwxrwx 1 root   root      26 Feb 20 00:51  pinentry -> /etc/alternatives/pinentry
+ 3659174697889717 lrwxrwxrwx 1 root   root      26 Feb 20 00:51  jsondiff -> /etc/alternatives/jsondiff
+ 3659174697889709 lrwxrwxrwx 1 root   root      28 Feb 28  2020  iptables-xml -> ../sbin/xtables-legacy-multi
+ 2814749767757335 -rwxr-xr-x 1 root   root      28 Jan 29  2020  fgrep
+ 6192449488285149 -rwxr-xr-x 1 root   root      28 Jan 29  2020  egrep
+ 2251799814349947 -rwxr-xr-x 1 root   root      29 Dec 13  2019  zfgrep
+ 2251799814349942 -rwxr-xr-x 1 root   root      29 Dec 13  2019  zegrep
+ 2533274791060051 lrwxrwxrwx 1 root   root      29 Feb 20 01:15  www-browser -> /etc/alternatives/www-browser
+ 2533274791058278 lrwxrwxrwx 1 root   root      29 Feb 20 00:51  traceroute6 -> /etc/alternatives/traceroute6
+ 7318349395135778 lrwxrwxrwx 1 root   root      29 Oct 15  2019  rrsync -> ../share/rsync/scripts/rrsync
+ 3659174697889688 lrwxrwxrwx 1 root   root      29 Feb 20 00:51  infobrowser -> /etc/alternatives/infobrowser
+ 7599824371846402 -rwxr-xr-x 1 root   root      30 Jan 16  2020  rgrep
+ 2533274791060055 lrwxrwxrwx 1 root   root      31 Feb 20 01:15  x-www-browser -> /etc/alternatives/x-www-browser
+ 5629499534871407 lrwxrwxrwx 1 root   root      31 Mar 13  2020  py3versions -> ../share/python3/py3versions.py
+10414574138945172 lrwxrwxrwx 1 root   root      49 Dec  9 12:23  gio-querymodules -> ../lib/x86_64-linux-gnu/glib-2.0/gio-querymodules
+ 7599824371838661 lrwxrwxrwx 1 root   root      53 Dec  9 12:23  glib-compile-schemas -> ../lib/x86_64-linux-gnu/glib-2.0/glib-compile-schemas
+ 3096224744475506 -rwxr-xr-x 1 root   root      79 Jul 28  2020  pydoc3.8
+ 8725724278688944 -rwxr-xr-x 1 root   root      89 Feb 22  2020  red
+ 2533274791051511 -rwxr-xr-x 1 root   root     125 Oct 27  2019  perldoc
+ 2533274791046098 -rwxr-xr-x 1 root   root     152 Nov 12  2018  batch
+ 2251799814343962 -rwxr-xr-x 1 root   root     208 Feb 13  2020  routef
+ 2814749767770731 -rwxr-xr-x 1 root   root     234 Jan 24  2019  xdg-user-dir
+ 2251799814343622 -rwxr-xr-x 1 root   root     372 Apr  6  2020  pyjwt3
+ 2533274791046188 -rwxr-xr-x 1 root   root     380 Apr  2  2020  cftp3
+ 2533274791058410 -rwxr-xr-x 1 root   root     382 Apr  2  2020  twist3
+ 2251799814347648 -rwxr-xr-x 1 root   root     382 Apr  2  2020  trial3
+ 2533274791046294 -rwxr-xr-x 1 root   root     382 Apr  2  2020  conch3
+ 2251799814347768 -rwxr-xr-x 1 root   root     384 Apr  2  2020  twistd3
+ 8444249301970911 -rwxr-xr-x 1 root   root     385 Mar 14  2020  keyring
+ 2533274791058145 -rwxr-xr-x 1 root   root     386 Apr  2  2020  tkconch3
+ 3096224744467527 -rwxr-xr-x 1 root   root     386 Apr  2  2020  ckeygen3
+ 4222124651311445 -rwxr-xr-x 1 root   root     388 Apr  2  2020  mailmail3
+ 2533274791046192 -rwxr-xr-x 1 root   root     389 Dec 17  2019  chardetect3
+ 2814749767756878 -rwxr-xr-x 1 root   root     390 Jan 18 16:40  cloud-id
+ 2533274791054277 -rwxr-xr-x 1 root   root     392 Apr  2  2020  pyhtmlizer3
+ 2533274791046225 -rwxr-xr-x 1 root   root     394 Jan 18 16:40  cloud-init
+ 7036874418417605 -rwxr-xr-x 1 root   root     397 Jan 23  2020  jsonschema
+ 2814749767756740 -rwxr-xr-x 1 root   root     402 Mar 21  2020  automat-visualize3
+ 2251799814346483 -rwxr-xr-x 1 root   root     409 Feb 28  2020  ssh-import-id
+ 5066549581454523 -rwxr-xr-x 1 root   root     442 Mar 30  2020  ubuntu-advantage
+ 4503599628029486 -rwxr-xr-x 1 root   root     452 Nov 17  2019  sensible-pager
+ 2533274791059444 -rwxr-xr-x 1 root   root     530 May  9  2019  unicode_stop
+ 2814749767767503 -rwxr-xr-x 1 root   root     596 Dec 29 20:16  sos
+ 2533274791046393 -rwxr-xr-x 1 root   root     608 Aug  3  2019  debconf-communicate
+ 5348024558153729 -rwxr-xr-x 1 root   root     624 Apr 27  2020  landscape-sysinfo
+ 2533274791046396 -rwxr-xr-x 1 root   root     647 Aug  3  2019  debconf-escape
+ 3096224744468719 -rwxr-xr-x 1 root   root     706 Feb 15  2020  lsinitramfs
+ 2251799814346503 -rwxr-xr-x 1 root   root     785 Feb 28  2020  ssh-import-id-lp
+ 2251799814346489 -rwxr-xr-x 1 root   root     785 Feb 28  2020  ssh-import-id-gh
+ 3096224744467498 -rwxr-xr-x 1 root   root     853 Oct 19  2019  cautious-launcher
+ 3377699721180259 -rwxr-xr-x 1 root   root     913 Mar 21  2020  neqn
+ 8444249301978649 -rwxr-xr-x 1 root   root     936 Feb 24  2020  scsi_temperature
+ 4222124651323839 -rwxr-xr-x 1 root   root     946 Dec  7  2019  which
+ 2533274791046305 -rwxr-xr-x 1 root   root     960 Feb 17  2020  ctail
+ 2533274791046234 -rwxr-xr-x 1 root   root     963 Feb 17  2020  col1
+ 2814749767756779 -rwxr-xr-x 1 root   root     996 Feb 17  2020  byobu-config
+ 6755399441706946 -rwxr-xr-x 1 root   root    1004 Sep  5  2019  jsonpatch-jsondiff
+ 3659174697888774 -rwxr-xr-x 1 root   root    1012 Feb 17  2020  byobu-select-session
+ 2251799814346219 -rwxr-xr-x 1 root   root    1.1K Dec 29 20:16  sosreport
+ 2251799814346196 -rwxr-xr-x 1 root   root    1.1K Dec 29 20:16  sos-collector
+ 3096224744468728 -rwxr-xr-x 1 root   root    1.1K Aug 28  2017  lspgpot
+ 4785074604740102 -rwxr-xr-x 1 root   root    1.1K Feb 24  2020  scsi_ready
+ 2251799814343408 -rwxr-xr-x 1 root   root    1.2K Feb 17  2020  purge-old-kernels
+ 2533274791046142 -rwxr-xr-x 1 root   root    1.2K Feb 17  2020  byobu-prompt
+ 9288674232110632 -rwxr-xr-x 1 root   root    1.2K Nov 17  2019  sensible-editor
+ 2533274791046128 -rwxr-xr-x 1 root   root    1.2K Feb 17  2020  byobu-enable
+ 2533274791046156 -rwxr-xr-x 1 root   root    1.2K Feb 17  2020  byobu-status-detail
+ 4785074604740135 -rwxr-xr-x 1 root   root    1.3K Nov 17  2019  sensible-browser
+ 3096224744476171 -rwxr-xr-x 1 root   root    1.3K Feb 24  2020  scsi_start
+ 3096224744467437 -rwxr-xr-x 1 root   root    1.3K Feb 17  2020  byobu-disable
+ 2533274791046174 -rwxr-xr-x 1 root   root    1.3K Sep  5  2019  bzmore
+ 2533274791046153 -rwxr-xr-x 1 root   root    1.3K Feb 17  2020  byobu-silent
+ 5066549581450756 -rwxr-xr-x 1 root   root    1.3K Feb 24  2020  scsi_readcap
+ 2814749767756782 -rwxr-xr-x 1 root   root    1.4K Feb 17  2020  byobu-disable-prompt
+ 2814749767756786 -rwxr-xr-x 1 root   root    1.4K Feb 17  2020  byobu-export
+ 3096224744467455 -rwxr-xr-x 1 root   root    1.4K Feb 17  2020  byobu-quiet
+ 3096224744467459 -rwxr-xr-x 1 root   root    1.5K Feb 17  2020  byobu-select-backend
+ 3096224744467441 -rwxr-xr-x 1 root   root    1.5K Feb 17  2020  byobu-enable-prompt
+ 2533274791057113 -rwxr-xr-x 1 root   root    1.5K May 29  2020  ssh-argv0
+11258999069085203 -rwxr-xr-x 1 root   root    1.5K Feb 24  2020  scsi_stop
+ 3377699721178101 -rwxr-xr-x 1 root   root    1.5K Feb 17  2020  byobu-keybindings
+ 2814749767756795 -rwxr-xr-x 1 root   root    1.6K Feb 17  2020  byobu-launcher-uninstall
+ 2533274791046152 -rwxr-xr-x 1 root   root    1.6K Feb 17  2020  byobu-shell
+14918173766323488 -rwxr-xr-x 1 root   root    1.7K Feb 13  2020  routel
+ 3659174697903188 -rwxr-xr-x 1 root   root    1.7K Dec 13  2019  zcmp
+ 2814749767757050 -rwxr-xr-x 1 root   root    1.7K Aug  3  2019  debconf-copydb
+ 2533274791060285 -rwxr-xr-x 1 root   root    1.8K Apr 20  2020  xzless
+ 2251799814346690 -rwxr-xr-x 1 root   root    1.8K Mar 18  2019  strace-log-merge
+ 3377699721178372 -rwxr-xr-x 1 root   root    1.8K Aug  3  2019  debconf-show
+ 3377699721179076 -rwxr-xr-x 1 root   root    1.8K Jan 24  2020  jsonpointer
+ 2814749767771299 -rwxr-xr-x 1 root   root    1.8K Dec 13  2019  zmore
+ 2533274791046137 -rwxr-xr-x 1 root   root    1.9K Feb 17  2020  byobu-launcher
+ 4503599628022151 -rwxr-xr-x 1 root   root    1.9K Feb 17  2020  manifest
+ 3377699721192522 -rwxr-xr-x 1 root   root    2.0K Dec 13  2019  zcat
+ 9007199255395818 -rwxr-xr-x 1 root   root    2.0K Jan  5 04:10  pa-info
+ 3096224744467347 -rwxr-xr-x 1 root   root    2.1K Jan 26 13:21  apport-unpack
+ 2533274791060607 -rwxr-xr-x 1 root   root    2.1K Dec 13  2019  zforce
+ 2533274791059997 -rwxr-xr-x 1 root   root    2.1K Feb 17  2020  wifi-status
+ 3096224744467539 -rwxr-xr-x 1 root   root    2.1K Jan 15 16:53  cloud-init-per
+ 3096224744481089 -rwxr-xr-x 1 root   root    2.1K Apr 15  2020  vimtutor
+ 4503599628021273 -rwxr-xr-x 1 root   root    2.2K Sep 10  2020  finalrd
+ 6192449488299050 -rwxr-xr-x 1 root   root    2.2K Apr 20  2020  xzmore
+ 3377699721192597 -rwxr-xr-x 1 root   root    2.2K Dec 13  2019  zless
+ 2814749767756818 -rwxr-xr-x 1 root   root    2.2K Sep  5  2019  bzdiff
+ 4222124651314690 -rwxr-xr-x 1 root   root    2.3K Jan  5 04:10  padsp
+ 6755399441706871 -rwxr-xr-x 2 root   root    2.3K Dec 13  2019  uncompress
+ 6755399441706871 -rwxr-xr-x 2 root   root    2.3K Dec 13  2019  gunzip
+ 3659174697897509 -rwxr-xr-x 1 root   root    2.4K Nov 17  2019  select-editor
+ 2533274791046412 -rwxr-xr-x 1 root   root    2.4K Jan 26  2020  dh_bash-completion
+ 5910974511574010 -rwxr-xr-x 1 root   root    2.5K Feb 17  2020  byobu-launcher-install
+18295873486843775 -rwxr-xr-x 1 root   root    2.5K Jan 30  2020  helpztags
+ 2814749767763404 -rwxr-xr-x 1 root   root    2.5K Oct 19 12:56  podselect
+ 3096224744467340 -rwxr-xr-x 1 root   root    2.5K Dec  4  2019  apport-bug
+ 6473924465000651 -rwxr-xr-x 1 root   root    2.6K Aug  3  2019  pbput
+ 3096224744475192 -rwxr-xr-x 1 root   root    2.6K Oct 19 12:56  ptardiff
+ 4222124651323685 -rwxr-xr-x 1 root   root    2.6K Feb 17  2020  vigpg
+13792273859473542 -rwxr-xr-x 1 root   root    2.7K Jun 25  2020  linux-version
+ 2533274791059435 -rwxr-xr-x 1 root   root    2.7K May  9  2019  unicode_start
+ 3659174697888823 -rwxr-xr-x 1 root   root    2.8K Sep 27 22:07  check-language-support
+ 5066549581442896 -rwxr-xr-x 1 root   root    2.8K Mar 21  2020  grog
+ 7599824371838321 -rwxr-xr-x 1 root   root    2.8K Oct 29  2018  eatmydata
+ 6192449488284890 -rwxr-xr-x 1 root   root    2.8K Aug  3  2019  debconf
+ 2814749767758055 -rwxr-xr-x 1 root   root    2.9K Mar 30  2020  lorder
+ 2533274791046402 -rwxr-xr-x 1 root   root    2.9K Aug  3  2019  debconf-set-selections
+ 3377699721179773 -rwxr-xr-x 1 root   root    3.0K Jan  6 19:10  migrate-pubring-from-classic-gpg
+ 3377699721178601 -rwxr-xr-x 1 root   root    3.0K Oct 19 12:56  encguess
+ 2533274791048922 -rwxr-xr-x 1 root   root    3.3K Mar 21  2020  nroff
+ 2533274791046145 -rwxr-xr-x 1 root   root    3.3K Feb 17  2020  byobu-reconnect-sockets
+ 3096224744467446 -rwxr-xr-x 1 root   root    3.3K Feb 17  2020  byobu-launch
+ 2533274791046184 -rwxr-xr-x 1 root   root    3.3K Dec 16 12:04  catchsegv
+ 2533274791046141 -rwxr-xr-x 1 root   root    3.3K Feb 17  2020  byobu-layout
+ 3096224744468199 -rwxr-xr-x 1 root   root    3.5K Jan  6 19:10  gpg-zip
+ 3659174697896485 -rwxr-xr-x 1 root   root    3.5K Oct 19 12:56  ptar
+ 2251799814344004 -rwxr-xr-x 1 root   root    3.6K Jan 15  2014  run-one
+ 2814749767770182 -rwxr-xr-x 1 root   root    3.6K Feb 18  2020  unmkinitramfs
+ 5348024558161410 -rwxr-xr-x 1 root   root    3.6K Feb 24  2020  scsi_mandat
+ 3096224744468715 -rwxr-xr-x 1 root   root    3.6K Aug 25  2019  lsb_release
+ 9851624185529789 -rwxr-xr-x 1 root   root    3.6K Oct 19 12:56  podchecker
+ 3659174697889718 -rwxr-xr-x 1 root   root    3.6K Sep  5  2019  jsonpatch
+ 2533274791046169 -rwxr-xr-x 1 root   root    3.7K Sep  5  2019  bzgrep
+ 3377699721186823 -rwxr-xr-x 1 root   root    3.8K Feb 24  2020  scsi_satl
+ 2814749767763372 -rwxr-xr-x 1 root   root    3.9K Oct 19 12:56  pod2usage
+ 2814749767757956 -rwxr-xr-x 1 root   root    4.0K Jun 25  2020  linux-check-removal
+ 2814749767756668 drwxr-xr-x 1 root   root    4.0K Feb 20 00:50  ..
+ 3096224744467325 drwxr-xr-x 1 root   root    4.0K Mar 23 23:10  .
+ 2533274791059612 -rwxr-xr-x 1 root   root    4.1K Oct  1  2019  usb-devices
+ 2533274791052534 -rwxr-xr-x 1 root   root    4.1K Oct 19 12:56  pod2html
+ 5066549581442979 -rwxr-xr-x 1 root   root    4.3K Oct 19 12:56  instmodsh
+ 3377699721185898 -rwxr-xr-x 1 root   root    4.3K Oct 19 12:56  ptargrep
+14636698789604561 -rwxr-xr-x 1 root   root    4.4K Jun 21  2019  deb-systemd-invoke
+ 3659174697894985 -rwxr-xr-x 1 root   root    4.5K Oct 19 12:56  pl2pm
+ 3096224744481973 -rwxr-xr-x 1 root   root    4.5K Dec 13  2019  znew
+ 3377699721178753 -rwxr-xr-x 1 root   root    4.6K Mar 22  2020  gettext.sh
+ 3659174697889716 -rwxr-xr-x 1 root   root    4.6K Oct 19 12:56  json_pp
+ 2814749767756814 -rwxr-xr-x 1 root   root    4.6K Feb 17  2020  byobu-ugraph
+ 2533274791046124 -rwxr-xr-x 1 root   root    4.7K Feb 17  2020  byobu-ctrl-a
+ 2814749767756821 -rwxr-xr-x 1 root   root    4.8K Sep  4  2019  bzexe
+ 2814749767756805 -rwxr-xr-x 1 root   root    5.1K Feb 17  2020  byobu-select-profile
+ 2814749767770797 -rwxr-xr-x 1 root   root    5.1K Oct 19 12:56  xsubpp
+ 8725724278681558 -rwxr-xr-x 1 root   root    5.1K Apr  1  2020  kernel-install
+ 3659174697889873 -rwxr-xr-x 1 root   root    5.3K Dec 16 12:04  ldd
+ 2533274791060257 -rwxr-xr-x 1 root   root    5.5K Apr 20  2020  xzgrep
+ 4785074604732976 -rwxr-xr-x 1 root   root    5.7K Dec 16 22:42  mesa-overlay-control.py
+ 3096224744481886 -rwxr-xr-x 1 root   root    5.8K Dec 13  2019  zdiff
+ 2814749767756810 -rwxr-xr-x 1 root   root    5.9K Feb 17  2020  byobu-status
+ 3659174697889925 -rwxr-xr-x 1 root   root    6.2K Jun 25  2020  linux-update-symlinks
+ 2814749767756831 -rwxr-xr-x 1 root   root    6.2K Feb 17 13:35  c_rehash
+ 7881299348549496 -rwxr-xr-x 1 root   root    6.3K Dec 13  2019  gzexe
+ 2533274791046132 -rwxr-xr-x 1 root   root    6.3K Feb 17  2020  byobu-janitor
+ 2533274791060185 -rwxr-xr-x 1 root   root    6.5K Apr 20  2020  xzdiff
+ 2533274791046094 -rwxr-xr-x 1 root   root    6.7K Jun 18  2020  bashbug
+ 3659174697902335 -rwxr-xr-x 1 root   root    6.8K Feb 25  2020  vcs-run
+ 8444249301970295 -rwxr-xr-x 1 root   root    7.2K Feb 25  2020  ec2metadata
+ 2533274791060035 -rwxr-xr-x 1 root   root    7.3K Jun 17  2020  wslvar
+ 2814749767756681 -rwxr-xr-x 1 root   root    7.3K Jan 26 23:30  add-apt-repository
+ 2533274791060047 -rwxr-xr-x 1 root   root    7.4K Jun 17  2020  wslview
+ 7036874418431116 -rwxr-xr-x 1 root   root    7.5K Dec 13  2019  zgrep
+ 3940649674600526 -rwxr-xr-x 1 root   root    7.7K Dec 14  2018  lcf
+ 3377699721186115 -rwxr-xr-x 1 root   root    7.7K Mar 13  2020  py3clean
+ 2814749767756954 -rwxr-xr-x 1 root   root    8.0K Oct 19 12:56  cpan
+ 2533274791046300 -rwxr-xr-x 1 root   root    8.0K Oct 19 12:56  cpan5.30-x86_64-linux-gnu
+ 2251799814340920 -rwxr-xr-x 1 root   root    8.2K Oct 19 12:56  piconv
+ 3659174697888746 -rwxr-xr-x 1 root   root    8.2K Feb 17  2020  byobu
+ 2533274791060027 -rwxr-xr-x 1 root   root    8.3K Jun 17  2020  wslupath
+ 4785074604732533 -rwxr-xr-x 1 root   root    8.4K Sep  3  2019  lesspipe
+ 7318349395131498 -rwxr-xr-x 1 root   root    8.4K Jan 26 13:21  oem-getlogs
+ 7881299348557308 -rwxr-xr-x 1 root   root    8.4K Feb 24  2020  scsi_logging_level
+ 3659174697895508 -rwxr-xr-x 1 root   root    8.6K May 29  2018  pollinate
+ 2533274791060009 -rwxr-xr-x 1 root   root    8.7K Jun 17  2020  wslsys
+ 4785074604731685 -rwxr-xr-x 1 root   root    9.1K Jan 19 22:47  do-release-upgrade
+ 2533274791055761 -rwxr-xr-x 1 root   root    9.8K Oct 19 12:56  shasum
+ 4222124651318712 -rwxr-xr-x 1 root   root     11K Dec  7  2019  savelog
+ 2533274791057123 -rwxr-xr-x 1 root   root     11K Feb 14  2020  ssh-copy-id
+ 3940649674612414 -rwxr-xr-x 1 root   root     11K Dec 14  2018  ucfr
+ 2533274791052703 -rwxr-xr-x 1 root   root     11K Oct 19 12:56  pod2text
+ 6473924464996243 -rwxr-xr-x 1 root   root     11K Jan 29 17:43  hwe-support-status
+ 2251799814340901 -rwxr-xr-x 1 root   root     11K Oct 19 12:56  perlivp
+ 2533274791046392 -rwxr-xr-x 1 root   root     12K Aug  3  2019  debconf-apt-progress
+ 2533274791046160 -rwxr-xr-x 1 root   root     12K Feb 17  2020  byobu-ulevel
+ 2533274791054170 -rwxr-xr-x 1 root   root     12K Mar 13  2020  py3compile
+ 2533274791060031 -rwxr-xr-x 1 root   root     13K Jun 17  2020  wslusc
+ 2814749767756688 -rwxr-xr-x 1 root   root     14K Jan 26 13:21  apport-cli
+ 2533274791053154 -rwxr-xr-x 1 root   root     14K Oct 19 12:56  prove
+ 2814749767767576 -rwxr-xr-x 1 root   root     14K May  9  2019  splitfont
+ 3659174697897464 -rwxr-xr-x 1 root   root     14K May  9  2019  screendump
+ 2533274791046231 -rwxr-xr-x 1 root   root     14K May  9  2019  codepage
+ 2251799814347380 -rwxr-xr-x 1 root   root     15K Dec  7  2019  tempfile
+ 5910974511582820 -rwxr-xr-x 1 root   root     15K May  9  2019  setleds
+ 4503599628029544 -rwxr-xr-x 1 root   root     15K May  9  2019  setlogcons
+ 4222124651318880 -rwxr-xr-x 1 root   root     15K May  9  2019  setkeycodes
+ 2814749767760461 -rwxr-xr-x 1 root   root     15K May  3  2019  ntfs-3g.probe
+ 5348024558153673 -rwxr-xr-x 1 root   root     15K May  9  2019  kbdinfo
+ 3659174697889734 -rwxr-xr-x 1 root   root     15K May  9  2019  kbd_mode
+ 5066549581442673 -rwxr-xr-x 1 root   root     15K May  9  2019  getkeycodes
+ 2814749767757332 -rwxr-xr-x 1 root   root     15K May  9  2019  fgconsole
+ 2814749767756988 -rwxr-xr-x 1 root   root     15K May  9  2019  deallocvt
+ 2814749767756867 -rwxr-xr-x 1 root   root     15K May  9  2019  chvt
+ 7318349395136109 -rwxr-xr-x 1 root   root     15K May  9  2019  setmetamode
+12947848929341429 -rwxr-xr-x 1 root   root     15K May  4  2019  kmodsign
+ 2533274791046330 -rwxr-xr-x 1 root   root     15K Jun 11  2020  dbus-uuidgen
+14073748836183224 -rwxr-xr-x 1 root   root     15K Jun 11  2020  dbus-update-activation-environment
+ 2533274791046325 -rwxr-xr-x 1 root   root     15K Jun 11  2020  dbus-run-session
+ 2533274791046318 -rwxr-xr-x 1 root   root     15K Jun 11  2020  dbus-cleanup-sockets
+ 2814749767770497 -rwxr-xr-x 1 root   root     15K Jul  8  2019  volname
+ 3096224744476369 -rwxr-xr-x 1 root   root     15K Feb 24  2020  sg_emc_trespass
+ 3940649674606781 -rwxr-xr-x 1 root   root     15K Nov 12  2019  pslog
+ 2251799814340840 -rwxr-xr-x 1 root   root     15K Nov 12  2019  peekfd
+ 2533274791046287 -rwxr-xr-x 1 root   root     15K Mar 30  2020  colrm
+ 2533274791046286 -rwxr-xr-x 1 root   root     15K Mar 30  2020  colcrt
+ 2533274791046106 -rwxr-sr-x 1 root   tty      15K Mar 30  2020  bsd-write
+ 2533274791046105 -rwxr-xr-x 1 root   root     15K Mar 30  2020  bsd-from
+ 2814749767757973 -rwxr-xr-x 1 root   root     15K Jan 27 10:40  locale-check
+ 2814749767756944 -rwxr-xr-x 1 root   root     15K Mar 30  2020  column
+ 3940649674600366 -rwxr-xr-x 1 root   root     15K Dec  7  2019  ischroot
+ 2814749767770493 -rwxr-xr-x 1 root   root     15K Mar  9  2020  vmware-xferlogs
+ 3096224744481117 -rwxr-xr-x 1 root   root     15K Mar  9  2020  vmware-hgfsclient
+ 3096224744481113 -rwxr-xr-x 1 root   root     15K Mar  9  2020  vmware-checkvm
+ 2533274791059681 -rwxr-xr-x 1 root   root     15K Jul 21  2020  uuidgen
+ 2533274791059593 -rwxr-xr-x 1 root   root     15K Feb 27  2020  uptime
+ 4785074604740224 -rwxr-xr-x 1 root   root     15K Jul 21  2020  setsid
+ 3940649674607867 -rwxr-xr-x 1 root   root     15K Jul 21  2020  rev
+ 2251799814343863 -rwxr-xr-x 1 root   root     15K Jul 21  2020  renice
+ 3377699721186061 -rwxr-xr-x 1 root   root     15K Feb 27  2020  pwdx
+ 3377699721180072 -rwxr-xr-x 1 root   root     15K Jul 21  2020  mountpoint
+ 3377699721179769 -rwxr-xr-x 1 root   root     15K Jul 21  2020  mesg
+ 4222124651311428 -rwxr-xr-x 1 root   root     15K Apr 20  2020  lzmainfo
+ 2533274791046221 -rwxr-xr-x 1 root   root     15K Jun 18  2020  clear_console
+ 2533274791059661 -rwxr-xr-x 1 root   root     15K Oct  1  2019  usbreset
+ 6192449488298647 -rwxr-xr-x 1 root   root     15K Feb 29  2020  xlsatoms
+ 2814749767770765 -rwxr-xr-x 1 root   root     15K Feb 29  2020  xkill
+ 2533274791060089 -rwxr-xr-x 1 root   root     15K Feb 29  2020  xdriinfo
+ 3096224744472818 -rwxr-xr-x 1 root   root     15K Oct 19 12:56  perl5.30-x86_64-linux-gnu
+ 5348024558157873 -rwxr-xr-x 1 root   root     15K Jan  5 04:10  pax11publish
+ 2814749767756708 -rwxr-xr-x 1 root   root     15K Feb 29  2020  appres
+ 2814749767758058 -rwxr-xr-x 1 root   root     15K Feb 14  2020  lsattr
+ 6755399441707100 -rwxr-xr-x 1 root   root     15K Jul  2  2020  lessecho
+ 3096224744467530 -rwxr-xr-x 1 root   root     15K Feb 26  2020  clear
+ 5629499534863410 -rwxr-xr-x 1 root   root     15K Feb 14  2020  chattr
+ 2251799814347057 -rwxr-xr-x 1 root   root     15K Jan  6 21:47  systemd-ask-password
+ 2814749767766058 -rwxr-xr-x 1 root   root     15K Feb 24  2020  sg_rmsn
+ 2251799814344558 -rwxr-xr-x 1 root   root     15K Feb 24  2020  sg_prevent
+23925373021064877 -rwxr-xr-x 1 root   root     15K Feb 24  2020  sg_bg_ctl
+ 2251799814347418 -rwxr-xr-x 1 root   root     15K Apr 21  2017  time
+ 3377699721187264 -rwxr-xr-x 1 root   root     15K Feb 24  2020  sg_read_block_limits
+ 3096224744468710 -rwxr-xr-x 1 root   root     15K Mar 30  2020  look
+ 6473924465004730 -rwxr-xr-x 1 root   root     15K Feb 24  2020  sg_test_rwbuf
+ 4503599628029997 -rwxr-xr-x 1 root   root     15K Feb 24  2020  sg_rtpg
+ 2251799814344734 -rwxr-xr-x 1 root   root     15K Feb 24  2020  sg_reset_wp
+ 2533274791055096 -rwxr-xr-x 1 root   root     15K Feb 24  2020  sg_ident
+ 4785074604740798 -rwxr-xr-x 1 root   root     15K Feb 24  2020  sg_turs
+ 2251799814344883 -rwxr-xr-x 1 root   root     15K Feb 24  2020  sg_sync
+ 4785074604740625 -rwxr-xr-x 1 root   root     15K Feb 24  2020  sg_reset
+ 2533274791055352 -rwxr-xr-x 1 root   root     15K Feb 24  2020  sg_referrals
+ 4222124651319273 -rwxr-xr-x 1 root   root     15K Feb 24  2020  sg_reassign
+ 2533274791055324 -rwxr-xr-x 1 root   root     15K Feb 24  2020  sg_read_long
+ 4222124651319308 -rwxr-xr-x 1 root   root     15K Feb 24  2020  sg_requests
+ 2251799814344932 -rwxr-xr-x 1 root   root     15K Feb 24  2020  sg_write_long
+ 3377699721187604 -rwxr-xr-x 1 root   root     15K Feb 24  2020  sg_zone
+ 2814749767763246 -rwxr-xr-x 1 root   root     15K Oct 19 12:56  pod2man
+ 2814749767757961 -rwxr-xr-x 1 root   root     15K Feb 29  2020  listres
+ 2533274791046295 -rwxr-xr-x 1 root   root     15K Oct 19 12:56  corelist
+ 2251799814347775 -rwxr-xr-x 1 root   root     16K Dec 16 12:04  tzselect
+ 3096224744468603 -rwxr-xr-x 1 root   root     16K Oct 19 12:56  libnetcfg
+ 3659174697890461 -rwxr-xr-x 1 root   root     16K May  9  2019  mk_modmap
+ 3940649674604473 -rwxr-xr-x 1 root   root     17K Aug  3  2019  pastebinit
+ 3096224744469642 -rwxr-xr-x 1 root   root     18K Aug 19  2019  networkd-dispatcher
+ 2533274791054656 -rwxr-xr-x 1 root   root     19K Oct 19  2019  run-mailcap
+ 2251799814345267 -rwxr-xr-x 1 root   root     19K May  9  2019  showkey
+ 2533274791055774 -rwxr-xr-x 1 root   root     19K May  9  2019  showconsolefont
+ 2814749767770477 -rwxr-xr-x 1 root   root     19K Mar  9  2020  vmware-vgauth-cmd
+ 2814749767770469 -rwxr-xr-x 1 root   root     19K Mar  9  2020  vmware-rpctool
+ 2533274791059306 -rwxr-xr-x 1 root   root     19K Mar  7  2020  ulockmgr_server
+ 2251799814347614 -rwxr-xr-x 1 root   root     19K Jan 31  2020  tracepath
+ 2251799814344490 -rwxr-xr-x 1 root   root     19K Feb 24  2020  sg_map
+ 2814749767756888 -rwxr-xr-x 1 root   root     19K Mar 30  2020  col
+ 2533274791046171 -rwxr-xr-x 1 root   root     19K Sep  5  2019  bzip2recover
+ 2251799814344803 -rwxr-xr-x 1 root   root     19K Feb 24  2020  sg_scan
+ 2533274791059296 -rwxr-xr-x 1 root   root     19K Mar 30  2020  ul
+ 2533274791055257 -rwxr-xr-x 1 root   root     19K Feb 24  2020  sg_rdac
+ 2251799814347232 -rwxr-xr-x 1 root   root     19K Jan  6 21:47  systemd-path
+ 2251799814347146 -rwxr-xr-x 1 root   root     19K Jan  6 21:47  systemd-detect-virt
+ 2251799814347220 -rwxr-xr-x 1 root   root     19K Jan  6 21:47  systemd-notify
+ 2251799814347068 -rwxr-xr-x 1 root   root     19K Jan  6 21:47  systemd-cat
+ 2814749767770813 -rwxr-xr-x 1 root   root     19K Apr 15  2020  xxd
+ 2533274791060149 -rwxr-xr-x 1 root   root     19K Feb 29  2020  xvinfo
+ 2814749767770515 -rwxr-xr-x 1 root   root     19K Jan  6 19:10  watchgnupg
+ 2533274791057975 -rwxr-xr-x 1 root   root     19K Feb 26  2020  tabs
+ 3940649674605628 -rwxr-xr-x 1 root   root     19K Aug 16  2019  pkttyagent
+ 5910974511580151 -rwxr-xr-x 1 root   root     19K Aug 16  2019  pkaction
+ 2533274791060121 -rwxr-xr-x 1 root   root     19K Feb 29  2020  xlsclients
+10696049115659769 -rwxr-xr-x 1 root   root     19K Jan  5 04:10  pacmd
+ 2814749767756712 -rwxr-xr-x 1 root   root     19K Jan 14 12:49  apt
+ 2533274791055438 -rwxr-xr-x 1 root   root     19K Feb 24  2020  sg_sat_set_features
+ 3377699721187401 -rwxr-xr-x 1 root   root     19K Feb 24  2020  sg_sat_read_gplog
+ 2251799814344893 -rwxr-xr-x 1 root   root     19K Feb 24  2020  sg_timestamp
+ 2533274791055522 -rwxr-xr-x 1 root   root     19K Feb 24  2020  sg_start
+ 2251799814346242 -rwxr-xr-x 1 root   root     19K Oct 19 12:56  splain
+ 6473924465004747 -rwxr-xr-x 1 root   root     19K Feb 24  2020  sg_verify
+ 2533274791055476 -rwxr-xr-x 1 root   root     19K Feb 24  2020  sg_seek
+ 2814749767765737 -rwxr-xr-x 1 root   root     19K Feb 24  2020  sg_get_lba_status
+ 2251799814344770 -rwxr-xr-x 1 root   root     19K Feb 24  2020  sg_sat_phy_event
+ 5066549581455037 -rwxr-xr-x 1 root   root     19K Dec 14  2018  ucfq
+ 4785074604731691 -rwxr-xr-x 1 root   root     21K Mar 23  2020  dpkg-maintscript-helper
+ 6755399441706180 -rwxr-xr-x 1 root   root     21K Jun 21  2019  deb-systemd-helper
+ 3377699721186242 -rwxr-xr-x 1 root   root     22K Jul 28  2020  pygettext3.8
+ 4222124651317338 -rwxr-xr-x 1 root   root     22K May  9  2019  psfxtable
+ 7318349395135723 -rwxr-xr-x 1 root   root     23K May  9  2019  resizecons
+ 2814749767770465 -rwxr-xr-x 1 root   root     23K Mar  9  2020  vmware-namespace-cmd
+ 2533274791053125 -rwxr-xr-x 1 root   root     23K Mar 30  2020  printerbanner
+ 2814749767770481 -rwxr-xr-x 1 root   root     23K Mar  9  2020  vmware-vgauth-smoketest
+ 2251799814347182 -rwxr-xr-x 1 root   root     23K Jan  6 21:47  systemd-id128
+ 2251799814347148 -rwxr-xr-x 1 root   root     23K Jan  6 21:47  systemd-escape
+ 2814749767770503 -rwxr-xr-x 1 root   root     23K Feb 27  2020  w.procps
+ 2251799814347267 -rwxr-xr-x 1 root   root     23K Jan  6 21:47  systemd-stdio-bridge
+ 2251799814343858 -rwxr-xr-x 1 root   root     23K Jul 21  2020  rename.ul
+ 2814749767763817 -rwxr-xr-x 1 root   root     23K Nov 12  2019  prtstat
+ 7599824371838584 -rwxr-xr-x 1 root   root     23K Jul 21  2020  getopt
+ 2533274791056075 -rwxr-xr-x 1 root   root     23K Feb 27  2020  slabtop
+ 2251799814347507 -rwxr-xr-x 1 root   root     23K Feb 27  2020  tload
+ 2251799814347190 -rwxr-xr-x 1 root   root     23K Jan  6 21:47  systemd-inhibit
+ 2533274791058181 -rwxr-xr-x 1 root   root     23K Feb 26  2020  toe
+ 2814749767762981 -rwxr-xr-x 1 root   root     23K Sep 23 12:55  pkmon
+ 7318349395128121 -rwxr-xr-x 1 root   root     23K Dec  9 12:23  gresource
+ 2251799814347081 -rwxr-xr-x 1 root   root     23K Jan  6 21:47  systemd-cgls
+10414574138950837 -rwxr-xr-x 1 root   root     23K Dec 16 12:04  pldd
+ 2814749767762936 -rwxr-xr-x 1 root   root     23K Aug 16  2019  pkcheck
+ 2814749767757362 -rwxr-xr-x 1 root   root     23K Jun 18  2020  fwupdtpmevlog
+ 3096224744468019 -rwxr-xr-x 1 root   root     23K Dec  9 12:23  gapplication
+ 2533274791051197 -rwxr-xr-x 1 root   root     23K Jan  5 04:10  pasuspender
+ 2814749767761310 -rwxr-xr-x 1 root   root     23K May  9  2019  openvt
+ 7036874418426030 -rwxr-xr-x 1 root   root     23K Feb 24  2020  sg_stream_ctl
+ 2814749767766064 -rwxr-xr-x 1 root   root     23K Feb 24  2020  sg_safte
+ 2814749767770489 -rwxr-xr-x 1 root   root     23K Mar  9  2020  vmware-vmblock-fuse
+ 2251799814344915 -rwxr-xr-x 1 root   root     23K Feb 24  2020  sg_wr_mode
+ 4785074604740772 -rwxr-xr-x 1 root   root     23K Feb 24  2020  sg_stpg
+ 2533274791055418 -rwxr-xr-x 1 root   root     23K Feb 24  2020  sg_sat_identify
+ 2251799814344596 -rwxr-xr-x 1 root   root     23K Feb 24  2020  sg_rbuf
+ 2814749767757328 -rwxr-xr-x 1 root   root     23K May 28  2020  faillog
+ 3940649674608835 -rwxr-xr-x 1 root   root     23K Feb 24  2020  sg_unmap
+ 5910974511582914 -rwxr-xr-x 1 root   root     23K Feb 24  2020  sg_decode_sense
+ 4222124651319532 -rwxr-xr-x 1 root   root     23K Feb 24  2020  sg_write_verify
+ 2251799814344680 -rwxr-xr-x 1 root   root     23K Feb 24  2020  sg_readcap
+ 5066549581451046 -rwxr-xr-x 1 root   root     23K Feb 24  2020  sg_luns
+ 6192449488297463 -rwxr-xr-x 1 root   root     23K Jan 29 17:43  ubuntu-security-status
+ 2251799814344373 -rwxr-xr-x 1 root   root     23K Feb 24  2020  sg_compare_and_write
+ 5629499534872253 -rwxr-xr-x 1 root   root     24K Feb 24  2020  sg_copy_results
+10133099162234986 -rwxr-xr-x 1 root   root     24K Jul  2  2020  lesskey
+12666373952630634 -rwxr-xr-x 1 root   root     24K Feb 25  2020  growpart
+ 2533274791060005 -rwxr-xr-x 1 root   root     25K Jun 17  2020  wslfetch
+ 6473924465009267 -rwxr-xr-x 1 root   root     27K Jan 24  2019  xdg-user-dirs-update
+ 4503599628022174 -rwxr-xr-x 1 root   root     27K May  9  2019  mapscrn
+ 2251799814347641 -rwxr-xr-x 1 root   root     27K Jan 31  2020  traceroute6.iputils
+ 2251799814344608 -rwxr-xr-x 1 root   root     27K Feb 24  2020  sg_read
+ 3096224744481900 -rwxr-xr-x 1 root   root     27K Dec 16 12:04  zdump
+ 2251799814347250 -rwxr-xr-x 1 root   root     27K Jan  6 21:47  systemd-socket-activate
+ 2251799814347113 -rwxr-xr-x 1 root   root     27K Jan  6 21:47  systemd-delta
+ 8444249301971114 -rwxr-xr-x 1 root   root     27K Jan  6 21:47  localectl
+ 3377699721179023 -rwxr-xr-x 1 root   root     27K Jan  6 21:47  hostnamectl
+ 3940649674600333 -rwxr-xr-x 1 root   root     27K Nov  7  2019  hostname
+ 2814749767757346 -rwxr-xr-x 1 root   root     27K Feb 27  2020  free
+ 2251799814347199 -rwxr-xr-x 1 root   root     27K Jan  6 21:47  systemd-machine-id-setup
+ 2251799814347588 -rwxr-xr-x 1 root   root     27K Feb 26  2020  tput
+ 2814749767756719 -rwxr-xr-x 1 root   root     27K Jan 14 12:49  apt-config
+ 4503599628034724 -rwxr-xr-x 1 root   root     27K Feb 29  2020  xlsfonts
+ 2814749767757336 -rwxr-xr-x 1 root   root     27K Jan 16  2020  file
+ 3096224744467377 -rwxr-xr-x 1 root   root     27K Jan 14 12:49  apt-extracttemplates
+ 2533274791054927 -rwxr-xr-x 1 root   root     27K Jul 21  2020  setarch
+ 3659174697897335 -rwxr-xr-x 1 root   root     27K Dec  7  2019  run-parts
+ 2533274791055158 -rwxr-xr-x 1 root   root     27K Feb 24  2020  sg_map26
+ 3096224744481170 -rwxr-xr-x 1 root   root     27K Feb 27  2020  watch
+ 2251799814344711 -rwxr-xr-x 1 root   root     27K Feb 24  2020  sg_rep_zones
+ 2251799814344937 -rwxr-xr-x 1 root   root     27K Feb 24  2020  sg_write_same
+ 3096224744476628 -rwxr-xr-x 1 root   root     27K Feb 24  2020  sg_read_buffer
+ 3096224744476722 -rwxr-xr-x 1 root   root     27K Feb 24  2020  sg_sanitize
+ 5066549581443454 -rwxr-xr-x 1 root   root     27K Feb 25  2020  man-recode
+ 2533274791055489 -rwxr-xr-x 1 root   root     28K Feb 24  2020  sg_senddiag
+ 2251799814344920 -rwxr-xr-x 1 root   root     28K Feb 24  2020  sg_write_buffer
+ 2533274791060133 -rwxr-xr-x 1 root   root     28K Feb 29  2020  xmessage
+ 2814749767756726 -rwxr-xr-x 1 root   root     28K Jan 14 12:49  apt-key
+12384898975919995 -rwxr-xr-x 1 root   root     29K Oct 19 12:56  h2ph
+ 2533274791046327 -rwxr-xr-x 1 root   root     31K Jun 11  2020  dbus-send
+ 3096224744467634 -rwxr-xr-x 1 root   root     31K Jun 11  2020  dbus-monitor
+ 3659174697900583 -rwxr-xr-x 1 root   root     31K Jan  6 21:47  systemd-tty-ask-password-agent
+ 2814749767770332 -rwxr-xr-x 1 root   root     31K Jul 21  2020  utmpdump
+ 6473924465005223 -rwxr-xr-x 1 root   root     31K Feb 27  2020  skill
+12103423999217146 -rwxr-xr-x 1 root   root     31K Jul 21  2020  scriptreplay
+ 5348024558153701 -rwxr-xr-x 1 root   root     31K Feb 27  2020  kill
+ 3659174697889700 -rwxr-xr-x 1 root   root     31K Jul 21  2020  ionice
+ 5348024558152967 -rwxr-xr-x 1 root   root     31K Jul 21  2020  delpart
+ 3096224744467338 -rwxr-xr-x 1 root   root     31K Jul 21  2020  addpart
+ 3377699721186940 -rwxr-xr-x 1 root   root     31K Jan 26  2020  setpci
+ 2251799814340911 -rwxr-xr-x 1 root   root     31K Feb 27  2020  pgrep
+ 2533274791052311 -rwsr-xr-x 1 root   root     31K Aug 16  2019  pkexec
+ 2533274791058378 -rwxr-xr-x 1 root   root     31K Feb 26  2020  tset
+ 2533274791059649 -rwxr-xr-x 1 root   root     31K Oct  1  2019  usbhid-dump
+11540474045788014 -rwxr-xr-x 1 root   root     31K Dec  9 12:23  gsettings
+ 3096224744467373 -rwxr-xr-x 1 root   root     31K Jan 14 12:49  apt-cdrom
+ 3096224744468619 -rwxr-xr-x 1 root   root     31K Feb 13  2020  lnstat
+ 2814749767756677 -rwxr-xr-x 1 root   root     31K May 19  2020  aa-enabled
+ 2814749767757322 -rwxr-sr-x 1 root   shadow   31K May 28  2020  expiry
+ 2251799814344566 -rwxr-xr-x 1 root   root     31K Feb 24  2020  sg_raw
+ 2533274791055506 -rwxr-xr-x 1 root   root     32K Feb 24  2020  sg_ses_microcode
+ 4222124651323681 -rwxr-xr-x 1 root   root     32K Feb 29  2020  viewres
+ 7036874418417643 -rwxr-xr-x 1 root   root     32K Nov 12  2019  killall
+ 6755399441707058 -rwxr-xr-x 1 root   root     32K May 28  2020  lastlog
+ 9007199255394904 -rwxr-xr-x 1 root   root     35K May  3  2019  ntfscat
+ 3096224744468621 -rwxr-xr-x 1 root   root     35K May  9  2019  loadunimap
+ 2533274791046321 -rwxr-xr-x 1 root   root     35K Jun 11  2020  dbus-launch
+ 2251799814344983 -rwxr-xr-x 1 root   root     35K Feb 24  2020  sgm_dd
+ 4222124651323841 -rwxr-xr-x 1 root   root     35K Feb 18  2020  whiptail
+ 2814749767770527 -rwxr-xr-x 1 root   root     35K Jul 21  2020  wdctl
+ 2814749767770507 -rwxr-sr-x 1 root   tty      35K Jul 21  2020  wall
+ 2533274791058012 -rwxr-xr-x 1 root   root     35K Jul 21  2020  taskset
+ 3096224744469554 -rwxr-xr-x 1 root   root     35K Jul 21  2020  namei
+ 3940649674600359 -rwxr-xr-x 1 root   root     35K Jul 21  2020  ipcrm
+ 3096224744467985 -rwxr-xr-x 1 root   root     35K Jul 21  2020  fallocate
+ 8444249301976257 -rwxr-xr-x 1 root   root     35K Feb 27  2020  pmap
+16044073673158535 -rwxr-xr-x 1 root   root     35K Mar 30  2020  hexdump
+ 2814749767757338 -rwxr-xr-x 1 root   root     35K Jul 21  2020  fincore
+ 3659174697890456 -rwxr-xr-x 1 root   root     35K Feb  3  2020  miniterm
+ 6473924464995922 -rwxr-xr-x 1 root   root     35K Dec 16 12:04  getconf
+ 3377699721179582 -rwxr-xr-x 1 root   root     35K Jul 21  2020  mcookie
+ 3659174697889702 -rwxr-xr-x 1 root   root     35K Jul 21  2020  ipcmk
+ 2814749767757342 -rwxr-xr-x 1 root   root     35K Jul 21  2020  flock
+ 3096224744468247 -rwxr-xr-x 1 root   root     35K Jan  6 19:10  gpgparsemail
+ 8162774325262551 -rwxr-xr-x 1 root   root     35K Jul 21  2020  nsenter
+ 3377699721177990 -rwxr-xr-x 1 root   root     35K May 19  2020  aa-exec
+ 2533274791046180 -rwxr-xr-x 1 root   root     35K Mar 30  2020  calendar
+ 2814749767770749 -rwxr-xr-x 1 root   root     35K Feb 29  2020  xev
+ 5066549581455802 -rwxr-xr-x 1 root   root     35K Jul 21  2020  whereis
+ 5348024558153187 -rwxr-xr-x 1 root   root     35K Jul  8  2019  eject
+ 5066549581451098 -rwxr-xr-x 1 root   root     35K Feb 24  2020  sg_opcodes
+ 2533274791055066 -rwxr-xr-x 1 root   root     36K Feb 24  2020  sg_format
+ 2814749767764251 -rwxr-xr-x 1 root   root     36K Nov 12  2019  pstree
+ 2533274791050164 -rwxr-xr-x 1 root   root     36K May  3  2019  ntfsls
+ 3659174697897698 -rwxr-xr-x 1 root   root     36K Feb 24  2020  sg_get_config
+ 2533274791055205 -rwxr-xr-x 1 root   root     36K Feb 24  2020  sg_persist
+ 3659174697897911 -rwxr-xr-x 1 root   root     37K Feb 24  2020  sg_read_attr
+ 5066549581444191 -rwxr-xr-x 1 root   root     37K Mar 30  2020  ncal
+ 2814749767760856 -rwxr-xr-x 1 root   root     39K May  3  2019  ntfsusermap
+ 2814749767760830 -rwxr-xr-x 1 root   root     39K May  3  2019  ntfsmove
+ 7599824371841634 -rwxr-xr-x 1 root   root     39K May  3  2019  ntfscmp
+ 6192449488288350 -rwxr-xr-x 1 root   root     39K May  3  2019  ntfscluster
+ 7036874418420478 -rwxr-xr-x 1 root   root     39K May  3  2019  ntfsfallocate
+ 2251799814343882 -rwxr-xr-x 1 root   root     39K Feb 24  2020  rescan-scsi-bus.sh
+ 2814749767770347 -rwxr-xr-x 1 root   root     39K Jul 21  2020  uuidparse
+ 2533274791059325 -rwsr-xr-x 1 root   root     39K Jul 21  2020  umount
+ 2814749767757355 -rwsr-xr-x 1 root   root     39K Mar  7  2020  fusermount
+ 2814749767756865 -rwxr-xr-x 1 root   root     39K Jul 21  2020  chrt
+ 4503599628020710 -rwxr-xr-x 3 root   root     39K Sep  5  2019  bzip2
+ 4503599628020710 -rwxr-xr-x 3 root   root     39K Sep  5  2019  bzcat
+ 4503599628020710 -rwxr-xr-x 3 root   root     39K Sep  5  2019  bunzip2
+ 2251799814347091 -rwxr-xr-x 1 root   root     39K Jan  6 21:47  systemd-cgtop
+ 3377699721191757 -rwxr-xr-x 1 root   root     39K Feb 27  2020  vmstat
+ 2251799814344342 -rwxr-xr-x 1 root   root     39K Mar 27  2020  setupcon
+ 7318349395141678 -rwxr-xr-x 1 root   root     39K Sep  5  2019  yes
+ 2814749767770649 -rwxr-xr-x 1 root   root     39K Sep  5  2019  whoami
+ 2533274791059667 -rwxr-xr-x 1 root   root     39K Sep  5  2019  users
+ 2814749767770130 -rwxr-xr-x 1 root   root     39K Sep  5  2019  unlink
+ 2251799814347742 -rwxr-xr-x 1 root   root     39K Sep  5  2019  tty
+ 2251799814347697 -rwxr-xr-x 1 root   root     39K Sep  5  2019  true
+ 2251799814346981 -rwxr-xr-x 1 root   root     39K Sep  5  2019  sync
+ 6755399441715995 -rwxr-xr-x 1 root   root     39K Sep  5  2019  sleep
+ 3659174697897350 -rwxr-xr-x 1 root   root     39K Sep  5  2019  runcon
+ 6755399441712951 -rwxr-xr-x 1 root   root     39K Sep  5  2019  printenv
+ 3377699721183214 -rwxr-xr-x 1 root   root     39K Sep  5  2019  pathchk
+ 3377699721179365 -rwxr-xr-x 1 root   root     39K Sep  5  2019  logname
+ 3377699721179264 -rwxr-xr-x 1 root   root     39K Sep  5  2019  link
+ 3659174697889675 -rwxr-xr-x 1 root   root     39K Sep  5  2019  hostid
+ 8444249301970787 -rwxr-xr-x 1 root   root     39K Sep  5  2019  groups
+ 2814749767757331 -rwxr-xr-x 1 root   root     39K Sep  5  2019  false
+ 5629499534863736 -rwxr-xr-x 1 root   root     39K Sep  5  2019  echo
+ 4503599628021022 -rwxr-xr-x 1 root   root     39K Sep  5  2019  dirname
+ 2533274791046217 -rwxr-xr-x 1 root   root     39K Sep  5  2019  cksum
+ 3377699721178059 -rwxr-xr-x 1 root   root     39K Sep  5  2019  basename
+ 2533274791059341 -rwxr-xr-x 1 root   root     39K Sep  5  2019  uname
+ 2533274791046077 -rwxr-xr-x 1 root   root     39K Sep  5  2019  arch
+ 2814749767758887 -rwxr-xr-x 1 root   root     39K Aug 20  2019  mtr-packet
+ 3096224744468721 -rwxr-xr-x 1 root   root     39K Jul 21  2020  lslocks
+13229323906051678 -rwxr-xr-x 1 root   root     39K Dec 16 12:04  getent
+ 3377699721178153 -rwxr-xr-x 1 root   root     39K Feb 25  2020  catman
+ 4503599628022172 -rwxr-xr-x 1 root   root     39K Feb 25  2020  manpath
+ 2533274791053150 -rwxr-xr-x 1 root   root     39K Jul 21  2020  prlimit
+ 2814749767757352 -rwxr-xr-x 1 root   root     40K Nov 12  2019  fuser
+ 3940649674612243 -rwxr-xr-x 1 root   root     40K Dec 14  2018  ucf
+ 2533274791060101 -rwxr-xr-x 1 root   root     41K Feb 29  2020  xfd
+ 5629499534863844 -rwxr-xr-x 1 root   root     42K Oct 19 12:56  enc2xs
+ 2814749767760851 -rwxr-xr-x 1 root   root     43K May  3  2019  ntfstruncate
+ 6755399441709954 -rwxr-xr-x 1 root   root     43K May  3  2019  ntfsfix
+ 3377699721179938 -rwxr-xr-x 1 root   root     43K Jul 21  2020  more
+ 2533274791055640 -rwxr-xr-x 1 root   root     43K Feb 24  2020  sgp_dd
+ 2251799814344961 -rwxr-xr-x 1 root   root     43K Feb 24  2020  sg_xcopy
+ 9851624185525545 -rwxr-xr-x 1 root   root     43K Mar 22  2020  ngettext
+ 9007199255391870 -rwxr-xr-x 1 root   root     43K Mar 22  2020  gettext
+ 3659174697889279 -rwxr-xr-x 1 root   root     43K Mar 22  2020  envsubst
+ 2251799814345518 -rwxr-xr-x 1 root   root     43K Feb  2 09:21  snapfuse
+ 2251799814347732 -rwxr-xr-x 1 root   root     43K Sep  5  2019  tsort
+ 2251799814347710 -rwxr-xr-x 1 root   root     43K Sep  5  2019  truncate
+ 2533274791057983 -rwxr-xr-x 1 root   root     43K Sep  5  2019  tac
+ 2251799814343413 -rwxr-xr-x 1 root   root     43K Sep  5  2019  pwd
+ 3940649674601859 -rwxr-xr-x 1 root   root     43K Sep  5  2019  nproc
+ 4785074604733825 -rwxr-xr-x 1 root   root     43K Sep  5  2019  nohup
+12103423999210804 -rwxr-xr-x 1 root   root     43K Sep  5  2019  nice
+ 2814749767757345 -rwxr-xr-x 1 root   root     43K Sep  5  2019  fold
+ 5348024558153214 -rwxr-xr-x 1 root   root     43K Sep  5  2019  env
+ 2533274791046090 -rwxr-xr-x 1 root   root     43K Sep  5  2019  base64
+ 2814749767756744 -rwxr-xr-x 1 root   root     43K Sep  5  2019  base32
+ 2533274791059422 -rwxr-xr-x 1 root   root     43K Sep  5  2019  unexpand
+ 2251799814347360 -rwxr-xr-x 1 root   root     43K Sep  5  2019  tee
+ 5066549581448171 -rwxr-xr-x 1 root   root     43K Sep  5  2019  pinky
+ 3377699721183150 -rwxr-xr-x 1 root   root     43K Sep  5  2019  paste
+ 2814749767757321 -rwxr-xr-x 1 root   root     43K Sep  5  2019  expand
+ 2533274791046290 -rwxr-xr-x 1 root   root     43K Sep  5  2019  comm
+ 2814749767756838 -rwxr-xr-x 1 root   root     43K Sep  5  2019  cat
+ 2814749767770194 -rwxr-xr-x 1 root   root     43K Jul 21  2020  unshare
+ 5629499534865792 -rwxr-xr-x 1 root   root     43K Sep  5  2019  nl
+ 3096224744469598 -rwxr-xr-x 1 root   root     43K Mar  9  2020  nc.openbsd
+ 2814749767756958 -rwxr-sr-x 1 root   crontab  43K Feb 13  2020  crontab
+ 2251799814347477 -rwxr-xr-x 1 root   root     43K Sep  5  2019  timeout
+ 2533274791060085 -rwxr-xr-x 1 root   root     44K Feb 29  2020  xdpyinfo
+ 7881299348550861 -rwsr-xr-x 1 root   root     44K May 28  2020  newgrp
+ 3096224744472819 -rwxr-xr-x 2 root   root     46K Oct 19 12:56  perlthanks
+ 3096224744472819 -rwxr-xr-x 2 root   root     46K Oct 19 12:56  perlbug
+ 2251799814344532 -rwxr-xr-x 1 root   root     46K Feb 24  2020  sg_modes
+13792273859481168 -rwxr-xr-x 1 root   root     47K May  9  2019  setfont
+ 2251799814347423 -rwxr-xr-x 1 root   root     47K Jan  6 21:47  timedatectl
+ 3096224744476307 -rwxr-xr-x 1 root   root     47K Jul 21  2020  setterm
+ 8162774325260300 -rwxr-xr-x 1 root   root     47K Jul 21  2020  last
+ 2533274791054974 -rwxr-xr-x 1 root   root     47K Jul 21  2020  setpriv
+ 2251799814343946 -rwxr-xr-x 1 root   root     47K Sep  5  2019  rmdir
+ 3940649674601190 -rwxr-xr-x 1 root   root     47K Sep  5  2019  mktemp
+ 3096224744467999 -rwxr-xr-x 1 root   root     47K Sep  5  2019  fmt
+ 2814749767770519 -rwxr-xr-x 1 root   root     47K Sep  5  2019  wc
+ 3377699721189505 -rwxr-xr-x 1 root   root     47K Sep  5  2019  sum
+ 3659174697889044 -rwxr-xr-x 1 root   root     47K Sep  5  2019  dircolors
+ 8162774325260760 -rwxr-xr-x 1 root   root     47K Sep  5  2019  md5sum
+ 3659174697889686 -rwxr-xr-x 1 root   root     47K Sep  5  2019  id
+ 8162774325260158 -rwxr-xr-x 1 root   root     47K Sep  5  2019  head
+ 2533274791046311 -rwxr-xr-x 1 root   root     47K Sep  5  2019  cut
+ 2533274791046075 -rwxr-xr-x 1 root   root     47K Jan 14 12:49  apt-sortpkgs
+ 3096224744481129 -rwxr-xr-x 1 root   root     47K Mar  9  2020  vmware-toolbox-cmd
+ 2814749767756725 -rwxr-xr-x 1 root   root     47K Jan 14 12:49  apt-get
+ 2251799814345711 -rwxr-xr-x 1 root   root     47K Mar 21  2020  soelim
+ 2533274791050210 -rwxr-xr-x 1 root   root     47K May  3  2019  ntfswipe
+ 2533274791060105 -rwxr-xr-x 1 root   root     48K Feb 29  2020  xfontsel
+ 2533274791046408 -rwxr-xr-x 1 root   root     49K Feb 16 21:08  delv
+ 2533274791060137 -rwxr-xr-x 1 root   root     49K Feb 29  2020  xprop
+ 3096224744481937 -rwxr-xr-x 1 root   root     50K Oct 19 12:56  zipdetails
+ 7599824371846682 -rwxr-xr-x 1 root   root     51K Apr  8  2019  sdiff
+ 5910974511574102 -rwxr-xr-x 1 root   root     51K Apr  8  2019  cmp
+ 6473924464999033 -rwxr-xr-x 1 root   root     51K May  3  2019  ntfsdecrypt
+ 9570149208818871 -rwxr-xr-x 1 root   root     51K Nov  2 11:02  plymouth
+ 3096224744476351 -rwxr-xr-x 1 root   root     51K Feb 24  2020  sg_dd
+ 4222124651310142 -rwxr-xr-x 1 root   root     51K Jul 21  2020  choom
+ 3096224744468725 -rwxr-xr-x 1 root   root     51K Jul 21  2020  lsns
+ 2251799814347600 -rwxr-xr-x 1 root   root     51K Sep  5  2019  tr
+ 2533274791057302 -rwxr-xr-x 1 root   root     51K Sep  5  2019  stdbuf
+ 2251799814344258 -rwxr-xr-x 1 root   root     51K Sep  5  2019  seq
+ 2251799814343850 -rwxr-xr-x 1 root   root     51K Sep  5  2019  readlink
+ 2814749767770123 -rwxr-xr-x 1 root   root     51K Sep  5  2019  uniq
+ 2251799814344989 -rwxr-xr-x 1 root   root     51K Sep  5  2019  sha1sum
+ 2251799814343854 -rwxr-xr-x 1 root   root     51K Sep  5  2019  realpath
+ 2533274791060153 -rwxr-xr-x 1 root   root     51K Feb 29  2020  xwininfo
+12103423999209028 -rwxr-xr-x 1 root   root     51K Dec  9 12:23  gdbus
+ 6473924464996879 -rwxr-xr-x 1 root   root     51K Feb 16 21:08  mdig
+ 2814749767761398 -rwxr-xr-x 1 root   root     51K Jan  5 04:10  pacat
+ 2533274791057870 -rwxr-xr-x 1 root   root     51K Jan  6 21:47  systemd-mount
+ 3096224744481095 -rwxr-xr-x 1 root   root     51K Mar  9  2020  vmhgfs-fuse
+10133099162235066 -rwxr-xr-x 1 root   root     51K Jul 21  2020  logger
+ 3096224744467522 -rwsr-xr-x 1 root   root     52K May 28  2020  chsh
+ 3096224744468731 -rwxr-xr-x 1 root   root     53K Feb 29  2020  luit
+ 7036874418417034 -rwxr-xr-x 1 root   root     55K Feb 22  2020  ed
+ 7036874418425337 -rwxr-xr-x 1 root   root     55K Jul 21  2020  script
+ 3377699721179948 -rwsr-xr-x 1 root   root     55K Jul 21  2020  mount
+ 3096224744467390 -rwsr-sr-x 1 daemon daemon   55K Nov 12  2018  at
+ 2814749767757356 -rwxr-xr-x 1 root   root     55K Jun 18  2020  fwupdagent
+ 4785074604740029 -rwxr-xr-x 1 root   root     55K May  4  2019  sbattach
+ 2533274791058038 -rwxr-xr-x 1 root   root     55K Sep  5  2019  test
+ 2814749767757325 -rwxr-xr-x 1 root   root     55K Sep  5  2019  expr
+ 4503599628021681 -rwxr-xr-x 1 root   root     55K Sep  5  2019  join
+ 2533274791046304 -rwxr-xr-x 1 root   root     55K Sep  5  2019  csplit
+ 3940649674608093 -rwxr-xr-x 1 root   root     55K May  4  2019  sbsiglist
+ 2814749767770227 -rwxr-xr-x 1 root   root     55K Mar 23  2020  update-alternatives
+ 2251799814347274 -rwxr-xr-x 1 root   root     55K Jan  6 21:47  systemd-sysusers
+ 2533274791060071 -rwxr-xr-x 1 root   root     55K Aug 25  2019  xauth
+ 2251799814349231 -rwxr-xr-x 1 root   root     56K Feb 25  2020  whatis
+ 2251799814344951 -rwxr-xr-x 1 root   root     56K Feb 24  2020  sg_write_x
+ 7318349395128521 -rwxr-xr-x 1 root   root     56K May 28  2020  login
+ 3377699721179282 -rwxr-xr-x 1 root   root     58K Dec 16 12:04  locale
+ 2814749767760802 -rwxr-xr-x 1 root   root     59K May  3  2019  ntfsinfo
+ 2251799814345309 -rwxr-xr-x 1 root   root     59K Sep  5  2019  shuf
+ 2814749767763799 -rwxr-xr-x 1 root   root     59K Sep  5  2019  printf
+ 3096224744468708 -rwxr-xr-x 1 root   root     59K Jan  6 21:47  loginctl
+ 2814749767756676 -rwxr-xr-x 1 root   root     59K Sep  5  2019 '['
+ 2814749767770639 -rwxr-xr-x 1 root   root     59K Sep  5  2019  who
+ 2814749767770234 -rwxr-xr-x 1 root   root     59K Mar 24  2020  update-mime-database
+ 2533274791055703 -rwxr-xr-x 1 root   root     59K Sep  5  2019  sha256sum
+ 4503599628030239 -rwxr-xr-x 1 root   root     59K Sep  5  2019  sha224sum
+ 2533274791046087 -rwxr-xr-x 1 root   root     59K Sep  5  2019  b2sum
+ 6755399441714657 -rwxr-xr-x 1 root   root     59K May  4  2019  sbsign
+ 2251799814347243 -rwxr-xr-x 1 root   root     59K Jan  6 21:47  systemd-run
+ 2251799814346255 -rwxr-xr-x 1 root   root     59K Sep  5  2019  split
+10414574138945404 -rwxr-xr-x 1 root   root     60K Oct 19 12:56  h2xs
+ 2814749767765236 -rwxr-xr-x 1 root   root     63K Jul 21  2020  resizepart
+ 3377699721178451 -rwxr-xr-x 1 root   root     63K Mar 23  2020  dpkg-statoverride
+ 5348024558161390 -rwxr-xr-x 1 root   root     63K May  4  2019  sbverify
+ 2814749767756760 -rwxr-xr-x 1 root   root     63K Jan  6 21:47  bootctl
+ 2251799814345275 -rwxr-xr-x 1 root   root     63K Sep  5  2019  shred
+ 2533274791046204 -rwxr-xr-x 1 root   root     63K Sep  5  2019  chmod
+ 3940649674600345 -rwxr-xr-x 1 root   root     63K Feb 26  2020  infocmp
+ 3096224744481108 -rwxr-xr-x 1 root   root     63K Mar  9  2020  vmtoolsd
+ 3659174697897442 -rwxr-xr-x 1 root   root     63K May  4  2019  sbvarsign
+ 3096224744467383 -rwxr-xr-x 1 root   root     63K Jan 14 12:49  apt-mark
+ 3940649674610804 -rwxr-xr-x 1 root   root     63K Jan 19 15:21  sudoreplay
+ 2533274791046415 -rwxr-xr-x 1 root   root     67K Apr  8  2019  diff3
+ 3377699721189317 -rwsr-xr-x 1 root   root     67K Jul 21  2020  su
+ 2814749767758067 -rwxr-xr-x 1 root   root     67K Jul 21  2020  lsmem
+ 3096224744468722 -rwxr-xr-x 1 root   root     67K Jul 21  2020  lslogins
+ 3659174697889708 -rwxr-xr-x 1 root   root     67K Jul 21  2020  ipcs
+ 3659174697890486 -rwxr-xr-x 1 root   root     67K Sep  5  2019  mkfifo
+ 2533274791055747 -rwxr-xr-x 1 root   root     67K Sep  5  2019  sha512sum
+ 2533274791055726 -rwxr-xr-x 1 root   root     67K Sep  5  2019  sha384sum
+ 3940649674604032 -rwxr-xr-x 1 root   root     67K Jan  5 04:10  pactl
+ 2814749767760867 -rwxr-xr-x 1 root   root     67K Sep  5  2019  numfmt
+ 5066549581442965 -rwxr-xr-x 1 root   root     67K Dec 16 12:04  iconv
+ 2533274791053073 -rwxr-xr-x 1 root   root     67K Mar 21  2020  preconv
+ 3377699721186769 -rwxr-xr-x 1 root   root     67K May  4  2019  sbkeysync
+ 2251799814340496 -rwsr-xr-x 1 root   root     67K May 28  2020  passwd
+ 2814749767762262 -rwxr-xr-x 1 root   root     67K Mar 22  2020  pinentry-curses
+ 3096224744469195 -rwxr-xr-x 1 root   root     71K Sep  5  2019  mknod
+ 2814749767756863 -rwxr-xr-x 1 root   root     71K Sep  5  2019  chown
+ 2814749767756858 -rwxr-xr-x 1 root   root     71K Sep  5  2019  chgrp
+ 4785074604731443 -rwxr-xr-x 1 root   root     71K Sep  5  2019  chcon
+11821949022506246 -rwxr-xr-x 1 root   root     71K Sep  5  2019  rm
+ 3377699721182269 -rwxr-xr-x 1 root   root     71K Sep  5  2019  od
+ 2251799814347345 -rwxr-xr-x 1 root   root     71K Sep  5  2019  tail
+ 2533274791049766 -rwxr-xr-x 1 root   root     71K Feb 16 21:08  nsupdate
+ 3096224744472920 -rwxr-xr-x 1 root   root     72K Jan 31  2020  ping
+ 2814749767757341 -rwxr-xr-x 1 root   root     72K Jul 21  2020  findmnt
+ 3377699721187605 -rwxr-xr-x 1 root   root     72K Feb 24  2020  sginfo
+ 4785074604731865 -rwxr-xr-x 1 root   root     73K Feb 29  2020  editres
+ 3377699721180276 -rwxr-xr-x 1 root   root     75K Jan  6 21:47  networkctl
+ 5348024558158851 -rwxr-xr-x 1 root   root     75K Sep 23 12:55  pkcon
+ 2533274791060067 -rwxr-xr-x 1 root   root     75K Feb 18  2020  xargs
+ 3096224744468618 -rwxr-xr-x 1 root   root     75K Sep  5  2019  ln
+ 2533274791053001 -rwxr-xr-x 1 root   root     75K Sep  5  2019  pr
+ 8162774325262771 -rwxr-xr-x 1 root   root     79K Feb 13  2020  nstat
+ 3659174697889714 -rwxr-xr-x 1 root   root     79K Jan  6 21:47  journalctl
+ 2814749767757326 -rwxr-xr-x 1 root   root     79K Sep  5  2019  factor
+ 2533274791046331 -rwxr-xr-x 1 root   root     79K Sep  5  2019  dd
+ 5629499534871152 -rwxr-xr-x 1 root   root     79K Sep  5  2019  ptx
+ 2533274791060165 -rwxr-xr-x 1 root   root     79K Apr 20  2020  xz
+ 3377699721180198 -rwxr-xr-x 1 root   root     81K Aug 20  2019  mtr
+ 5066549581453252 -rwxr-xr-x 1 root   root     83K Sep  5  2019  stty
+ 3659174697889055 -rwxr-xr-x 1 root   root     83K Jul 21  2020  dmesg
+ 2533274791046487 -rwxr-xr-x 1 root   root     83K Mar 23  2020  dpkg-trigger
+ 2814749767757358 -rwxr-xr-x 1 root   root     83K Jun 18  2020  fwupdate
+ 2814749767756845 -rwxr-sr-x 1 root   shadow   83K May 28  2020  chage
+ 2533274791046200 -rwsr-xr-x 1 root   root     84K May 28  2020  chfn
+ 3659174697890480 -rwxr-xr-x 1 root   root     87K Sep  5  2019  mkdir
+ 3096224744467431 -rwxr-xr-x 1 root   root     87K Jan  6 21:47  busctl
+ 2251799814346615 -rwxr-xr-x 1 root   root     87K Sep  5  2019  stat
+10977524092366534 -rwsr-xr-x 1 root   root     87K May 28  2020  gpasswd
+ 2251799814347297 -rwxr-xr-x 1 root   root     87K Jan  6 21:47  systemd-tmpfiles
+ 2814749767756716 -rwxr-xr-x 1 root   root     87K Jan 14 12:49  apt-cache
+ 2814749767757598 -rwxr-xr-x 1 root   root     87K Jan  6 19:10  gpgsplit
+ 4503599628022772 -rwxr-xr-x 1 root   root     87K Feb  1  2020  mt-gnu
+18858823440264846 -rwxr-xr-x 1 root   root     91K Dec  9 12:23  gio
+ 2251799814347408 -rwxr-xr-x 1 root   root     91K Feb 26  2020  tic
+ 2814749767757065 -rwxr-xr-x 1 root   root     91K Sep  5  2019  df
+ 3096224744468727 -rwxr-xr-x 1 root   root     92K Jan 26  2020  lspci
+ 2814749767758064 -rwxr-xr-x 1 root   root     95K Jul 21  2020  lsipc
+10414574138948556 -rwxr-xr-x 1 root   root     95K May  3  2019  ntfssecaudit
+ 6755399441706873 -rwxr-xr-x 1 root   root     96K Dec 13  2019  gzip
+ 2533274791059354 -rwxr-xr-x 1 root   root     97K Jul 21  2020  unattended-upgrade
+ 2814749767758061 -rwxr-xr-x 1 root   root     99K Jul 21  2020  lscpu
+ 2251799814347565 -rwxr-xr-x 1 root   root     99K Sep  5  2019  touch
+ 3377699721178067 -rwxr-xr-x 1 root   root     99K Jan 14  2019  bc
+ 3659174697889914 -rwxr-xr-x 1 root   root     99K Feb 25  2020  lexgrog
+ 2251799814347169 -rwxr-xr-x 1 root   root    103K Jan  6 21:47  systemd-hwdb
+ 3659174697889672 -rwxr-xr-x 1 root   root    103K Feb 16 21:08  host
+ 9570149208812902 -rwxr-xr-x 1 root   root    107K Sep  5  2019  du
+ 2533274791046315 -rwxr-xr-x 1 root   root    107K Sep  5  2019  date
+ 3940649674601581 -rwxr-xr-x 1 root   root    107K Feb 24  2019  netkit-ftp
+ 3940649674602874 -rwxr-xr-x 1 root   root    107K Feb 16 21:08  nslookup
+ 3377699721190002 -rwxr-xr-x 1 root   root    113K Mar 23  2020  telnet.netkit
+ 6473924465004751 -rwxr-xr-x 1 root   root    115K Feb 24  2020  sg_vpd
+ 6192449488293360 -rwxr-xr-x 1 root   root    115K May 29  2020  scp
+ 2533274791046411 -rwxr-xr-x 1 root   root    115K Jun 18  2020  dfu-tool
+ 4222124651320370 -rwxr-xr-x 1 root   root    115K Sep  5  2019  sort
+ 3096224744468712 -rwxr-xr-x 1 root   root    115K May  3  2019  lowntfs-3g
+ 3659174697889697 -rwxr-xr-x 1 root   root    116K Oct 11  2019  install-info
+ 2814749767770211 -rwxr-xr-x 1 root   root    117K Aug 29  2019  unsquashfs
+ 5348024558154099 -rwxr-xr-x 1 root   root    117K Feb 25  2020  man
+ 2251799814340493 -rwxr-xr-x 1 root   root    119K Jul 21  2020  partx
+ 3940649674608158 -rwxr-xr-x 1 root   root    119K Dec 22  2018  sed
+ 3096224744467735 -rwxr-xr-x 1 root   root    120K Jan  6 19:10  dirmngr-client
+ 2251799814344844 -rwxr-xr-x 1 root   root    120K Feb 24  2020  sg_ses
+ 7036874418417471 -rwxr-xr-x 1 root   root    122K Mar 21  2020  groff
+ 8444249301973963 -rwxr-xr-x 1 root   root    123K May  3  2019  ntfsrecover
+ 3096224744468015 -rwxr-xr-x 1 root   root    123K Jun 18  2020  fwupdmgr
+ 9570149208812867 -rwxr-xr-x 1 root   root    123K Mar 23  2020  dpkg-split
+ 2251799814346897 -rwxr-xr-x 1 root   root    124K Jan  6 19:10  symcryptrun
+ 2533274791055118 -rwxr-xr-x 1 root   root    124K Feb 24  2020  sg_inq
+ 2251799814347546 -rwxr-xr-x 1 root   root    127K Feb 27  2020  top
+ 2251799814343927 -rwxr-xr-x 1 root   root    127K Jan  6 21:47  resolvectl
+ 2533274791046314 -rwxr-xr-x 1 root   root    127K Jul 18  2019  dash
+ 7036874418417495 -rwxr-xr-x 1 root   root    130K Mar 21  2020  grotty
+ 3096224744468716 -rwxr-xr-x 1 root   root    131K Jul 21  2020  lsblk
+ 2533274791054502 -rwxr-xr-x 1 root   root    131K Feb 13  2020  rdma
+ 2533274791053162 -rwxr-xr-x 1 root   root    135K Feb 27  2020  ps
+ 2533274791046416 -rwxr-xr-x 1 root   root    135K Feb 16 21:08  dig
+ 2814749767756672 -rwxr-xr-x 1 root   root    139K Mar  9  2020  VGAuthService
+ 2251799814347359 -rwxr-xr-x 1 root   root    139K Mar 21  2020  tbl
+ 3377699721191685 -rwxr-xr-x 1 root   root    139K Sep  5  2019  vdir
+ 3096224744468713 -rwxr-xr-x 1 root   root    139K Sep  5  2019  ls
+ 2814749767757075 -rwxr-xr-x 1 root   root    139K Sep  5  2019  dir
+ 4785074604732801 -rwxr-xr-x 1 root   root    140K Feb 25  2020  mandb
+ 2533274791046103 -rwxr-xr-x 1 root   root    143K Sep 10  2020  boltctl
+ 3377699721180200 -rwxr-xr-x 1 root   root    147K Sep  5  2019  mv
+ 2533274791046213 -rwxr-xr-x 1 root   root    147K Mar 27  2020  ckbcomp
+ 2533274791046297 -rwxr-xr-x 1 root   root    151K Sep  5  2019  cp
+ 4785074604731690 -rwxr-xr-x 1 root   root    151K Mar 23  2020  dpkg-divert
+ 2251799814344481 -rwxr-xr-x 1 root   root    151K Feb 24  2020  sg_logs
+10133099162234663 -rwxr-xr-x 1 root   root    152K Jan  6 19:10  gpgtar
+ 3940649674600352 -rwxr-xr-x 1 root   root    155K Sep  5  2019  install
+ 9570149208816192 -rwxr-xr-x 1 root   root    155K May  3  2019  ntfs-3g
+ 3096224744468910 -rwxr-xr-x 1 root   root    159K Feb 16  2020  mawk
+ 2814749767756957 -rwxr-xr-x 1 root   root    162K Feb  1  2020  cpio
+ 2251799814346697 -rwsr-xr-x 1 root   root    163K Jan 19 15:21  sudo
+ 7881299348548925 -rwxr-xr-x 1 root   root    163K Mar 23  2020  dpkg-query
+ 4785074604732127 -rwxr-xr-x 1 root   root    164K Jan  6 19:10  gpg-connect-agent
+ 2251799814346273 -rwxr-xr-x 1 root   root    165K Feb 13  2020  ss
+ 2251799814344349 -rwxr-xr-x 1 root   root    167K May 29  2020  sftp
+ 8725724278681581 -rwxr-xr-x 1 root   root    171K Mar 12  2020  kmod
+ 2814749767758070 -rwxr-xr-x 1 root   root    172K Dec 25 17:57  lsof
+ 5348024558153072 -rwxr-xr-x 1 root   root    175K May  9  2019  dumpkeys
+ 4222124651310377 -rwxr-xr-x 1 root   root    175K Mar 23  2020  dpkg-deb
+ 7036874418417420 -rwxr-xr-x 1 root   root    175K Jan  6 19:10  gpgconf
+10696049115656141 -rwxr-xr-x 1 root   root    175K Jan  6 19:10  kbxutil
+ 3659174697889880 -rwxr-xr-x 1 root   root    176K Jul  2  2020  less
+12103423999209298 -rwxr-xr-x 1 root   root    182K Mar 21  2020  grops
+ 6755399441706897 -rwxr-xr-x 1 root   root    185K Dec  4  2019  htop
+ 2814749767758076 -rwxr-xr-x 1 root   root    187K Nov 11  2019  lz4
+ 4785074604736452 -rwxr-xr-x 1 root   root    191K Jul 27  2019  patch
+11258999069077296 -rwxr-xr-x 1 root   root    195K Jan 29  2020  grep
+ 3940649674599938 -rwxr-xr-x 1 root   root    202K Mar 21  2020  eqn
+ 5629499534864099 -rwxr-xr-x 1 root   root    204K Jan  6 19:10  gpg-wks-server
+ 2814749767757964 -rwxr-xr-x 1 root   root    211K May  9  2019  loadkeys
+ 3377699721179869 -rwxr-xr-x 1 root   root    214K Aug 29  2019  mksquashfs
+ 2814749767757069 -rwxr-xr-x 1 root   root    215K Apr  8  2019  diff
+ 3377699721183538 -rwxr-xr-x 1 root   root    217K Mar 21  2020  pic
+ 2533274791046309 -rwxr-xr-x 1 root   root    235K Nov 30 16:59  curl
+ 2814749767758073 -rwxr-xr-x 1 root   root    243K Oct  1  2019  lsusb
+ 2533274791046319 -rwxr-xr-x 1 root   root    244K Jun 11  2020  dbus-daemon
+ 2814749767756968 -rwxr-xr-x 1 root   root    267K Jan 19 15:21  cvtsudoers
+ 3096224744467379 -rwxr-xr-x 1 root   root    275K Jan 14 12:49  apt-ftparchive
+ 2814749767757361 -rwxr-xr-x 1 root   root    291K Jun 18  2020  fwupdtool
+ 3096224744468730 -rwxr-xr-x 1 root   root    302K Feb  1  2019  ltrace
+ 5348024558152999 -rwxr-xr-x 1 root   root    303K Mar 23  2020  dpkg
+ 3659174697889687 -rwxr-xr-x 1 root   root    310K Oct 11  2019  info
+ 3377699721180217 -rwxr-xr-x 1 root   root    313K Apr 10  2020  nano
+ 3096224744467995 -rwxr-xr-x 1 root   root    313K Feb 18  2020  find
+ 3377699721179313 -rwxr-xr-x 1 root   root    327K Dec 16 12:04  localedef
+ 4222124651320990 -rwxr-sr-x 1 root   ssh     343K May 29  2020  ssh-agent
+ 3096224744478257 -rwxr-xr-x 1 root   root    363K May 29  2020  ssh-add
+ 6473924464996059 -rwxr-xr-x 1 root   root    410K Jan  6 19:10  gpg-agent
+ 3659174697888734 -rwxr-xr-x 1 root   root    424K Feb 15  2020  btrfs-find-root
+ 2533274791046117 -rwxr-xr-x 1 root   root    428K Feb 15  2020  btrfstune
+ 2814749767756770 -rwxr-xr-x 1 root   root    432K Feb 15  2020  btrfs-select-super
+ 2533274791046113 -rwxr-xr-x 1 root   root    432K Feb 15  2020  btrfs-map-logical
+ 2251799814347352 -rwxr-xr-x 1 root   root    438K Dec 16 02:38  tar
+ 6473924464996140 -rwxr-xr-x 1 root   root    448K Jan  6 19:10  gpgv
+ 2814749767756767 -rwxr-xr-x 1 root   root    452K Feb 15  2020  btrfs-image
+ 2251799814346594 -rwxr-xr-x 1 root   root    455K May 29  2020  ssh-keyscan
+ 2533274791046109 -rwxr-xr-x 1 root   root    456K Feb 15  2020  btrfs-convert
+ 6192449488293367 -rwxr-xr-x 1 root   root    464K Feb  8  2020  screen
+ 2251799814346556 -rwxr-xr-x 1 root   root    467K May 29  2020  ssh-keygen
+11258999069084982 -rwxr-xr-x 1 root   root    505K Oct 15  2019  rsync
+ 2814749767757596 -rwxr-xr-x 1 root   root    508K Jan  6 19:10  gpgsm
+ 2814749767770531 -rwxr-xr-x 1 root   root    536K Jul 24  2019  wget
+ 4222124651310358 -rwxr-xr-x 1 root   root    570K Jan  6 19:10  dirmngr
+ 3940649674600357 -rwxr-xr-x 1 root   root    598K Feb 13  2020  ip
+ 2251799814347518 -rwxr-xr-x 1 root   root    676K Nov  4 15:20  tmux
+ 4785074604731958 -rwxr-xr-x 1 root   root    695K Nov  3  2019  gawk
+ 2533274791050631 -rwxr-xr-x 1 root   root    736K Feb 17 13:35  openssl
+ 2251799814347686 -rwxr-xr-x 1 root   root    736K Mar 21  2020  troff
+ 3377699721188911 -rwxr-xr-x 1 root   root    771K May 29  2020  ssh
+ 2814749767756763 -rwxr-xr-x 1 root   root    801K Feb 15  2020  btrfs
+ 3096224744468718 -rwxr-xr-x 1 root   root    842K Dec 17 10:34  lshw
+ 6192449488285451 -rwxr-xr-x 1 root   root    875K Jan  6 19:10  gpgcompose
+ 2533274791059269 -rwxr-xr-x 1 root   root    920K Jan  6 21:47  udevadm
+ 2251799814346988 -rwxr-xr-x 1 root   root    974K Jan  6 21:47  systemctl
+11821949022498521 -rwxr-xr-x 1 root   root    1.1M Jan  6 19:10  gpg
+ 2814749767756748 -rwxr-xr-x 1 root   root    1.2M Jun 18  2020  bash
+ 3096224744481073 -rwxr-xr-x 1 root   root    1.3M Apr 15  2020  vim.tiny
+ 2251799814346662 -rwxr-xr-x 1 root   root    1.6M Apr 17  2020  strace
+ 2251799814347047 -rwxr-xr-x 1 root   root    1.6M Jan  6 21:47  systemd-analyze
+12947848929341111 -rwxr-xr-x 1 root   root    1.7M Apr 20  2020  git-shell
+ 2533274791046121 -rwxr-xr-x 1 root   root    2.1M Nov 11 13:15  busybox
+ 3096224744481069 -rwxr-xr-x 1 root   root    2.8M Apr 15  2020  vim.basic
+16044073673158324 -rwxr-xr-x 1 root   root    3.0M Apr 20  2020  git
+ 2533274791051499 -rwxr-xr-x 2 root   root    3.4M Oct 19 12:56  perl5.30.0
+ 2533274791051499 -rwxr-xr-x 2 root   root    3.4M Oct 19 12:56  perl
+ 6473924465003547 -rwxr-xr-x 1 root   root    5.3M Jul 28  2020  python3.8
+ 6192449488294685 -rwxr-xr-x 1 root   root     23M Feb  2 09:21  snap
+
+------------------------------------------------------------------------------
+Zadanie 4---------------------------------------------------------------------
+
+easyrider863000@LAPTOP-BR05KG5L:~$ touch ala01.txt
+
+------------------------------------------------------------------------------
+Zadanie 5---------------------------------------------------------------------
+
+easyrider863000@LAPTOP-BR05KG5L:/$ mkdir Kula
+mkdir: cannot create directory ‘Kula’: Permission denied
+easyrider863000@LAPTOP-BR05KG5L:/$ ls -l
+total 400
+lrwxrwxrwx  1 root root      7 Feb 20 00:48 bin -> usr/bin
+drwxr-xr-x  1 root root   4096 Feb 20 00:56 boot
+drwxr-xr-x  1 root root   4096 Mar 24 09:44 dev
+drwxr-xr-x  1 root root   4096 Mar 24 09:44 etc
+drwxr-xr-x  1 root root   4096 Mar 23 23:16 home
+-rwxr-xr-x  1 root root 632048 Mar 17 20:34 init
+lrwxrwxrwx  1 root root      7 Feb 20 00:48 lib -> usr/lib
+lrwxrwxrwx  1 root root      9 Feb 20 00:48 lib32 -> usr/lib32
+lrwxrwxrwx  1 root root      9 Feb 20 00:48 lib64 -> usr/lib64
+lrwxrwxrwx  1 root root     10 Feb 20 00:48 libx32 -> usr/libx32
+drwxr-xr-x  1 root root   4096 Feb 20 00:48 media
+drwxr-xr-x  1 root root   4096 Mar 23 23:10 mnt
+drwxr-xr-x  1 root root   4096 Feb 20 00:48 opt
+dr-xr-xr-x  9 root root      0 Mar 24 09:44 proc
+drwx------  1 root root   4096 Feb 20 00:51 root
+drwxr-xr-x  1 root root   4096 Mar 24 09:44 run
+lrwxrwxrwx  1 root root      8 Feb 20 00:48 sbin -> usr/sbin
+drwxr-xr-x  1 root root   4096 Feb 20 00:52 snap
+drwxr-xr-x  1 root root   4096 Feb 20 00:48 srv
+dr-xr-xr-x 12 root root      0 Mar 24 09:44 sys
+drwxrwxrwt  1 root root   4096 Mar 24 09:44 tmp
+drwxr-xr-x  1 root root   4096 Feb 20 00:50 usr
+drwxr-xr-x  1 root root   4096 Feb 20 00:51 var
+
+------------------------------------------------------------------------------
+Zadanie 6---------------------------------------------------------------------
+
+easyrider863000@LAPTOP-BR05KG5L:~$ mkdir -p A/D/E B/F B/G/H/I C
+
+------------------------------------------------------------------------------
+Zadanie 7---------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------
+Zadanie 8---------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------
+Zadanie 9---------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------
+Zadanie 10---------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------
+Zadanie 11---------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------
+Zadanie 12---------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------
+Zadanie 13---------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------
+Zadanie 14---------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------
+Zadanie 15---------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------
+Zadanie 16---------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------
+Zadanie 17---------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------
+Zadanie 18---------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------
+Zadanie 19---------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------
+Zadanie 20---------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------
+Zadanie 21---------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------

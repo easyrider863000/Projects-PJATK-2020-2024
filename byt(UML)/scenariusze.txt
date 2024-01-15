@@ -1,0 +1,64 @@
+a) SC. Dodawanie/edytowanie lub usuniecie książki z systemu sprzedania 
+
+Aktor: Dystrybutor (abstract)   
+
+Warunek poczatkowy: -
+
+Glówny przeplyw zdarzen:   
+
+1. Aktor uruchamia przypadek użycia. 
+
+2. System prosi o wprowadzenie id ksiazki jezeli to edytowanie lub usuniecie. 
+
+3. Aktor nie wprowadza id ksiazki.
+
+4. System tworzy nowy id dla ksazki. 
+
+5. System prosi o podaniu wszystkich dannych dla ksiazki. 
+
+6. Aktor podaje prawidlowe danne.
+
+7. System aktualizuje dane w bazie danych.
+
+Scenariusz alternatywny:   
+
+3a. Aktor wprowadza id ksiazki.
+
+3aa. System pyta o usunieciu czy edytowaniu ksiazki.
+
+3aaa. Aktor decyduje usunac ksiazku - System usuwa ksiazku - Przechodzimy do punktu 7.
+
+3aab. Aktor decyduje edytowac ksiazke - Przechodzimy do punktu 5.
+
+6a. Aktor podaje nie prawidlowe danne - System wyswietla komunikat o nie prawidlowych danych ksiazki - Wracamy do punktu 5. 
+
+Warunek koncowy: Dodana/edytowana lub usunieta ksiazka. 
+
+
+
+
+
+
+
+
+a) SC. Aktualizacja bazy danych książek
+
+Aktor: Dystrybutor (abstract)   
+
+Warunek poczatkowy: co najmniej 1 dostepna ksiazka w systemie 
+
+Glówny przeplyw zdarzen:   
+
+1. Aktor uruchamia przypadek użycia. 
+
+2. System poprosi o wprowadzenie captcha. 
+
+3. Aktor wprowadza captcha. 
+
+6. System aktualizuje baze danych. 
+
+Scenariusz alternatywny:   
+
+3a. Aktor nie wprowadza captcha - System wyswietla powiadomienie „Spróbuj ponownie pózniej”, konczymy przypadek.
+
+Warunek koncowy: baza danych zostala zaktualizowana. 

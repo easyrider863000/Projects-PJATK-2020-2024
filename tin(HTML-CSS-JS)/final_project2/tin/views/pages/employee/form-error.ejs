@@ -1,0 +1,69 @@
+<%- include('../../fragments/header.ejs') %>
+        <main>
+            <h2><%= pageTitle %></h2>
+            <form method="post" action="<%= formAction %>" class="form" novalidate onsubmit="return validateForm();">
+                <input type="hidden" name="_id" id="_id" value="<%= emp._id %>">
+
+                <label for="firstName">Imie: <span class="symbol-required">*</span></label>
+                <input type="text" name="firstName" id="firstName" required value="<%= emp.firstName %>" 
+                <%= (formMode == 'showDetails') ? 'disabled' : '' %> class="<%= validationErrors.find(e => e.path.includes('firstName')) ? 'error-input' : '' %>">
+                <span id="errorFirstName" class="errors-text">
+                    <% if (validationErrors.find(e => e.path.includes('firstName'))) { %>
+                        <%= validationErrors.find(e => e.path.includes('firstName')).message %>
+                    <% } %>
+                </span>
+
+                <label for="secondName">Nazwisko: <span class="symbol-required">*</span></label>                
+                <input type="text" name="secondName" id="secondName" required value="<%= emp.secondName %>" 
+                <%= (formMode == 'showDetails') ? 'disabled' : '' %> class="<%= validationErrors.find(e => e.path.includes('secondName')) ? 'error-input' : '' %>">
+                <span id="errorSecondName" class="errors-text">
+                    <% if (validationErrors.find(e => e.path.includes('secondName'))) { %>
+                        <%= validationErrors.find(e => e.path.includes('secondName')).message %>
+                    <% } %>
+                </span>
+
+                <label for="email">Email: <span class="symbol-required">*</span></label>                
+                <input type="email" name="email" id="email" required value="<%= emp.email %>" 
+                <%= (formMode == 'showDetails') ? 'disabled' : '' %> class="<%= validationErrors.find(e => e.path.includes('email')) ? 'error-input' : '' %>">
+                <span id="errorEmail" class="errors-text">
+                    <% if (validationErrors.find(e => e.path.includes('email'))) { %>
+                        <%= validationErrors.find(e => e.path.includes('email')).message %>
+                    <% } %>
+                </span>
+
+                <label for="phoneNumber">Telefon: <span class="symbol-required">*</span></label>                
+                <input type="tel" name="phoneNumber" id="phoneNumber" required value="<%= emp.phoneNumber %>" 
+                <%= (formMode == 'showDetails') ? 'disabled' : '' %> class="<%= validationErrors.find(e => e.path.includes('phoneNumber')) ? 'error-input' : '' %>">
+                <span id="errorPhoneNumber" class="errors-text">
+                    <% if (validationErrors.find(e => e.path.includes('phoneNumber'))) { %>
+                        <%= validationErrors.find(e => e.path.includes('phoneNumber')).message %>
+                    <% } %>
+                </span>
+
+                <label for="birthdate">Data urodzenia: </label>                
+                <input type="date" name="birthdate" id="birthdate" value="<%= emp.birthdate ? emp.birthdate.toISOString().split('T')[0] : '' %>" 
+                <%= (formMode == 'showDetails') ? 'disabled' : '' %> class="<%= validationErrors.find(e => e.path.includes('birthdate')) ? 'error-input' : '' %>">
+                <span id="errorBirthdate" class="errors-text">
+                    <% if (validationErrors.find(e => e.path.includes('birthdate'))) { %>
+                        <%= validationErrors.find(e => e.path.includes('birthdate')).message %>
+                    <% } %>
+                </span>
+                
+                <% if (formMode == 'showDetails') { %>
+                <div>
+                    <a href="/employee/edit/<%= emp._id %>" class="button-edit">Edytuj</a>
+                </div>
+                <% } %>
+
+                <div class="form-buttons">
+                    <p id="errorsSummary" class="errors-text"></p>
+                <% if (formMode != 'showDetails') { %>
+                    <input type="submit" value="<%= btnLabel %>" class="form-button-submit">
+                    <a href="/employee" class="form-button-cancel">Anuluj</a>
+                <% } else { %>
+                    <a href="/employee" class="form-button-cancel">Powrot</a>
+                <% } %>
+                </div>
+            </form>
+        </main>
+<%- include('../../fragments/footer.ejs') %>

@@ -1,0 +1,38 @@
+<%- include('../../fragments/header.ejs') %>
+        <main>
+            <h2>Lista projektow</h2>
+            <table class="table-list">
+                <thead>
+                    <tr>
+                        <th>Nazwa</th>
+                        <th>Opis</th>
+                        <th>Liczba zadan</th>
+                        <th>Akcje</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <% for (let prj of prjs) { %>
+                    <tr>
+                        <td><%= prj.name %></td>
+                        <td><%= prj.description %></td>
+                        <td><%= prj.taskCount %></td>
+                        <td>
+                            <ul class="list-actions">
+                                <li>
+                                    <a href="/projects/details/<%= prj._id %>" class="list-actions-button-details">Szegoly</a>
+                                </li>
+                                <li>
+                                    <a href="/projects/edit/<%= prj._id %>" class="list-actions-button-edit">Edytuj</a>
+                                </li>
+                                <li>
+                                    <a href="/projects/delete/<%= prj._id %>" class="list-actions-button-delete">Usun</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <% } %>
+                </tbody>
+            </table>
+            <p><a href="/projects/add" class="button-add">Dodaj nowy projekt</a></p>
+        </main>
+<%- include('../../fragments/footer.ejs') %>

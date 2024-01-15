@@ -1,0 +1,84 @@
+Zarządzanie katalogami: 
+ls - get list of directories and files
+cd - change directory
+mv [source] [dest] - rename or move source to dest 
+mkdir - make directory
+rm - remove (unlink) files
+rmdir - remove empty directory
+du - get disk usage of files recursively for directories
+df - show info about file systems
+more
+less
+cat - get text from file
+
+
+man
+
+
+
+pwd - current directory
+touch - create file
+ln - link creating
+
+
+telnet
+ssh
+ftp
+sftp
+finger
+who - print info about users
+
+
+
+grep, egrep - search for PATTERNS in each FILE
+wc - get count of file, line...
+bc 
+
+
+
+set
+export
+env
+unset
+
+
+cut - get selected part of lines
+tr
+sort - sorting lines
+
+
+
+
+expr, let, echo, $[], $(()), $1, $#, if, else, fi, test, while, head, tail, for in, for, rev, read, printf, sleep, 
+
+
+
+tar - create and extract archieve
+gzip - Compress or uncompress FILEs
+find 
+
+
+
+
+#!/bin/bash
+
+
+
+
+for i in $("ls")
+do
+    echo "hello $i";
+done;
+
+
+
+
+
+
+
+
+
+
+
+
+

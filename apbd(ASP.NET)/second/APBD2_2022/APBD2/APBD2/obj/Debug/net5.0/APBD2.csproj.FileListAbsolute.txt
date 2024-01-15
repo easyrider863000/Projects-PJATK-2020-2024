@@ -1,0 +1,16 @@
+D:\PJATK\apbd\second\APBD2_2022\APBD2\APBD2\obj\Debug\net5.0\APBD2.csproj.AssemblyReference.cache
+D:\PJATK\apbd\second\APBD2_2022\APBD2\APBD2\obj\Debug\net5.0\APBD2.GeneratedMSBuildEditorConfig.editorconfig
+D:\PJATK\apbd\second\APBD2_2022\APBD2\APBD2\obj\Debug\net5.0\APBD2.AssemblyInfoInputs.cache
+D:\PJATK\apbd\second\APBD2_2022\APBD2\APBD2\obj\Debug\net5.0\APBD2.AssemblyInfo.cs
+D:\PJATK\apbd\second\APBD2_2022\APBD2\APBD2\obj\Debug\net5.0\APBD2.csproj.CoreCompileInputs.cache
+D:\PJATK\apbd\second\APBD2_2022\APBD2\APBD2\bin\Debug\net5.0\APBD2.exe
+D:\PJATK\apbd\second\APBD2_2022\APBD2\APBD2\bin\Debug\net5.0\APBD2.deps.json
+D:\PJATK\apbd\second\APBD2_2022\APBD2\APBD2\bin\Debug\net5.0\APBD2.runtimeconfig.json
+D:\PJATK\apbd\second\APBD2_2022\APBD2\APBD2\bin\Debug\net5.0\APBD2.runtimeconfig.dev.json
+D:\PJATK\apbd\second\APBD2_2022\APBD2\APBD2\bin\Debug\net5.0\APBD2.dll
+D:\PJATK\apbd\second\APBD2_2022\APBD2\APBD2\bin\Debug\net5.0\APBD2.pdb
+D:\PJATK\apbd\second\APBD2_2022\APBD2\APBD2\obj\Debug\net5.0\APBD2.dll
+D:\PJATK\apbd\second\APBD2_2022\APBD2\APBD2\obj\Debug\net5.0\refint\APBD2.dll
+D:\PJATK\apbd\second\APBD2_2022\APBD2\APBD2\obj\Debug\net5.0\APBD2.pdb
+D:\PJATK\apbd\second\APBD2_2022\APBD2\APBD2\obj\Debug\net5.0\APBD2.genruntimeconfig.cache
+D:\PJATK\apbd\second\APBD2_2022\APBD2\APBD2\obj\Debug\net5.0\ref\APBD2.dll

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link rel="stylesheet" href="../../css/style.css">
+        <title>MyCompany</title>
+        <meta charset="UTF-8">
+        <script type="application/javascript" src="../../js/validationCommon.js"></script>
+        <script type="application/javascript" src="../../js/validationEmpForm.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>MyCompany</h1>
+            <img src="../../images/logo.png" alt="Logo">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Strona glowna</a></li>
+                <li><a href="../../pages/employee/list.html">Pracownicy</a></li>
+                <li><a href="../../pages/departments/list.html">Departamenty</a></li>
+                <li><a href="../../pages/projects/list.html">Projekty</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Edycja pracownika</h2>
+            <form action="list.html" class="form" novalidate onsubmit="return validateForm();">
+                <label for="firstName">Imie: <span class="symbol-required">*</span></label>
+                <input type="text" name="firstName" id="firstName" value="Jan" required>
+                <span id="errorFirstName" class="errors-text"></span>
+
+                <label for="secondName">Nazwisko: <span class="symbol-required">*</span></label>                
+                <input type="text" name="secondName" id="secondName" value="Kowalski" required>
+                <span id="errorSecondName" class="errors-text"></span>
+
+                <label for="email">Email: <span class="symbol-required">*</span></label>                
+                <input type="email" name="email" id="email" value="qwe123@mail.pl" required>
+                <span id="errorEmail" class="errors-text"></span>
+
+                <label for="phoneNumber">Telefon: <span class="symbol-required">*</span></label>                
+                <input type="tel" name="phoneNumber" id="phoneNumber" value="456789123" required>
+                <span id="errorPhoneNumber" class="errors-text"></span>
+
+                <label for="birthdate">Data urodzenia: </label>                
+                <input type="date" name="birthdate" id="birthdate" value="1983-08-22">
+                <span id="errorBirthdate" class="errors-text"></span>
+                <div class="form-buttons">
+                    <p id="errorsSummary" class="errors-text"></p>
+                    <input type="submit" value="Edytuj" class="form-button-submit">
+                    <a href="list.html" class="form-button-cancel">Anuluj</a>
+                </div>
+
+                <div class="form-buttons"><a href="list.html">Powrot</a></div>
+            </form>
+        </main>
+        <footer>
+            Oleksii Haida s22532
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+cw2-zad1
+1. Dwa objekty
+2. Dla Projektanta - Nazwisko, Pesel, Stanowisko
+   Dla Projekta - Nazwa, Nr_projektu.
+3. ZWIĄZEK 1:N (jeden do wiele)
+4. Z dwoch tabel
+5. 2*klucz podstawowy, 1*klucz obcy
+
+cw2-zad2
+1. Dwa objekty
+2. Dla Klienta - Nazwisko, Miejscowosc, ID_klienta, Ulica, Nr, Adres, Kod
+   Dla Artykula - Opis, ID_artykulu.
+3. ZWIĄZEK N:M (wiele do wiele)
+4. Z trzech tabel
+5. 2*klucz podstawowy, 2*klucz obcy
+6. Dla tego ze cena nie jest wlasciwoscie Artykula i Klienta, ona rozna moze byc dla kazdego klienta.

@@ -1,0 +1,24 @@
+#Creating machine with 1 gear of 2
+#Machine parts:
+#Gear number: 1231
+#null
+#This machine is not complete.
+#This machine is complete.
+Gear 1234 engraving complete
+
+java.lang.Exception: Wrong length
+at test.Gear.engraveCode(TestSRC.java:84)
+at test.TestSRC.main(TestSRC.java:36)
+
+Gear 1235 engraving complete
+Creating machine with 0 gears of 2
+This is an Enigma machine
+This machine is not complete.
+This machine is complete.
+*********************
+Machine parts:
+Gear number: 1232
+Gear number: 1234
+*********************
+This machine is secret, cant show its gears
+Out: ok_b pabs

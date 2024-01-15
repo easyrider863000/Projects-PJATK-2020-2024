@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link rel="stylesheet" href="../../css/style.css">
+        <title>MyCompany</title>
+        <meta charset="UTF-8">
+        <script type="application/javascript" src="../../js/validationCommon.js"></script>
+        <script type="application/javascript" src="../../js/validationEmpForm.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>MyCompany</h1>
+            <img src="../../images/logo.png" alt="Logo">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Strona glowna</a></li>
+                <li><a href="../../pages/employee/list.html" class="active">Pracownicy</a></li>
+                <li><a href="../../pages/departments/list.html">Departamenty</a></li>
+                <li><a href="../../pages/projects/list.html">Projekty</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Lista pracownikow</h2>
+            <table class="table-list">
+                <thead>
+                    <tr>
+                        <th>Imie</th>
+                        <th>Nazwisko</th>
+                        <th>Email</th>
+                        <th>Telefon</th>
+                        <th>Data urodziny</th>
+                        <th>Akcje</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jan</td>
+                        <td>Kowalski</td>
+                        <td>gr343@mail.pl</td>
+                        <td>456123789</td>
+                        <td>01.05.2022</td>
+                        <td>
+                            <ul class="list-actions">
+                                <li>
+                                    <a href="employe.html" class="list-actions-button-details">Szegoly</a>
+                                </li>
+                                <li>
+                                    <a href="form-edit.html" class="list-actions-button-edit">Edytuj</a>
+                                </li>
+                                <li>
+                                    <a href="list-empty.html" class="list-actions-button-delete">Usun</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><a href="form.html" class="button-add">Dodaj nowego pracownika</a></p>
+        </main>
+        <footer>
+            Oleksii Haida s22532
+        </footer>
+    </body>
+</html>

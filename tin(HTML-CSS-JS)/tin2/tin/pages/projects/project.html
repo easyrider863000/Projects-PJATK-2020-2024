@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link rel="stylesheet" href="../../css/style.css">
+        <title>MyCompany</title>
+        <meta charset="UTF-8">
+        <script type="application/javascript" src="../../js/validationCommon.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>MyCompany</h1>
+            <img src="../../images/logo.png" alt="Logo">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Strona glowna</a></li>
+                <li><a href="../../pages/employee/list.html">Pracownicy</a></li>
+                <li><a href="../../pages/departments/list.html">Departamenty</a></li>
+                <li><a href="../../pages/projects/list.html">Projekty</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Szczegoly proektu</h2>
+            <span class="form">
+            <label for="name">Nazwa: </label>
+            <input type="text" name="name" id="name" value="Allegro" disabled>
+            <label for="description">Opis: </label>                
+            <input type="text" name="description" id="description" value="Allegro opis tasks" disabled>
+            <label for="taskCount">Liczba zadan: </label>                
+            <input type="number" name="taskCount" id="taskCount" min="1" value="3" disabled>
+            <div class="form-buttons"><a href="form-edit.html" class="list-actions-button-edit">Edytuj</a></div>
+
+            <h2>Szczegoly pracownikow</h2>
+            <table class="table-list">
+                <thead>
+                    <tr>
+                        <th>Nazwa departamentu</th>
+                        <th>Imie pracownika</th>
+                        <th>Nazwisko pracownika</th>
+                        <th>Email pracownika</th>
+                        <th>Telefon pracownika</th>
+                        <th>Data urodzenia pracownika</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sprzedaz</td>
+                        <td>Jan</td>
+                        <td>Kowalski</td>
+                        <td>qwe123@mail.pl</td>
+                        <td>456789123</td>
+                        <td>25.48.1983</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="form-buttons"><a href="list.html" class="list-actions-button-details">Powrot</a></div>
+            </span>
+        </main>
+        <footer>
+            Oleksii Haida s22532
+        </footer>
+    </body>
+</html>

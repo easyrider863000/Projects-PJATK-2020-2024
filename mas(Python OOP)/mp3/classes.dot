@@ -1,0 +1,27 @@
+digraph "classes" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{Camera|memmory\l|}", shape="record"];
+"1" [label="{Clothing|size\l|get_description()\l}", shape="record"];
+"2" [label="{Electronics|warranty\l|get_description()\l}", shape="record"];
+"3" [label="{Food|expiration_date\l|get_description()\l}", shape="record"];
+"4" [label="{Order|items\l|get_total_price()\l}", shape="record"];
+"5" [label="{OrderItem|product\lquantity\l|get_total_price()\l}", shape="record"];
+"6" [label="{Orderable|\l|get_total_price()\l}", shape="record"];
+"7" [label="{PhotoCamera|camera\llinse\l|}", shape="record"];
+"8" [label="{Product|name\lprice\l|get_description()\l}", shape="record"];
+"9" [label="{Shirt|listOfTypes\l|get_description()\l}", shape="record"];
+"10" [label="{SpecialFoodOffer|\l|CalcPrice()\lgetDescription()\l}", shape="record"];
+"11" [label="{SpecialOffer|discount\lproduct\l|CalcPrice()\lget_description()\l}", shape="record"];
+"0" -> "2" [arrowhead="empty", arrowtail="none"];
+"1" -> "8" [arrowhead="empty", arrowtail="none"];
+"2" -> "8" [arrowhead="empty", arrowtail="none"];
+"3" -> "8" [arrowhead="empty", arrowtail="none"];
+"4" -> "6" [arrowhead="empty", arrowtail="none"];
+"5" -> "6" [arrowhead="empty", arrowtail="none"];
+"7" -> "0" [arrowhead="empty", arrowtail="none"];
+"9" -> "1" [arrowhead="empty", arrowtail="none"];
+"10" -> "3" [arrowhead="empty", arrowtail="none"];
+"10" -> "11" [arrowhead="empty", arrowtail="none"];
+"11" -> "8" [arrowhead="empty", arrowtail="none"];
+}

@@ -1,0 +1,4 @@
+﻿  Source.cpp
+d:\pjatk\pjc\lesson 5\lesson 5\source.cpp(20): warning C4018: '<': signed/unsigned mismatch
+d:\pjatk\pjc\lesson 5\lesson 5\source.cpp(42): warning C4018: '<': signed/unsigned mismatch
+  lesson 5.vcxproj -> D:\PJATK\pjc\lesson 5\Debug\lesson 5.exe

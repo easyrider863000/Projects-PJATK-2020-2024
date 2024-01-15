@@ -1,0 +1,59 @@
+<%- include('../../fragments/header.ejs') %>
+        <main>
+            <h2><%= pageTitle %></h2>
+            <form method="post" action="<%= formAction %>" class="form" novalidate onsubmit="return validateForm();">
+                <input type="hidden" name="_id" id="_id" value="<%= prj._id %>">
+
+                <label for="name">Nazwa: <span class="symbol-required">*</span></label>
+                <input type="text" name="name" id="name" required value="<%= prj.name %>" 
+                <%= (formMode == 'showDetails') ? 'disabled' : '' %>>
+                <span id="errorName" class="errors-text"></span>
+
+                <label for="description">Opis: <span class="symbol-required">*</span></label>                
+                <input type="text" name="description" id="description" required value="<%= prj.description %>" 
+                <%= (formMode == 'showDetails') ? 'disabled' : '' %>>
+                <span id="errorDescription" class="errors-text"></span>
+
+                <label for="taskCount">Liczba zadan: <span class="symbol-required">*</span></label>                
+                <input type="number" name="taskCount" id="taskCount" min="1" required value="<%= prj.taskCount %>" 
+                <%= (formMode == 'showDetails') ? 'disabled' : '' %>>
+                <span id="errorTaskCount" class="errors-text"></span>
+
+                <% if (formMode == 'showDetails') { %>
+                    <div>
+                        <a href="/projects/edit/<%= prj._id %>" class="button-edit">Edytuj</a>
+                    </div>
+                <% } %>
+
+                <% if (formMode == 'showDetails' || formMode == 'edit') { %>
+                    <h2>Szczegoly projektow</h2>
+                    <table class="table-list">
+                        <thead>
+                            <tr>
+                                <th>Department</th>
+                                <th>Opis</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <% for (let e of prj.departments) { %>
+                                <tr>
+                                    <td><a href="/departments/details/<%= e._id %>"><%= e.name %></a></td>
+                                    <td><%= e.description %></td>
+                                </tr>
+                            <% } %>
+                        </tbody>
+                    </table>
+                <% } %>
+
+                <div class="form-buttons">
+                    <p id="errorsSummary" class="errors-text"></p>
+                <% if (formMode != 'showDetails') { %>
+                    <input type="submit" value="<%= btnLabel %>" class="form-button-submit">
+                    <a href="/projects" class="form-button-cancel">Anuluj</a>
+                <% } else { %>
+                    <a href="/projects" class="form-button-cancel">Powrot</a>
+                <% } %>
+                </div>
+            </form>
+        </main>
+<%- include('../../fragments/footer.ejs') %>

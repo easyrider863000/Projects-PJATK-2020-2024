@@ -1,0 +1,61 @@
+#-*- coding: UTF-8 -*-
+from sys import argv
+from math import sqrt
+from itertools import groupby
+
+class KNN:
+    def __init__(self,mapVectors):
+        self.__mapVectors = mapVectors
+    def getMapVectors(self):
+        return self.__mapVectors
+    def __getListVectors(self):
+        return sum([[(i[0],j) for j in i[1]] for i in self.getMapVectors()],[])
+    def get_KNN(self,k,startVector):
+        allNN = [g[0] for g in sorted([(i[0],i[1],startVector.getDistanceToVector(i[1])) for i in self.__getListVectors()],
+                      key=lambda obj:obj[2])][:int(k)]
+        return max(allNN, key=allNN.count)
+
+class FileReader:
+    def __init__(self,filePath):
+        self.__filePath = filePath
+        f = open(self.__filePath, "r", encoding="utf-8")
+        lines = [[j.replace("\n", "") for j in i.split(";")] for i in f.readlines() if i != "\n" and i != ""]
+        self.__mapVectors = [(key,[Vector([float(j) for j in i[:-1]]) for i in list(group)]) for key, group in groupby(lines,lambda x: x[-1])]
+    def getMapVectors(self):
+        return self.__mapVectors
+    def getListVectors(self):
+        return sum([[(i[0], j) for j in i[1]] for i in self.getMapVectors()], [])
+
+class Vector:
+    def __init__(self,coords):
+        self.__coords = [float(i) for i in coords]
+    def getCoords(self):
+        return self.__coords
+    def getDistanceToVector(self,vector2):
+        if len(vector2.getCoords())!=len(self.getCoords()):
+            return ValueError("Error object vector2")
+        i=0
+        sumV=0
+        while i<len(self.getCoords()):
+           sumV+=pow(self.getCoords()[i] - vector2.getCoords()[i], 2)
+           i+=1
+        return sqrt(sumV)
+
+
+k = argv[1]
+fileReaderTrainSet = FileReader(argv[2])
+fileReaderTestSet = FileReader(argv[3])
+knn = KNN(fileReaderTrainSet.getMapVectors())
+[print(i[0],knn.get_KNN(k,i[1])) for i in fileReaderTestSet.getListVectors()]
+successTest=len([i for i in fileReaderTestSet.getListVectors() if knn.get_KNN(k,i[1]) == i[0]])
+allTest = fileReaderTestSet.getListVectors().__len__()
+print("accuracy =",successTest/allTest)
+print("\nFor exit press x!")
+while True:
+    val = input("Enter vektor --> ")
+    if val=="x":
+        break
+    try:
+        print(knn.get_KNN(k,Vector(val.replace("\n","").split(";"))))
+    except:
+        print("Value is not vektor or have other length")

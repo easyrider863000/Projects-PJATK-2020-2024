@@ -1,0 +1,138 @@
+% --- Fakty dotyczące mapy ---
+
+% Pomieszczenia
+pomieszczenie(pokoj).
+pomieszczenie(korytarz).
+pomieszczenie(kuchnia).
+pomieszczenie(toaleta).
+
+% Meble
+mebel(lozko).
+mebel(szafa).
+mebel(telewizor).
+mebel(komputer).
+mebel(stol).
+mebel(telefon).
+mebel(lampa).
+mebel(kanapa).
+
+% Sprzęt
+sprzet(pralka).
+sprzet(plyta).
+sprzet(kuchenka).
+sprzet(lodowka).
+
+% Dynamiczne predykaty do przechowywania lokalizacji mebli i sprzętu
+:- dynamic(znajduje_sie/2).
+:- dynamic(znajduje_sie_sprzet/2).
+
+% --- Definicje pojęć przestrzennych ---
+
+% Pojęcie "obok" (w tym samym pomieszczeniu)
+obok(X, Y) :-
+    znajduje_sie(X, P),
+    znajduje_sie(Y, P),
+    X \= Y.
+
+% Pojęcie "na" (na meblu)
+na(X, Y) :-
+    znajduje_sie(X, P),
+    znajduje_sie(Y, P),
+    mebel(Y).
+
+% --- Elementy dynamiczne ---
+
+% Dodawanie nowych faktów dotyczących mebli
+dodaj_mebel(Mebel, Pomieszczenie) :-
+    (   pomieszczenie(Pomieszczenie),
+        assertz(znajduje_sie(Mebel, Pomieszczenie)),
+        write('Dodano mebel '), write(Mebel), write(' do pomieszczenia '), write(Pomieszczenie), nl
+    ;   write('Nieprawidłowe pomieszczenie')
+    ).
+
+% Usuwanie faktów dotyczących mebli
+usun_mebel(Mebel) :-
+    (   mebel(Mebel),
+        retractall(znajduje_sie(Mebel, _)),
+        write('Usunięto mebel '), write(Mebel), nl
+    ;   write('Nieprawidłowy mebel')
+    ).
+
+% Dodawanie nowych faktów dotyczących sprzętu
+dodaj_sprzet(Sprzet, Pomieszczenie) :-
+    (   pomieszczenie(Pomieszczenie),
+        assertz(znajduje_sie_sprzet(Sprzet, Pomieszczenie)),
+        write('Dodano sprzęt '), write(Sprzet), write(' do pomieszczenia '), write(Pomieszczenie), nl
+    ;   write('Nieprawidłowe pomieszczenie')
+    ).
+
+% Usuwanie faktów dotyczących sprzętu
+usun_sprzet(Sprzet) :-
+    (   sprzet(Sprzet),
+        retractall(znajduje_sie_sprzet(Sprzet, _)),
+        write('Usunięto sprzęt '), write(Sprzet), nl
+    ;   write('Nieprawidłowy sprzęt')
+    ).
+
+% Operacje na listach mebli
+
+% Wyświetlanie wszystkich mebli w danym pomieszczeniu
+wyswietl_mebel_pomieszczenie(Pomieszczenie) :-
+    findall(Mebel, znajduje_sie(Mebel, Pomieszczenie), Meble),
+    format('Mebel w pomieszczeniu: ~w~n', [Meble]).
+
+% Operacje na listach sprzętu
+
+% Wyświetlanie wszystkiego sprzętu w danym pomieszczeniu
+wyswietl_sprzet_pomieszczenie(Pomieszczenie) :-
+    findall(Sprzet, znajduje_sie_sprzet(Sprzet, Pomieszczenie), Sprzety),
+    format('Sprzet w pomieszczeniu: ~w~n', [Sprzety]).
+
+% --- Zasady nawigacji ---
+
+% Przemieszczenie się w obrębie pomieszczenia (meble)
+nawigacja_pomieszczenie(Mebel1, Mebel2) :-
+    obok(Mebel1, Mebel2),
+    write('Przesuwasz się w pobliżu '), write(Mebel2), write(' w tym samym pomieszczeniu'), nl.
+
+% Przemieszczenie się w obrębie pomieszczenia (sprzęt)
+nawigacja_pomieszczenie_sprzet(Sprzet1, Sprzet2) :-
+    obok(Sprzet1, Sprzet2),
+    write('Przesuwasz się w pobliżu '), write(Sprzet2), write(' w tym samym pomieszczeniu'), nl.
+
+% Przemieszczenie się w różnych pomieszczeniach
+nawigacja_miedzy_pomieszczeniami(Pomieszczenie1, Pomieszczenie2) :-
+    (   obok(Pomieszczenie1, Pomieszczenie2),
+        write('Przechodzisz z pomieszczenia '), write(Pomieszczenie1),
+        write(' do pomieszczenia '), write(Pomieszczenie2), nl
+    ;   write('Nie można się przemieszczać między tymi pomieszczeniami'), nl
+    ).
+
+% --- Przykłady działań ---
+
+% Dodanie mebli do pomieszczeń
+:- dodaj_mebel(lozko, pokoj).
+:- dodaj_mebel(szafa, pokoj).
+:- dodaj_mebel(telewizor, pokoj).
+:- dodaj_mebel(komputer, pokoj).
+:- dodaj_mebel(stol, kuchnia).
+:- dodaj_mebel(lampa, kuchnia).
+:- dodaj_mebel(kanapa, korytarz).
+
+% Dodanie sprzętu do pomieszczeń
+:- dodaj_sprzet(pralka, kuchnia).
+:- dodaj_sprzet(plyta, kuchnia).
+:- dodaj_sprzet(kuchenka, kuchnia).
+:- dodaj_sprzet(lodowka, kuchnia).
+
+% Przemieszczenie się w obrębie pomieszczenia
+:- nawigacja_pomieszczenie(lozko, szafa).
+% Wynik: Przesuwasz się w pobliżu szafa w tym samym pomieszczeniu
+
+% Przemieszczenie się między pomieszczeniami
+:- nawigacja_miedzy_pomieszczeniami(pokoj, kuchnia).
+% Wynik: Przechodzisz z pomieszczenia pokoj do pomieszczenia kuchnia
+
+% Przemieszczenie się między nieosiągalnymi pomieszczeniami
+:- nawigacja_miedzy_pomieszczeniami(kuchnia, toaleta).
+% Wynik: Nie można się przemieszczać między tymi pomieszczeniami
